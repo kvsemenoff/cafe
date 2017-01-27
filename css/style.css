@@ -19,4 +19,20 @@ body {
 .center {
   text-align: center; }
 
-/*# sourceMappingURL=style.css.map */
+h2 {
+  text-transform: uppercase;
+  color: #010101;
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400; }
+
+.button-1 {
+  display: block;
+  color: #c39b0c;
+  background: #fff;
+  border: 2px solid #c39b0c;
+  margin: 0 auto;
+  line-height: 16px;
+  max-height: 70px;
+  padding: 1% 4%;
+  text-align: center; }

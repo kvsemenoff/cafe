@@ -1,3 +1,106 @@
+section.biz {
+  background: #fff;
+  padding: 70px 0; }
 
+.biz__head {
+  margin-left: 43px; }
 
-/*# sourceMappingURL=style7.css.map */
+h2.biz__title {
+  padding-bottom: 38.5px;
+  font-size: 26px; }
+  h2.biz__title::after {
+    content: "";
+    width: 73px;
+    background-color: #c39b0c;
+    height: 2px;
+    display: block;
+    margin-left: 5px; }
+
+p.biz__desc {
+  font-family: "Exo2-Regular";
+  font-size: 18px;
+  font-weight: 400; }
+
+.biz__desc strong {
+  font-weight: 600; }
+
+table.biz__table {
+  width: 70%;
+  border-spacing: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.biz__table td {
+  border: 1px solid #969697;
+  height: 16.66%;
+  width: 16.66%;
+  padding-top: 5%;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  padding-left: 1px;
+  padding-right: 1px;
+  display: block;
+  width: 100%; }
+  .biz__table td img {
+    display: inline-block;
+    max-width: 50%;
+    max-height: 50%; }
+  .biz__table td .table__content {
+    text-align: center;
+    width: 100%; }
+    .biz__table td .table__content p {
+      font-family: "Exo2-Regular", sans-serif;
+      font-size: 14px;
+      color: #000;
+      font-weight: 400;
+      margin: 0;
+      padding: 0; }
+
+.button__white {
+  font-size: 14px;
+  max-width: 60%; }
+
+@media only screen and (min-width: 480px) {
+  .biz__table p {
+    font-size: 18px; }
+  .button__white {
+    font-size: 20px;
+    max-width: 60%; }
+  table.biz__table {
+    margin-bottom: 30px; }
+  .biz__table td .table__content p {
+    font-size: 20px; } }
+
+@media only screen and (min-width: 768px) {
+  .biz__table td {
+    display: table-cell; }
+  p.biz__desc {
+    font-size: 22px; }
+  table.biz__table {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 50px; }
+    table.biz__table td {
+      width: 16.66%; }
+  .button__white {
+    font-size: 25px; } }
+
+@media only screen and (min-width: 992px) {
+  p.biz__desc {
+    font-size: 26px;
+    padding-right: 18%; }
+  h2.biz__title {
+    font-size: 35px; }
+  table.biz__table {
+    width: 100%;
+    margin-top: 57.5px;
+    margin-bottom: 72px; }
+    table.biz__table td {
+      width: 16.66%; }
+  .biz__table img {
+    margin-bottom: 20px; }
+  .biz__head {
+    margin-left: 85px; }
+  .button__white {
+    font-size: 25px; } }
