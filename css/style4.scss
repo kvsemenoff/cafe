@@ -2,7 +2,22 @@
 .container{
 	max-width:1498px;
 	margin: 0 auto;
-	outline: 2px solid blue;
+}
+
+/* Давайте знакомиться
+==================================*/
+.section-meet{
+	background: url(../img/zn.jpg) no-repeat top center;
+	width: 100%;
+	background-size: cover;
+}
+.dd-meet-title{
+	span{
+		color:#fff;
+		text-transform: uppercase;
+		font-family: 'Exo2-Regular';
+		font-size:38px; 
+	}
 }
 
 

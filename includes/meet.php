@@ -1,8 +1,8 @@
-<section class="section">
+<section class="section section-meet">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2></h2>
+		<div class="dd-meet">
+			<div class="dd-meet-title">
+				<span>Давайте познакомимся</span>
 			</div>
 		</div>
 	</div>
