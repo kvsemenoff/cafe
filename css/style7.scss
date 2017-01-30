@@ -1,3 +1,4 @@
+
 .clearfix::after {
     content: "";
     display: table;
@@ -5,21 +6,24 @@
 }
 section.biz {
     background: #fff;
-    padding: 70px 0;
+    padding-top: 88px;
+    padding-bottom: 20px;
 }
 
 .biz__head {
     margin-left: 43px;
+    line-height: 43px;
 }
 
 h2.biz__title {
-    padding-bottom: 38.5px;
-    font-size: 26px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
     &::after {
         content: "";
         width: 15%;
         background-color: #c39b0c;
-        height: 2px;
+        height: 1px;
         display: block;
         margin-left: 5px;
         margin-top: 10px;
@@ -27,9 +31,11 @@ h2.biz__title {
 }
 p.biz__desc {
     font-family: "Exo2-Regular";
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 16px;
     font-weight: 400;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .biz__desc strong {
@@ -46,7 +52,7 @@ table.biz__table {
 .biz__table td {
     border: 1px solid #969697;
     width: 48%;
-    height: 155px;
+    height: 170px;
     padding: 10px 5px 0px 5px;
     margin: 0 auto;
     margin-bottom: 15px;
@@ -72,7 +78,7 @@ table.biz__table {
             color:#000;
             font-weight: 400;
             margin: 0;
-            padding: 0;
+            padding-top: 10px;
         }
     }
 }
@@ -209,6 +215,7 @@ h2.write__title {
     font-size: 13px;
     color: #1d1d11;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 .write__form {
@@ -230,7 +237,7 @@ h2.write__title {
         width: 100%;
         font-size: 14px;
         line-height: 25px;
-        margin-bottom: 10px;
+        margin-top: 10px;
         border: 1px solid #003;
         padding: 0 20px 0 15px;
         outline: 0;
@@ -293,18 +300,73 @@ h2.write__title {
     margin-top: 0;
 }
 
+/* Section What */
+
+section.what {
+    background: url(/img/what_bg.jpg) 0 0 no-repeat #848587;
+    background-size: cover;
+}
+
+h2.what__title {
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    text-align: center;
+    max-width: 79%;
+}
+
+p.what__paragraph {
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+}
+ul.what__list {
+    width: 100%;
+    margin: 0 auto;
+}
+@each $name in g1, g2, g3, g4, g5, g6, g7, g8, g9, g10 {
+    .#{$name} {
+        background: url(/img/#{$name}.jpg) 0 0 no-repeat;
+        background-size: cover;
+    }
+}
+li.what__item {
+    &:nth-child(odd) {
+        float: left;
+        margin-right: 10px;
+    }
+     &:nth-child(even) {
+        float: right;
+    }
+    width: 48%;
+    padding: 20px 10px 5px 10px;
+    min-height: 110px;
+    margin-bottom: 5%;
+}
 @media only screen and (max-width : 320px) { 
 }
 
 @media only screen and (min-width : 480px) {
+    section.biz {
+        padding-bottom: 40px;
+    }
     h2.biz__title {
+        font-size: 26px;
+        line-height: 26px;
         &::after {
             margin-top: 15px;
             width: 60px;
         }
     }
+    p.biz__desc {
+        font-size: 20px;
+        line-height: 20px;
+    }
     .biz__table p {
-        font-size: 18px;
+        font-size: 20px;
     }
     .button__white {
         font-size: 20px;
@@ -324,6 +386,11 @@ h2.write__title {
     /*Part Section*/
     .part__form {
         width: 50%;
+        input {
+            font-size: 16px;
+            line-height: 16px;
+            padding: 10px 15px;
+        }
     }
     .button__yellow-form {
         font-size: 18px;
@@ -333,9 +400,13 @@ h2.write__title {
     h3.form__title {
         padding: 0 22%;
         padding-bottom: 80px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .part__title {
         padding: 0 18%;
+        font-size: 22px;
+        line-height: 22px;
     }
     
     /* Section Write */
@@ -387,14 +458,33 @@ h2.write__title {
             font-size: 20px;  
         }
     }
+    
+    /* What Section */
+    h2.what__title {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 30px;
+    }
+    p.what__paragraph {
+        font-size: 16px;
+        line-height: 16px;
+    }
 }
 
 @media only screen and (min-width : 768px) {
+    section.biz {
+        padding-bottom: 80px;
+    }
+    h2.biz__title {
+        font-size: 26px;
+        line-height: 26px;
+    }
     .biz__table td {
         display: table-cell;
     }
     p.biz__desc {
         font-size: 22px;
+        line-height: 22px;
     }
     table.biz__table {
         width: 100%;
@@ -436,7 +526,6 @@ h2.write__title {
         width: 100%;
         input {
             width: 27.3%;
-            padding: 20px 20px 13px 20px;
             font-size: 20px;
             display: inline-block;
         }
@@ -461,13 +550,13 @@ h2.write__title {
         width: 100%;
     }
     .write__content {
-        height: 570px;
+        height: 600px;
     }
     .write__form {
         input[type="submit"] {
             width: 70%;
             margin-top: 10px;
-            font-size: 20px;
+            font-size: 25px;
         }
         input[type="text"] {
             font-size: 20px;
@@ -500,17 +589,32 @@ h2.write__title {
         margin-top: 0;
     }
     
+    /* What Section */
+    h2.what__title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    p.what__paragraph {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    li.what__item {
+        padding: 50px 20px 15px 40px;
+        min-height: 180px;
+    }
 }
 
 @media only screen and (min-width : 992px) {
     p.biz__desc {
         font-size: 26px;
         padding-right: 18%;
+        line-height: 26px;
     }
     h2.biz__title {
-        font-size: 35px;
+        font-size: 36px;
+        padding-bottom: 38px;
         &::after {
-            margin-top: 25px;
+            margin-top: 35px;
             width: 80px;
         }
     }
@@ -529,8 +633,22 @@ h2.write__title {
         margin-left: 85px;
     }
     .button__white {
-        font-size: 25px;
-        max-width: 48%;
+        font-size: 36px;
+        line-height: 36px;
+        padding: 13px 64px 15px 64px;
+        max-width: 654px;
+    }
+    .biz__table {
+        td {
+            .table__content {
+                p {
+                    font-size: 22px;
+                    line-height: 22px;
+                    padding-top: 30px;
+                    padding-bottom: 25px;
+                }
+            }
+        }
     }
     
     /* Form */
@@ -554,17 +672,19 @@ h2.write__title {
         padding-bottom: 198px;
     }
     .button__yellow-form {
-        font-size: 24px;
-        padding: 15px 30px 10px 30px;
-        width: 42%;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 22px 40px 18px 40px;
+        width: 506px;
     }
     .part__form {
         padding-bottom: 100px;
         width: 100%;
         input {
             width: 27.333%;
-            padding: 20px 20px 13px 20px;
+            padding: 19px 20px 19px 25px;
             font-size: 25px;
+            line-height: 25px;
         }
     }
     
@@ -587,8 +707,8 @@ h2.write__title {
         input[type="text"] {
             width: 100%;
             font-size: 21px;
-            line-height: 60px;
-            padding: 0 40px 0 20px;
+            line-height: 21px;
+            padding: 22px 40px 20px 25px;
             margin-bottom: 30px;
         }
         textarea {
@@ -600,7 +720,7 @@ h2.write__title {
         }
     }
     .write__content {
-        height: 750px;
+        height: 813px;
     }
     .right__container {
         width: 60%;
@@ -616,6 +736,22 @@ h2.write__title {
         p {
             font-size: 27px;  
         }
+    }
+    /* Section What */ 
+     h2.what__title {
+        font-size: 33px;
+        line-height: 33px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 80px;
+    }
+    p.what__paragraph {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    li.what__item {
+        padding: 80px 90px 155px 80px;
+        height: 340px;
     }
 }
 
@@ -641,12 +777,12 @@ h2.write__title {
     .write__form {
         input[type="text"] {
             font-size: 21px;
-            line-height: 60px;
-            padding: 0 50px 0 20px;
+            line-height: 21px;
+            padding: 18px 50px 15px 25px;
         }
     }
     .write__content {
-        height: 820px;
+        height: 855px;
     }
     .right__container {
         width: 52%;
