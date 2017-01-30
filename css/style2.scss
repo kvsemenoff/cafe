@@ -1,8 +1,27 @@
 .section_db-head-top{
 	background:#333;
-	color:white;
-}
+	color:#fff;
+	text-align: center;
 
+}
+.db-logo{
+	background:url("../img/db-logo.png")no-repeat;
+	display: block;
+	width:209px;
+	height:85px;
+	margin: 0 auto;
+}
+.db-head-h2{
+	font-size: 20px;
+	color:#fff;
+}
+.db-call{
+	color:#fff;
+	font-size: 15px;
+}
+.db-phone{
+	font-size: 19px;
+}
 @media only screen and (min-width : 320px) {
 }
 
