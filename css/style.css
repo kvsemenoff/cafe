@@ -29,10 +29,46 @@ h2 {
 .button-1 {
   display: block;
   color: #c39b0c;
-  background: #fff;
   border: 2px solid #c39b0c;
   margin: 0 auto;
-  line-height: 16px;
-  max-height: 70px;
-  padding: 1% 4%;
   text-align: center; }
+
+input[type="text"] {
+  font-family: "Exo2-Regular";
+  color: #fff;
+  font-weight: 400;
+  background: transparent;
+  border: 0.5px solid #fff; }
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  color: #003;
+  font-family: "Exo2-Regular", sans-serif;
+  border: 2px solid #000; }
+
+@media only screen and (min-width: 480px) {
+  input[type="submit"] {
+    font-size: 16px;
+    line-height: 25px; } }
+
+@media only screen and (min-width: 768px) {
+  input[type="submit"] {
+    float: left;
+    font-size: 20px;
+    line-height: 35px; } }
+
+@media only screen and (min-width: 992px) {
+  input[type="submit"] {
+    width: 70%;
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 50px; } }
+
+@media only screen and (min-width: 1248px) {
+  input[type="submit"] {
+    width: 72%;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 70px; } }
