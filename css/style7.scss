@@ -107,10 +107,12 @@ section.part {
 
 .button__yellow-form {
     font-size: 14px;
+    background: transparent;
+    border: 2px solid #c39b0c;
     font-weight: 400;
     line-height: 14px;
     font-family: "Exo2-Regular";
-    width: 65%;
+    width: 100%;
     padding: 5px 5px 5px 10px;
     display: inline-block;
     text-decoration: none;
@@ -156,6 +158,7 @@ h3.form__title {
     margin: 0 auto;
     .write__input-text, .write__input-submit {
         width: 100%;
+        max-width: 400px;
         margin: 0 auto;
         display: block;
         margin-bottom: 10px;
@@ -484,14 +487,14 @@ p.gar__paragraph {
         padding-left: 20px;
         padding-right: 20px;
         .wrtite__input-text, .write__input-submit {
-            width: 90%;
+            width: 200px;
             font-size: 16px;
             line-height: 16px;
         }
     }
     .button__yellow-form {
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 16px;
         width: 80%;
         max-width: 300px;
     }
@@ -669,8 +672,8 @@ p.gar__paragraph {
         padding-bottom: 65px;
     }
     .button__yellow-form {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 16px;
         padding: 8px 10px 8px 10px;
     }
     .part__form {
@@ -678,8 +681,10 @@ p.gar__paragraph {
         width: 100%;
         padding-left: 7%;
         .write__input-text, .write__input-submit {
-            width: 200px;
+            width: 24%;
             font-size: 20px;
+            line-height: 45px;
+            margin-bottom: 30px;
             display: inline-block;
             &:last-child {
                 margin-right: 0;
@@ -710,7 +715,7 @@ p.gar__paragraph {
     .write__form {
         text-align: left;
         .write__input-submit {
-            width: 90%;
+            width: 60%;
             font-size: 25px;
             max-width: 335px;
             margin-top: 30px;
@@ -1094,10 +1099,10 @@ p.gar__paragraph {
         padding-bottom: 250px;
     }
     .part__form {
-        padding-left: 0;
+        padding-left: 10%;
         .write__input-text, .write__input-submit {
             max-width: 410px;
-            width: 26%;
+            width: 24%;
             padding: 19px 20px 19px 25px;
         }
     }

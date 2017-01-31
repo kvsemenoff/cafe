@@ -13,7 +13,7 @@
 				                <input class="write__input-text phone" type="text" name="phone" placeholder="Телефон*">
 				                <input class="write__input-text" type="text" name="email" placeholder="E-mail*">
                                 <textarea rows="10" name="message" placeholder="Сообщение*"></textarea>
-				                <input class="write__input-submit" type="submit" name="form__submit" value="Отправить">
+				                <input class="write__input-submit" type="submit" name="submit" value="Отправить">
 				            </form>
 				    </div>
 				    <div class="write__right">
