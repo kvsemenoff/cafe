@@ -1,3 +1,9 @@
+<div class="burger-box">
+	<div class="burger">
+		<img src="img/anz.png" alt="#" class="burger-img">
+	</div>
+</div>
+<div id="main"></div>
 <section class="section section_padding section_db-head-top">
 	<div class="container">
 
@@ -26,18 +32,35 @@
 					<p>Срок открытия от 14 дней</p>
 				</div>
 			</div>
-</section> 
-<section class="section section_db-head-menu section_padding">
+</section>
+
+<section class="db-section-box1">
+<div class="container">
+<div class="section_db-head-menu">
+	<img src="img/db-logo-down.png" alt="img" class="db-img-head">
+	
+	<ul class="db-menu" id="js-nav">
+		<li><a href="#main">Главная</a></li>
+		<li><a href="#about">О нас</a></li>
+		<li><a href="#our">Наши кофейни</a></li>
+		<li><a href="#preimuwestvation">Преимущества</a></li>
+		<li><a href="#plan">План открытия</a></li>
+		<li><a href="#contacts">Контакты</a></li>
+	</ul>
+	</div>
+</div>
+</section>
+<section class="section section_db-head-menu2 section_padding">
 <div class="container">
 	<img src="img/db-logo-down.png" alt="img" class="db-img-head">
 	<div>
-	<ul class="db-menu">
-		<li><a href="#">Главная</a></li>
-		<li><a href="#">О нас</a></li>
-		<li><a href="#">Наши кофейни</a></li>
-		<li><a href="#">Преимущества</a></li>
-		<li><a href="#">План открытия</a></li>
-		<li><a href="#">Контакты</a></li>
+	<ul class="db-menu" id="js-nav">
+		<li><a href="#main">Главная</a></li>
+		<li><a href="#about">О нас</a></li>
+		<li><a href="#our">Наши кофейни</a></li>
+		<li><a href="#preimuwestvation">Преимущества</a></li>
+		<li><a href="#plan">План открытия</a></li>
+		<li><a href="#contacts">Контакты</a></li>
 	</ul>
 	</div>
 </div>
