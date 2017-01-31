@@ -33,6 +33,32 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+
+
+
+    var owl2 = $("#df-demo");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:150,
+        center: true,     
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },       
+          1000:{
+              items:1
+          },
+          1248:{
+              items:2
+          }
+      }
+  });
+
+
  });
 
 
