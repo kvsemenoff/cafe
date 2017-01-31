@@ -683,7 +683,6 @@ p.gar__paragraph {
         .write__input-text, .write__input-submit {
             width: 24%;
             font-size: 20px;
-            line-height: 45px;
             margin-bottom: 30px;
             display: inline-block;
             &:last-child {
@@ -922,10 +921,13 @@ p.gar__paragraph {
         .write__form-text, .write__form-submit {
             width: 24%;
             max-width: 410px;
-            padding: 19px 20px 19px 25px;
+            padding: 23px 20px 21px 25px;
             font-size: 25px;
             line-height: 25px;
             margin-right: 125px;
+        }
+        .write__form-text:last-child {
+            margin-right: 0;
         }
         
     }
@@ -1099,11 +1101,14 @@ p.gar__paragraph {
         padding-bottom: 250px;
     }
     .part__form {
-        padding-left: 10%;
+        padding-left: 0;
         .write__input-text, .write__input-submit {
             max-width: 410px;
-            width: 24%;
+            width: 28%;
             padding: 19px 20px 19px 25px;
+        }
+        .write__input-text:nth-child(3) {
+            margin-right: 0;
         }
     }
     /* Section Write */
