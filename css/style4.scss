@@ -156,13 +156,38 @@ body, html{
 	.form-wrap-main{
 		border:1px solid grey;
 		background: #fff;
-		border-radius:10px;
-		padding: 10px;
+		// border-radius:10px;
+		padding: 30px;
+		height: 227px;
+		text-align: center;
+		.dd-input-wrap{
+			input{
+				width: 100%;
+				outline: none;
+				border:1px solid black;
+				height: 40px;
+				padding-left: 10px;
+				margin-bottom: 10px;
+				font-family: "Exo2-Regular";
+			}
+		}
+		input[type="submit"]{
+			background: black;
+			color:#fff;
+			font-family: "Exo2-Regular";
+			outline: none;
+			border:1px solid black;
+			width: 180px;
+			height: 40px;
+			cursor: pointer;
+			transition: 0.7s;
+		}
 	}
 	.dd-close{
 		width: 30px;
 		height: 30px;
-		background: red;
+		font-family: "Exo2-Regular";
+		// background: red;
     	// background:url(../img/kres.png) #98BE28 no-repeat center;
     	position:absolute;
     	top:8px;
@@ -170,6 +195,7 @@ body, html{
     	cursor: pointer;
     	transition: 0.5s;
     	border-radius:10px;
+    	font-size:15px;
     }
     .dd-close:hover{
     	// background:url(../img/kres.png) #5F7C0B no-repeat center;
