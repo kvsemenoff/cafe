@@ -1,4 +1,3 @@
-
 .clearfix::after {
     content: "";
     display: table;
@@ -6,7 +5,7 @@
 }
 section.biz {
     background: #fff;
-    padding-top: 88px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -16,9 +15,8 @@ section.biz {
 }
 
 h2.biz__title {
-    padding-bottom: 20px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 34px;
+    line-height: 34px;
     &::after {
         content: "";
         width: 15%;
@@ -51,7 +49,7 @@ table.biz__table {
 }
 .biz__table td {
     border: 1px solid #969697;
-    width: 48%;
+    width: 45%;
     height: 170px;
     padding: 10px 5px 0px 5px;
     margin: 0 auto;
@@ -90,6 +88,7 @@ table.biz__table {
     padding: 1% 4%;
     color: #c39b0c;
     background: #fff;
+    text-decoration: none;
     &:hover {
         color: #fff;
         background: #c39b0c;
@@ -114,6 +113,7 @@ section.part {
     width: 65%;
     padding: 5px 5px 5px 10px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .part__title {
@@ -124,6 +124,8 @@ section.part {
     font-weight: 400;
     text-align: center;
     padding-bottom: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
     &::after {
         content: "";
         display: block;
@@ -141,11 +143,13 @@ h3.form__title {
     font-weight: 500;
     line-height: 18px;
     color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     padding-bottom: 50px;
 }
 .part__form {
-    width: 65%;
+    width: 90%;
     margin-top: 2%;
     padding-bottom: 30px;
     display: block;
@@ -155,12 +159,9 @@ h3.form__title {
         margin: 0 auto;
         display: block;
         margin-bottom: 10px;
-        padding: 5px 10px;
+        padding: 10px 20px 10px 20px;
         font-size: 14px;
         margin-right: 7.3%;
-        &:last-child {
-            margin-right: 0;
-        }
     }
 }
 
@@ -178,15 +179,15 @@ section.write {
 
 h2.write__title {
     color: #000;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 34px;
+    line-height: 34px;
     font-weight: 400;
     text-align: left;
     &::after {
         content: "";
         display: block;
         background: #cc9900;
-        height: 2px;
+        height: 1px;
         width: 8%;
         margin-top: 15px;
         margin-bottom: 5%;
@@ -195,16 +196,15 @@ h2.write__title {
 
 .write__left, .write__right {
     display: block;
-    height: 100%;
 }
 
 .write__left {
     background: #fff;
-    padding-left: 5.3%;
-    padding-right: 4%;
     padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .write__right {
     background: url(/img/write_right_bg.jpg) #ddd 0 0 no-repeat;
@@ -219,14 +219,16 @@ h2.write__title {
 }
 
 .write__form {
-    width: 65%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
     input[type="submit"] {
-        width: 70%;
-        margin-top: 10px;
+        width: 100%;
         font-size: 14px;
         color: #003;
         border: 2px solid #000;
+        padding: 10px 0 10px 0;
+        margin-top: 15px;
         &:hover {
             color: #c39b0c;
             border: 2px solid #c39b0c;
@@ -234,13 +236,15 @@ h2.write__title {
     }
     input[type="text"],textarea {
         color: #000;
-        width: 100%;
         font-size: 14px;
-        line-height: 25px;
-        margin-top: 10px;
         border: 1px solid #003;
-        padding: 0 20px 0 15px;
         outline: 0;
+        width: 100%;
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 10px;
+        }
+        padding: 10px 20px 10px 15px;
         &:focus {
             border: 1px solid #c39b0c;
             color: #c39b0c;
@@ -253,7 +257,8 @@ h2.write__title {
         font-size: 14px;
         line-height: 14px;
         resize: none;
-        padding: 5px 20px 0 15px;
+        width: 100%;
+        font-family: "Exo2-Regular";
         &:focus {
             background: url(/img/icons/success.png) 96% 15% no-repeat;
             background-size: 7%;
@@ -285,7 +290,7 @@ h2.write__title {
             content: "";
             display: block;
             background: #cc9900;
-            height: 2px;
+            height: 1px;
             width: 15%;
             margin: 0 auto;
             margin-top: 10px;
@@ -305,6 +310,7 @@ h2.write__title {
 section.what {
     background: url(/img/what_bg.jpg) 0 0 no-repeat #848587;
     background-size: cover;
+    padding-bottom: 45px;
 }
 
 h2.what__title {
@@ -312,7 +318,7 @@ h2.what__title {
     font-size: 16px;
     line-height: 16px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-left: 20px;
     text-align: center;
     max-width: 79%;
@@ -324,7 +330,7 @@ p.what__paragraph {
     color: #fff;
 }
 ul.what__list {
-    width: 100%;
+    width: 92%;
     margin: 0 auto;
 }
 @each $name in g1, g2, g3, g4, g5, g6, g7, g8, g9, g10 {
@@ -341,12 +347,102 @@ li.what__item {
      &:nth-child(even) {
         float: right;
     }
-    width: 48%;
+    width: 45%;
     padding: 20px 10px 5px 10px;
     min-height: 110px;
-    margin-bottom: 5%;
 }
-@media only screen and (max-width : 320px) { 
+.g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
+    margin-bottom: 20px;
+}
+
+/* Section Gar */
+* {
+    box-sizing: border-box;
+}
+section.gar {
+    background:url(/img/gar_bg.jpg) 68% 0 no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+h2.gar__title {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 35px;
+    &::after {
+        content: "";
+        display: block;
+        width: 75px;
+        height: 1px;
+        background: #c39b0c;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+span.gar__head {
+    font-size: 22px;
+    line-height: 22px;
+    color: #c39b0c;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 25px;
+    position: relative;
+}
+p.gar__paragraph {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.gar__left-content {
+    margin-left: 60px;
+}
+
+.gar__left, .gar__right {
+    display: block;
+    width: 100%;
+}
+.gar__left-mark {
+    position: absolute;
+    left: -50px;
+    width: 35px;
+}
+
+.gar__left {
+    padding-right: 25px;
+}
+
+.gar__right {
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 60px;
+    .gar__head {
+        padding-bottom: 10px;
+    }
+}
+.doc, .prof, .marketing, .monitor {
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 35px;
+    left: -45px;
+}
+.map, .barista {
+    position: absolute;
+    display: block;
+    bottom: -30%;
+    width: 35px;
+    left: -45px;
+}
+.barista {
+    bottom: -25%;
+}
+@media only screen and (max-width : 320px) {
+
 }
 
 @media only screen and (min-width : 480px) {
@@ -354,8 +450,6 @@ li.what__item {
         padding-bottom: 40px;
     }
     h2.biz__title {
-        font-size: 26px;
-        line-height: 26px;
         &::after {
             margin-top: 15px;
             width: 60px;
@@ -385,17 +479,20 @@ li.what__item {
     
     /*Part Section*/
     .part__form {
-        width: 50%;
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
         input {
+            width: 90%;
             font-size: 16px;
             line-height: 16px;
-            padding: 10px 15px;
         }
     }
     .button__yellow-form {
         font-size: 18px;
         line-height: 18px;
-        width: 50%;
+        width: 80%;
+        max-width: 300px;
     }
     h3.form__title {
         padding: 0 22%;
@@ -411,8 +508,8 @@ li.what__item {
     
     /* Section Write */
     h2.write__title {
-        font-size: 22px;
-        line-height: 22px;
+        font-size: 38px;
+        line-height: 38px;
         width: 28%;
         &::after {
             width: 40%;
@@ -426,20 +523,28 @@ li.what__item {
     .write__right {
         background-position-y: 70%;
     }
+    .write__left {
+        padding-left:40px;
+    }
     .write__form {
         input[type="text"] {
-            width: 300px;
+            width: 80%;
+            max-width: 450px;
             font-size: 18px;
-            line-height: 35px;
-            padding: 0 30px 0 15px;
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 15px;
+            }
         }
         input[type="submit"] {
             max-width: 300px;
-            margin-top: 10px;
+            width: 80%;
             font-size: 18px;
+            margin-top: 20px;
         }
         textarea {
-            width: 300px;
+            width: 80%;
+            max-width: 450px;
             height: 100px;
             font-size: 18px;
             line-height: 18px;
@@ -469,15 +574,58 @@ li.what__item {
         font-size: 16px;
         line-height: 16px;
     }
+    li.what__item {
+        width: 48%;
+    }
+    .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
+        margin-bottom: 30px;
+    }
+    
+    .gar__right {
+        padding-top: 35px;
+        padding-right: 30px;
+        padding-left: 80px;
+        .gar__head {
+            padding-bottom: 20px;
+        }
+    }
+    
+    h2.gar__title {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 50px;
+        &::after {
+            margin-top: 30px;
+        }
+    }
+    .gar__left {
+        padding-right: 40px;
+    }
+    .gar__left-content {
+        margin-left: 80px;
+    }
+    .map {
+        bottom: 0;
+    }
+    .barista {
+        bottom: 25%;
+    }
+    .doc, .prof, .marketing, .monitor {
+        left: -50px;
+    }
+    .map, .barista {
+        left: -50px;
+    }
 }
 
 @media only screen and (min-width : 768px) {
     section.biz {
+        padding-top: 88px;
         padding-bottom: 80px;
     }
     h2.biz__title {
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 32px;
+        line-height: 32px;
     }
     .biz__table td {
         display: table-cell;
@@ -487,7 +635,7 @@ li.what__item {
         line-height: 22px;
     }
     table.biz__table {
-        width: 100%;
+        width: 95%;
         margin-top: 45px;
         td {
             width: 15%;
@@ -508,6 +656,9 @@ li.what__item {
     .part__title {
         font-size: 20px;
         line-height: 20px;
+        &::after {
+            margin-top: 35px;
+        }
     }
     h3.form__title {
         font-size: 26px;
@@ -524,10 +675,14 @@ li.what__item {
     .part__form {
         padding-bottom: 100px;
         width: 100%;
+        padding-left: 7%;
         input {
-            width: 27.3%;
+            width: 200px;
             font-size: 20px;
             display: inline-block;
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
     
@@ -536,11 +691,12 @@ li.what__item {
     .write__left, .write__right {
         float: left;
         width: 50%;
+        height: 686px;;
     }
     h2.write__title {
-        font-size: 30px;
-        line-height: 30px;
-        width: 60%;
+        font-size: 42px;
+        line-height: 42px;
+        width: 50%;
     }
     .write__desc {
         font-size: 20px;
@@ -549,21 +705,25 @@ li.what__item {
     .write__form {
         width: 100%;
     }
-    .write__content {
-        height: 600px;
-    }
+
     .write__form {
+        text-align: left;
         input[type="submit"] {
-            width: 70%;
-            margin-top: 10px;
+            width: 90%;
             font-size: 25px;
+            max-width: 335px;
+            margin-top: 30px;
         }
         input[type="text"] {
             font-size: 20px;
-            line-height: 40px;
-            padding: 0 30px 0 15px;
+            width: 90%;
+            margin-bottom: 25px;
+            &::last-child {
+                margin-bottom: 20px;
+            }
         }
         textarea {
+            width: 90%;
             height: 100px;
             font-size: 20px;
             resize: none;
@@ -574,8 +734,12 @@ li.what__item {
         width: 70%;
         text-align: left;
         padding-top: 60px;
+        height: 686px;
         .promo {
+            font-size: 27px;
+            line-height: 27px;
             &::after {
+                
                 margin: 0;
                 margin-top: 20px;
             }
@@ -591,8 +755,9 @@ li.what__item {
     
     /* What Section */
     h2.what__title {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 auto;
     }
     p.what__paragraph {
         font-size: 18px;
@@ -602,6 +767,71 @@ li.what__item {
         padding: 50px 20px 15px 40px;
         min-height: 180px;
     }
+    .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
+        margin-bottom: 40px;
+    }
+    
+        .gar__right {
+        padding-top: 35px;
+        padding-right: 30px;
+        padding-left: 80px;
+        .gar__head {
+            padding-bottom: 20px;
+        }
+    }
+    
+    h2.gar__title {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 50px;
+        &::after {
+            margin-top: 30px;
+        }
+    }
+    .gar__left {
+        padding-right: 40px;
+    }
+    .gar__left-content {
+        margin-left: 80px;
+    }
+    .map {
+        bottom: 0;
+    }
+    .barista {
+        bottom: 25%;
+    }
+    .doc, .prof, .marketing, .monitor {
+        left: -55px;
+    }
+    .map, .barista {
+        left: -55px;
+        width: 40px;
+    }
+    span.gar__head {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    p.gar__paragraph {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+        .mark, .prof, .monitor, .marketing {
+        width: 45px;
+    }
+    .barista {
+        width: 50px;
+    }
+    .doc {
+        width: 40px;
+    }
+    .gar__left-mark {
+        position: absolute;
+        left: -60px;
+        width: 55px;
+    }
+    
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -675,17 +905,23 @@ li.what__item {
         font-size: 25px;
         line-height: 25px;
         padding: 22px 40px 18px 40px;
-        width: 506px;
+        max-width: 506px;
     }
     .part__form {
         padding-bottom: 100px;
         width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-right: 0;
         input {
-            width: 27.333%;
+            width: 24%;
+            max-width: 410px;
             padding: 19px 20px 19px 25px;
             font-size: 25px;
             line-height: 25px;
+            margin-right: 125px;
         }
+        
     }
     
     /* Section Write */
@@ -694,9 +930,12 @@ li.what__item {
         height: 1075px;
     }
     h2.write__title {
-        font-size: 32px;
-        line-height: 32px;
-        width: 45%;
+        font-size: 42px;
+        line-height: 42px;
+        width: 60%;
+        &::after {
+            margin-top: 50px;
+        }
     }
      .write__desc {
         font-size: 26px;
@@ -704,33 +943,48 @@ li.what__item {
         padding-bottom: 35px;
     }
     .write__form {
+        margin: 0;
         input[type="text"] {
-            width: 100%;
+            width: 90%;
             font-size: 21px;
             line-height: 21px;
-            padding: 22px 40px 20px 25px;
-            margin-bottom: 30px;
+            margin-bottom: 32px;
+        }
+        input[type="text"]:nth-child(3) {
+            margin-bottom: 24px;
         }
         textarea {
-            width: 100%;    
-            height: 120px;
+            width: 90%;    
+            height: 150px;
             font-size: 21px;
             resize: none;
             padding: 15px 40px 0 20px;
+            margin-bottom: 0;
+        }
+        input[type="submit"] {
+            line-height: 25px;
+            padding: 20px 0 20px 0;
+            margin-top: 17px;
         }
     }
-    .write__content {
-        height: 813px;
+    .write__left {
+        padding-left: 80px;
+        padding-right: 40px;
+        padding-top: 70px;
+    }
+    .write__left, .write__right {
+        height: 845px;
     }
     .right__container {
         width: 60%;
-        padding-top: 100px;
-        padding-bottom: 80px;
+        padding-top: 145px;
+        padding-bottom: 100px;
         .promo {
             font-size: 27px;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
             &::after {
-                margin-top: 30px;
+                margin-top: 35px;
+                width: 80px;
             }
         }
         p {
@@ -743,51 +997,148 @@ li.what__item {
         line-height: 33px;
         padding-top: 50px;
         padding-bottom: 50px;
-        margin-left: 80px;
+        margin-left: 140px;
+        text-align: left;
     }
     p.what__paragraph {
         font-size: 33px;
         line-height: 33px;
     }
     li.what__item {
-        padding: 80px 90px 155px 80px;
-        height: 340px;
+        padding: 80px 90px 80px 80px;
+        height: 340px;        
     }
+    .g1, .g2, .g5, .g6 {
+        margin-bottom: 80px;
+    }
+    .g3, .g4, .g7, .g8 {
+        margin-bottom: 70px;
+    }
+    li.what__item:nth-child(9), li.what__item:nth-child(10) {
+        margin-bottom: 0;
+    }
+    
+    /* Section Guarantee*/
+    section.gar {
+        background:url(/img/gar_bg.jpg) 50% 0 no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+    }
+    .gar__left, .gar__right {
+        width: 50%;
+        float: left;
+    }
+    .gar__right {
+        padding-left: 210px;
+    }
+    .gar__left-content {
+        margin-left: 185px;
+    }
+    h2.gar__title {
+        margin-left: 80px;
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 75px;
+        &::after {
+            margin-top: 40px;
+        }
+    }
+    span.gar__head {
+        font-size: 25px;
+        line-height: 25px;
+        padding-bottom: 55px;
+    }
+    
+    p.gar__paragraph {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .doc, .prof, .marketing, .monitor {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: -125px;
+    }
+    .map, .barista {
+        position: absolute;
+        display: block;
+        bottom: -30%;
+        left: -125px;
+        width: 54px;
+    }
+    .mark, .prof, .monitor, .marketing {
+        width: 77px;
+    }
+    .barista {
+        bottom: -25%;
+        width: 77px;
+    }
+    .doc {
+        width: 62px;
+    }
+    h2.gar__title {
+        text-align: left;
+    }
+    .gar__left-mark {
+        position: absolute;
+        left: -110px;
+        width: 78px;
+    }
+    
 }
 
 @media only screen and (min-width : 1248px) {
      section.part {
         padding-bottom: 250px;
     }
-    
+    .part__form {
+        padding-left: 0;
+        input {
+            max-width: 410px;
+            width: 26%;
+            padding: 19px 20px 19px 25px;
+        }
+    }
     /* Section Write */
     h2.write__title {
         font-size: 42px;
-        line-height: 42px;
-        width: 65%;
+        line-height: 49px;
+        width: 280px;
         &::after {
             margin-top: 35px;
+            height: 1px;
         }
     }
     .write__desc {
         font-size: 26px;
         line-height: 26px;
-        padding-bottom: 35px;
+        padding-bottom: 40px;
+        padding-top: 0;
+        margin-top: 25px;
     }
     .write__form {
         input[type="text"] {
             font-size: 21px;
-            line-height: 21px;
-            padding: 18px 50px 15px 25px;
+            max-width: 486px;
+            padding: 19px 50px 18px 25px;
+            margin-bottom: 34px;
+        }
+        textarea {
+            max-width: 486px;
+            margin-bottom: 0;
         }
     }
-    .write__content {
-        height: 855px;
+    .write__left, .write__right {
+        height: 900px;
     }
     .right__container {
         width: 52%;
         padding-top: 140px;
         padding-bottom: 110px;
+    }
+    section.what {
+        height: 2160px;
     }
 }
 
