@@ -54,9 +54,21 @@
 			$('.window').hide();
 			// $('a[href=#thanks]').trigger('click');
 			location = "spasibo.php";
-			};
-		});
-	</script>
+		};
+	});
+	$(function() {
+
+		$("#started").click(function(event){
+			event.preventDefault();
+			var plansoffset = $("#plans").offset().top;
+		// console.log(plansoffset);
+		$("html, body").animate({
+			scrollTop: plansoffset 
+		}, 500);
+	});
+
+	});
+</script>
 
 <a href="#log-in" name="modal">55555555555</a>
 

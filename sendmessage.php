@@ -1,9 +1,10 @@
 <?php
-$to = "sinnapsteam@yandex.ru ";
+$to = "test@yandex.ru ";
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $uname = $_POST['uname'];
 $text = $_POST['text'];
+
 // Формирование заголовка письма
 $subject  = "Новое сообщение";
 $headers  = "From: info@starlight.space" . "\r\n";

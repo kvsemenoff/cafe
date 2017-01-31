@@ -8,11 +8,11 @@
 				            <p class="write__desc">
 				                У вас остались вопросы? Заполните форму ниже и мы обязательно вам ответим
 				            </p>
-				            <form action="#" class="write__form">
+				            <form action="#" class="form1 write__form">
 				                <input class="write__input-text" type="text" name="uname" placeholder="Имя*">
 				                <input class="write__input-text phone" type="text" name="phone" placeholder="Телефон*">
 				                <input class="write__input-text" type="text" name="email" placeholder="E-mail*">
-                                <textarea rows="10" name="message" placeholder="Сообщение*"></textarea>
+                                <textarea name="text" rows="10" placeholder="Сообщение*"></textarea>
 				                <input class="write__input-submit" type="submit" name="form__submit" value="Отправить">
 				            </form>
 				    </div>

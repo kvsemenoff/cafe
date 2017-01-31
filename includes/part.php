@@ -14,7 +14,7 @@
 		</div>
 		<div class="row">
 		    <div class="col-md-12">
-		        <form action="#" class="part__form">
+		        <form action="#" class="form1 part__form">
                     <input class="write__input-text" type="text" name="uname" placeholder="Имя*">
 		            <input class="write__input-text phone" type="text" name="phone" placeholder="Телефон*">
 		            <input class="write__input-text" type="text" name="email" placeholder="E-mail*">
