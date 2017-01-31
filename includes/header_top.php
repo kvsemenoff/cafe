@@ -29,7 +29,7 @@
 </section> 
 <section class="section section_db-head-menu section_padding">
 <div class="container">
-	<img src="img/db-logo-down.png" alt="img">
+	<img src="img/db-logo-down.png" alt="img" class="db-img-head">
 	<div>
 	<ul class="db-menu">
 		<li><a href="#">Главная</a></li>
