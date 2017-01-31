@@ -165,10 +165,10 @@ h3.form__title {
     }
 }
 
-::-webkit-input-placeholder {color:#fff;}
-::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
-:-moz-placeholder           {color:#fff;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#fff;}
+.write__input-text::-webkit-input-placeholder {color:#fff;}
+.write__input-text::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.write__input-text:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.write__input-text:-ms-input-placeholder      {color:#fff;}
 
 /* SECTION WRITE */
 
