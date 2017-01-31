@@ -147,12 +147,13 @@ body, html{
 
 .window{ 
 	display: none;
-	position:absolute;
+	// position:absolute;
 	left:0;  
-	top:0;
+	top:15%;
 	display:none;
 	z-index:9998; 
 	border:none;
+	position:fixed;
 	.form-wrap-main{
 		border:1px solid grey;
 		background: #fff;
@@ -177,8 +178,9 @@ body, html{
 			font-family: "Exo2-Regular";
 			outline: none;
 			border:1px solid black;
-			width: 180px;
-			height: 40px;
+			width: 200px;
+			height: 45px;
+			font-size: 20px;
 			cursor: pointer;
 			transition: 0.7s;
 		}

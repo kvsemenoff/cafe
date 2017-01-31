@@ -17,8 +17,7 @@
                                 <textarea name="text" rows="10" placeholder="Сообщение*"></textarea>
 				                <input class="write__input-submit" type="submit" name="submit" name="form__submit" value="Отправить">
 
-                               
-
+                            
 				            </form>
 				    </div>
 				    <div class="write__right">

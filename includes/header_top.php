@@ -14,7 +14,7 @@
 
 		<div class="db-head-top-right">
 			<span class="db-phone">+375(29)3300000</span><br>
-			<a href="#" class="db-call">Заказать звонок</a>
+			<a href="#log-in" name="modal" class="db-call">Заказать звонок</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -24,7 +24,7 @@
 
 		<h2 class="db-bottom-h2">Откройте свою современую кофейню <br> 
 			вместе с CAFE WHITE </h2>
-			<a href="#" class="db-bottom-a">Получить бизнес-план</a>
+			<a href="#" id="started" class="db-bottom-a">Получить бизнес-план</a>
 			<div class="db-head-text">
 				<p>Окупаемость 6 -12 месяев</p>
 				<p class="db-middle">Высокомаржинальный бизнес <br>  
