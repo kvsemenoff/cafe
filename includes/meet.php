@@ -1,3 +1,4 @@
+<div id="about"></div>
 <section class="section section-meet">
 	<div class="container">
 		<div class="dd-meet">

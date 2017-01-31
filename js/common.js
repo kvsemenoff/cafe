@@ -2,6 +2,45 @@
 
 $(document).ready(function(){
 
+ $("#js-nav a").click(function(e){
+     e.preventDefault();
+     var currentBlock = $(this).attr("href");
+     currentBlockoffset = $(currentBlock).offset().top;
+     $("html, body").animate({
+      scrollTop: currentBlockoffset -90
+     }, 500);
+    });
+
+
+ $(".burger-img").on("click", function(){
+        $('.section_db-head-menu2').slideToggle(500);
+ });
+
+             
+
+$(document).on("scroll", function(){
+var scroll = $(document).scrollTop();
+
+
+
+if(scroll > 500){
+    
+                  $('.section_db-head-menu').css("display","block");   
+              
+
+}
+else{
+    $('.section_db-head-menu').css("display","none");
+}
+   });
+
+
+
+
+
+    
+
+
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
