@@ -1,3 +1,4 @@
+<div id="contacts"></div>
 <section class="write">
 	<div class="container">
 		<div class="row">

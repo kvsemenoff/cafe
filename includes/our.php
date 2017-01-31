@@ -1,3 +1,4 @@
+<div id="our"></div>
 <div class="df-bg">
 <section class="df-section">
 	<h2 class="df-cap-our">НАШИ КОФЕЙНИ</h2>
