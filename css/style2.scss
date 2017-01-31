@@ -216,7 +216,7 @@ padding-top:350px !important;
 	}
 	.db-bottom-a{
 		font-size: 42px;
-		padding: 6px 36px;
+		padding: 0px 36px 6px 36px;
 		margin-bottom: 73px;
 	}
 	.db-head-text{
@@ -229,7 +229,7 @@ padding-top:350px !important;
 	}
 	.db-middle
 {
-	padding:0 140px !important;
+	padding:0 105px !important;
 }
 	.db-logo{
 	background:url("../img/db-logo.png")no-repeat;
@@ -271,13 +271,7 @@ display: inline-block;
 }
 
 }
-@media only screen and (min-width : 1400px) {
 
-		.db-middle
-{
-	padding:0 237px !important;
-}
-	}
 
 
 
