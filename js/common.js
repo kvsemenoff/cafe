@@ -48,10 +48,11 @@ $(document).ready(function(){
         responsive:{
             0:{
               items:1
-          },       
-          1000:{
-              items:1
           },
+          768:{
+            items:1
+          },      
+          
           1248:{
               items:2
           }
