@@ -26,8 +26,8 @@ var scroll = $(document).scrollTop();
 if(scroll > 500){
     
                   $('.section_db-head-menu').css("display","block");   
-              
-
+                
+                  $('.section_db-head-menu2').css("display","none");
 }
 else{
     $('.section_db-head-menu').css("display","none");
