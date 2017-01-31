@@ -27,3 +27,18 @@
 				</div>
 			</div>
 </section> 
+<section class="section section_db-head-menu section_padding">
+<div class="container">
+	<img src="img/db-logo-down.png" alt="img">
+	<div>
+	<ul class="db-menu">
+		<li><a href="#">Главная</a></li>
+		<li><a href="#">О нас</a></li>
+		<li><a href="#">Наши кофейни</a></li>
+		<li><a href="#">Преимущества</a></li>
+		<li><a href="#">План открытия</a></li>
+		<li><a href="#">Контакты</a></li>
+	</ul>
+	</div>
+</div>
+</section>
