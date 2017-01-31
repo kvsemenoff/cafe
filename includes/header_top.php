@@ -50,7 +50,7 @@
 	</div>
 </div>
 </section>
-<section class="section section_db-head-menu2 section_padding">
+<section class="section_db-head-menu2">
 <div class="container">
 	<img src="img/db-logo-down.png" alt="img" class="db-img-head">
 	<div>
