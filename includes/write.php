@@ -12,8 +12,12 @@
 				                <input class="write__input-text" type="text" name="uname" placeholder="Имя*">
 				                <input class="write__input-text phone" type="text" name="phone" placeholder="Телефон*">
 				                <input class="write__input-text" type="text" name="email" placeholder="E-mail*">
+
                                 <textarea name="text" rows="10" placeholder="Сообщение*"></textarea>
-				                <input class="write__input-submit" type="submit" name="form__submit" value="Отправить">
+				                <input class="write__input-submit" type="submit" name="submit" name="form__submit" value="Отправить">
+
+                               
+
 				            </form>
 				    </div>
 				    <div class="write__right">
