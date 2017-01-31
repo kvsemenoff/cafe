@@ -146,18 +146,18 @@ h3.form__title {
     font-size: 14px;
     margin-right: 7.3%; }
 
-::-webkit-input-placeholder {
+.write__input-text::-webkit-input-placeholder {
   color: #fff; }
 
-::-moz-placeholder {
+.write__input-text::-moz-placeholder {
   color: #fff; }
 
 /* Firefox 19+ */
-:-moz-placeholder {
+.write__input-text:-moz-placeholder {
   color: #fff; }
 
 /* Firefox 18- */
-:-ms-input-placeholder {
+.write__input-text:-ms-input-placeholder {
   color: #fff; }
 
 /* SECTION WRITE */
