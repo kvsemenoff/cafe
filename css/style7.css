@@ -208,6 +208,7 @@ h2.write__title {
   /* Firefox 19+ */
   /* Firefox 18- */ }
   .write__form .write__input-submit {
+    cursor: pointer;
     width: 100%;
     font-size: 14px;
     color: #003;
