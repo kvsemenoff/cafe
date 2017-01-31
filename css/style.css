@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(reset.css);
 @import url(fonts.css);
 @import url(style2.css);
@@ -68,3 +69,7 @@ h2 {
     width: 72%;
     margin-top: 30px;
     font-size: 25px; } }
+=======
+@import url(reset.css);@import url(fonts.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(style5.css);@import url(style6.css);@import url(style7.css);@import url(style8.css);@import url(style9.css);@import url(style10.css);body{font-family:'Exo2-Regular';font-size:33.33px}.section_padding{padding:20px 0}.clear{clear:both}.center{text-align:center}h2{text-transform:uppercase;color:#010101;font-family:"Exo2-Regular", sans-serif;font-size:35px;font-weight:400}.button-1{display:block;color:#c39b0c;border:2px solid #c39b0c;margin:0 auto;text-align:center}input[type="text"]{font-family:"Exo2-Regular";color:#fff;font-weight:400;background:transparent;border:0.5px solid #fff}input[type="submit"]{display:block;margin:0 auto;background:#fff;color:#003;font-family:"Exo2-Regular", sans-serif;border:2px solid #000}@media only screen and (min-width: 480px){input[type="submit"]{font-size:16px}}@media only screen and (min-width: 768px){input[type="submit"]{float:left;font-size:20px}}@media only screen and (min-width: 992px){input[type="submit"]{width:70%;margin-top:30px;font-size:22px}}@media only screen and (min-width: 1248px){input[type="submit"]{width:72%;margin-top:30px;font-size:25px}}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> c316d47b51904aafdd71c0a8e1a54a5c8a198b81
