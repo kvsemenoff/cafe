@@ -14,17 +14,17 @@
 		</div>
 		<div class="row">
 		    <div class="col-md-12">
-		        <form action="#" class="part__form">
-                    <input type="text" name="name" placeholder="Имя*">
-		            <input type="text" name="name" placeholder="Телефон*">
-		            <input type="text" name="name" placeholder="E-mail*">
+		        <form action="#" class="form1 part__form">
+                    <input class="write__input-text" type="text" name="uname" placeholder="Имя*">
+		            <input class="write__input-text phone" type="text" name="phone" placeholder="Телефон*">
+		            <input class="write__input-text" type="text" name="email" placeholder="E-mail*">
+		            <input type="submit" class="button-1 button__yellow-form" name="submit" value="Получить материалы для открытия">
 		        </form>
 		    </div>
 		</div>
-		<div class="row">
-		    <div class="col-md-12">
-		        <a href="#" class="button-1 button__yellow-form">Получить материалы для открытия</a>
-		    </div>
-		</div>
+		
+		 
+		
+		
 	</div>
 </section>

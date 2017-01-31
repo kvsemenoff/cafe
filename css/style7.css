@@ -92,10 +92,12 @@ section.part {
 
 .button__yellow-form {
   font-size: 14px;
+  background: transparent;
+  border: 2px solid #c39b0c;
   font-weight: 400;
   line-height: 14px;
   font-family: "Exo2-Regular";
-  width: 65%;
+  width: 100%;
   padding: 5px 5px 5px 10px;
   display: inline-block;
   text-decoration: none; }
@@ -137,8 +139,9 @@ h3.form__title {
   padding-bottom: 30px;
   display: block;
   margin: 0 auto; }
-  .part__form input {
+  .part__form .write__input-text, .part__form .write__input-submit {
     width: 100%;
+    max-width: 400px;
     margin: 0 auto;
     display: block;
     margin-bottom: 10px;
@@ -146,18 +149,18 @@ h3.form__title {
     font-size: 14px;
     margin-right: 7.3%; }
 
-::-webkit-input-placeholder {
+.write__input-text::-webkit-input-placeholder {
   color: #fff; }
 
-::-moz-placeholder {
+.write__input-text::-moz-placeholder {
   color: #fff; }
 
 /* Firefox 19+ */
-:-moz-placeholder {
+.write__input-text:-moz-placeholder {
   color: #fff; }
 
 /* Firefox 18- */
-:-ms-input-placeholder {
+.write__input-text:-ms-input-placeholder {
   color: #fff; }
 
 /* SECTION WRITE */
@@ -207,17 +210,18 @@ h2.write__title {
   margin: 0 auto;
   /* Firefox 19+ */
   /* Firefox 18- */ }
-  .write__form input[type="submit"] {
+  .write__form .write__input-submit {
+    cursor: pointer;
     width: 100%;
     font-size: 14px;
     color: #003;
     border: 2px solid #000;
     padding: 10px 0 10px 0;
     margin-top: 15px; }
-    .write__form input[type="submit"]:hover {
+    .write__form .write__input-submit:hover {
       color: #c39b0c;
       border: 2px solid #c39b0c; }
-  .write__form input[type="text"], .write__form textarea {
+  .write__form .write__input-text, .write__form textarea {
     color: #000;
     font-size: 14px;
     border: 1px solid #003;
@@ -225,9 +229,9 @@ h2.write__title {
     width: 100%;
     margin-bottom: 15px;
     padding: 10px 20px 10px 15px; }
-    .write__form input[type="text"]:last-child, .write__form textarea:last-child {
+    .write__form .write__input-text:last-child, .write__form textarea:last-child {
       margin-bottom: 10px; }
-    .write__form input[type="text"]:focus, .write__form textarea:focus {
+    .write__form .write__input-text:focus, .write__form textarea:focus {
       border: 1px solid #c39b0c;
       color: #c39b0c;
       background: url(/img/icons/success.png) 96% 50% no-repeat;
@@ -463,13 +467,13 @@ p.gar__paragraph {
     width: 80%;
     padding-left: 20px;
     padding-right: 20px; }
-    .part__form input {
-      width: 90%;
+    .part__form .wrtite__input-text, .part__form .write__input-submit {
+      width: 200px;
       font-size: 16px;
       line-height: 16px; }
   .button__yellow-form {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 16px;
     width: 80%;
     max-width: 300px; }
   h3.form__title {
@@ -496,14 +500,14 @@ p.gar__paragraph {
     background-position-y: 70%; }
   .write__left {
     padding-left: 40px; }
-  .write__form input[type="text"] {
+  .write__form .write__input-text {
     width: 80%;
     max-width: 450px;
     font-size: 18px;
     margin-bottom: 20px; }
-    .write__form input[type="text"]:last-child {
+    .write__form .write__input-text:last-child {
       margin-bottom: 15px; }
-  .write__form input[type="submit"] {
+  .write__form .write__input-submit {
     max-width: 300px;
     width: 80%;
     font-size: 18px;
@@ -598,18 +602,19 @@ p.gar__paragraph {
     padding: 0 30%;
     padding-bottom: 65px; }
   .button__yellow-form {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 16px;
     padding: 8px 10px 8px 10px; }
   .part__form {
     padding-bottom: 100px;
     width: 100%;
     padding-left: 7%; }
-    .part__form input {
-      width: 200px;
+    .part__form .write__input-text, .part__form .write__input-submit {
+      width: 24%;
       font-size: 20px;
+      margin-bottom: 30px;
       display: inline-block; }
-      .part__form input:last-child {
+      .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
         margin-right: 0; }
   /* section write */
   .write__left, .write__right {
@@ -627,16 +632,16 @@ p.gar__paragraph {
     width: 100%; }
   .write__form {
     text-align: left; }
-    .write__form input[type="submit"] {
-      width: 90%;
+    .write__form .write__input-submit {
+      width: 60%;
       font-size: 25px;
       max-width: 335px;
       margin-top: 30px; }
-    .write__form input[type="text"] {
+    .write__form .write__input-text {
       font-size: 20px;
       width: 90%;
       margin-bottom: 25px; }
-      .write__form input[type="text"]::last-child {
+      .write__form .write__input-text::last-child {
         margin-bottom: 20px; }
     .write__form textarea {
       width: 90%;
@@ -772,13 +777,15 @@ p.gar__paragraph {
     padding-left: 20px;
     padding-right: 20px;
     padding-right: 0; }
-    .part__form input {
+    .part__form .write__form-text, .part__form .write__form-submit {
       width: 24%;
       max-width: 410px;
-      padding: 19px 20px 19px 25px;
+      padding: 23px 20px 21px 25px;
       font-size: 25px;
       line-height: 25px;
       margin-right: 125px; }
+    .part__form .write__form-text:last-child {
+      margin-right: 0; }
   /* Section Write */
   section.write {
     padding: 100px 0 125px 0;
@@ -795,12 +802,12 @@ p.gar__paragraph {
     padding-bottom: 35px; }
   .write__form {
     margin: 0; }
-    .write__form input[type="text"] {
+    .write__form .write__input-text {
       width: 90%;
       font-size: 21px;
       line-height: 21px;
       margin-bottom: 32px; }
-    .write__form input[type="text"]:nth-child(3) {
+    .write__form .write__input-text:nth-child(3) {
       margin-bottom: 24px; }
     .write__form textarea {
       width: 90%;
@@ -809,7 +816,7 @@ p.gar__paragraph {
       resize: none;
       padding: 15px 40px 0 20px;
       margin-bottom: 0; }
-    .write__form input[type="submit"] {
+    .write__form .write__input-submit {
       line-height: 25px;
       padding: 20px 0 20px 0;
       margin-top: 17px; }
@@ -908,10 +915,12 @@ p.gar__paragraph {
     padding-bottom: 250px; }
   .part__form {
     padding-left: 0; }
-    .part__form input {
+    .part__form .write__input-text, .part__form .write__input-submit {
       max-width: 410px;
-      width: 26%;
+      width: 28%;
       padding: 19px 20px 19px 25px; }
+    .part__form .write__input-text:nth-child(3) {
+      margin-right: 0; }
   /* Section Write */
   h2.write__title {
     font-size: 42px;
@@ -926,7 +935,7 @@ p.gar__paragraph {
     padding-bottom: 40px;
     padding-top: 0;
     margin-top: 25px; }
-  .write__form input[type="text"] {
+  .write__form .write__input-text {
     font-size: 21px;
     max-width: 486px;
     padding: 19px 50px 18px 25px;
