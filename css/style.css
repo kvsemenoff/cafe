@@ -12,9 +12,7 @@
 body {
   font-family: 'Exo2-Regular';
   font-size: 33.33px; }
-.section_padding{
-  padding:20px 0;
-}
+
 .clear {
   clear: both; }
 
@@ -52,25 +50,21 @@ input[type="submit"] {
 
 @media only screen and (min-width: 480px) {
   input[type="submit"] {
-    font-size: 16px;
-    line-height: 25px; } }
+    font-size: 16px; } }
 
 @media only screen and (min-width: 768px) {
   input[type="submit"] {
     float: left;
-    font-size: 20px;
-    line-height: 35px; } }
+    font-size: 20px; } }
 
 @media only screen and (min-width: 992px) {
   input[type="submit"] {
     width: 70%;
     margin-top: 30px;
-    font-size: 22px;
-    line-height: 50px; } }
+    font-size: 22px; } }
 
 @media only screen and (min-width: 1248px) {
   input[type="submit"] {
     width: 72%;
     margin-top: 30px;
-    font-size: 25px;
-    line-height: 70px; } }
+    font-size: 25px; } }
