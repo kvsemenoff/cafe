@@ -154,7 +154,7 @@ h3.form__title {
     padding-bottom: 30px;
     display: block;
     margin: 0 auto;
-    input {
+    .write__input-text, .write__input-submit {
         width: 100%;
         margin: 0 auto;
         display: block;
@@ -222,7 +222,7 @@ h2.write__title {
     width: 100%;
     text-align: center;
     margin:0 auto;
-    input[type="submit"] {
+    .write__input-submit {
         width: 100%;
         font-size: 14px;
         color: #003;
@@ -234,7 +234,7 @@ h2.write__title {
             border: 2px solid #c39b0c;
         }
     }
-    input[type="text"],textarea {
+    .write__input-text,textarea {
         color: #000;
         font-size: 14px;
         border: 1px solid #003;
@@ -482,7 +482,7 @@ p.gar__paragraph {
         width: 80%;
         padding-left: 20px;
         padding-right: 20px;
-        input {
+        .wrtite__input-text, .write__input-submit {
             width: 90%;
             font-size: 16px;
             line-height: 16px;
@@ -527,7 +527,7 @@ p.gar__paragraph {
         padding-left:40px;
     }
     .write__form {
-        input[type="text"] {
+        .write__input-text {
             width: 80%;
             max-width: 450px;
             font-size: 18px;
@@ -536,7 +536,7 @@ p.gar__paragraph {
                 margin-bottom: 15px;
             }
         }
-        input[type="submit"] {
+        .write__input-submit {
             max-width: 300px;
             width: 80%;
             font-size: 18px;
@@ -676,7 +676,7 @@ p.gar__paragraph {
         padding-bottom: 100px;
         width: 100%;
         padding-left: 7%;
-        input {
+        .write__input-text, .write__input-submit {
             width: 200px;
             font-size: 20px;
             display: inline-block;
@@ -708,13 +708,13 @@ p.gar__paragraph {
 
     .write__form {
         text-align: left;
-        input[type="submit"] {
+        .write__input-submit {
             width: 90%;
             font-size: 25px;
             max-width: 335px;
             margin-top: 30px;
         }
-        input[type="text"] {
+        .write__input-text {
             font-size: 20px;
             width: 90%;
             margin-bottom: 25px;
@@ -913,7 +913,7 @@ p.gar__paragraph {
         padding-left: 20px;
         padding-right: 20px;
         padding-right: 0;
-        input {
+        .write__form-text, .write__form-submit {
             width: 24%;
             max-width: 410px;
             padding: 19px 20px 19px 25px;
@@ -944,15 +944,15 @@ p.gar__paragraph {
     }
     .write__form {
         margin: 0;
-        input[type="text"] {
+        .write__input-text {
             width: 90%;
             font-size: 21px;
             line-height: 21px;
             margin-bottom: 32px;
         }
-        input[type="text"]:nth-child(3) {
+        .write__input-text:nth-child(3) {
             margin-bottom: 24px;
-        }
+        } 
         textarea {
             width: 90%;    
             height: 150px;
@@ -961,7 +961,7 @@ p.gar__paragraph {
             padding: 15px 40px 0 20px;
             margin-bottom: 0;
         }
-        input[type="submit"] {
+        .write__input-submit {
             line-height: 25px;
             padding: 20px 0 20px 0;
             margin-top: 17px;
@@ -1094,7 +1094,7 @@ p.gar__paragraph {
     }
     .part__form {
         padding-left: 0;
-        input {
+        .write__input-text, .write__input-submit {
             max-width: 410px;
             width: 26%;
             padding: 19px 20px 19px 25px;
@@ -1118,7 +1118,7 @@ p.gar__paragraph {
         margin-top: 25px;
     }
     .write__form {
-        input[type="text"] {
+        .write__input-text {
             font-size: 21px;
             max-width: 486px;
             padding: 19px 50px 18px 25px;

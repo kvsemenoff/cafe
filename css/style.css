@@ -33,14 +33,14 @@ h2 {
   margin: 0 auto;
   text-align: center; }
 
-input[type="text"] {
+.write__input-text {
   font-family: "Exo2-Regular";
   color: #fff;
   font-weight: 400;
   background: transparent;
   border: 0.5px solid #fff; }
 
-input[type="submit"] {
+.write__input-submit {
   display: block;
   margin: 0 auto;
   background: #fff;
@@ -49,22 +49,22 @@ input[type="submit"] {
   border: 2px solid #000; }
 
 @media only screen and (min-width: 480px) {
-  input[type="submit"] {
+  .write__input-submit {
     font-size: 16px; } }
 
 @media only screen and (min-width: 768px) {
-  input[type="submit"] {
+  .write__input-submit {
     float: left;
     font-size: 20px; } }
 
 @media only screen and (min-width: 992px) {
-  input[type="submit"] {
+  .write__input-submit {
     width: 70%;
     margin-top: 30px;
     font-size: 22px; } }
 
 @media only screen and (min-width: 1248px) {
-  input[type="submit"] {
+  .write__input-submit {
     width: 72%;
     margin-top: 30px;
     font-size: 25px; } }

@@ -9,11 +9,11 @@
 				                У вас остались вопросы? Заполните форму ниже и мы обязательно вам ответим
 				            </p>
 				            <form action="#" class="write__form">
-				                <input type="text" name="name" placeholder="Имя*">
-				                <input type="text" name="phone" placeholder="Телефон*">
-				                <input type="text" name="email" placeholder="E-mail*">
+				                <input class="write__input-text" type="text" name="name" placeholder="Имя*">
+				                <input class="write__input-text" type="text" name="phone" placeholder="Телефон*">
+				                <input class="write__input-text" type="text" name="email" placeholder="E-mail*">
                                 <textarea rows="10" name="message" placeholder="Сообщение*"></textarea>
-				                <input type="submit" name="form__submit" value="Отправить">
+				                <input class="write__input-submit" type="submit" name="form__submit" value="Отправить">
 				            </form>
 				    </div>
 				    <div class="write__right">
