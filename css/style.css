@@ -9,6 +9,9 @@
 @import url(style8.css);
 @import url(style9.css);
 @import url(style10.css);
+html, body {
+  height: 100%; }
+
 body {
   font-family: 'Exo2-Regular';
   font-size: 33.33px; }
