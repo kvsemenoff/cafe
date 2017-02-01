@@ -1,62 +1,63 @@
 <div class="wrap">
-    <section class="biz" id="plans">
-        <div class="container">
-                <div class="biz__head">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="biz__title">Бизнес под ключ</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="biz__desc">
-                                В рамках нашего франшизного предложения Вы получаете <strong>абсолютно все</strong>, что нужно для <strong>старта</strong>,  ведения и успешного <strong>развития</strong> вашего бизнеса
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <table class="biz__table" border>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="table__content">
-                                            <img src="/img/tableicons/algo.png" alt="">
-                                            <p td__desc>Алгоритм открытия</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="table__content">
-                                            <img src="/img/tableicons/case.png" alt="">
-                                            <p td__desc>Подробный Бизнес-план</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="table__content">
-                                            <img src="/img/tableicons/folder.png" alt="">
-                                            <p td__desc>Комплект документов для Гос. орг.</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="table__content">
-                                            <img src="/img/tableicons/table_menu.png" alt="">
-                                            <p td__desc>Проработанное меню</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="table__content">
-                                            <img src="/img/tableicons/discount.png" alt="">
-                                            <p td__desc>Оптовые скидки поставщикам</p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="table__content">
-                                            <img src="/img/tableicons/design.png" alt="">
-                                            <p td__desc>Пакет дизайна</p>
-                                        </div>
-                                    </td>
-                                </tr>
+<section class="biz" id="plans">
+	<div class="container">
+		    <div class="biz__head">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <h2 class="biz__title">Бизнес под ключ</h2>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-md-12">
+		                <p class="biz__desc">
+		                    В рамках нашего франшизного предложения Вы получаете <strong>абсолютно все</strong>, что нужно для <strong>старта</strong>,  ведения и успешного <strong>развития</strong> вашего бизнеса
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="row">
+		        <div class="col-md-12">
+		            <table class="biz__table" border>
+		                <tbody>
+		                    <tr>
+		                        <td>
+                                    <div class="table__content">
+		                                <img src="/img/tableicons/algo.png" alt="">
+		                                <p td__desc>Алгоритм открытия</p>
+		                            </div>
+		                        </td>
+		                        <td>
+                                    <div class="table__content">
+		                                <img src="/img/tableicons/case.png" alt="">
+		                                <p td__desc>Подробный Бизнес-план</p>
+		                            </div>
+		                        </td>
+		                        <td>
+                                    <div class="table__content">
+		                                <img src="/img/tableicons/folder.png" alt="">
+		                                <p td__desc>Комплект документов для Гос. орг.</p>
+		                            </div>
+		                        </td>
+		                        <td>
+                                    <div class="table__content">
+		                                <img src="/img/tableicons/table_menu.png" alt="">
+		                                <p td__desc>Проработанное меню</p>
+		                            </div>
+		                        </td>
+		                        <td>
+                                    <div class="table__content">
+		                                <img src="/img/tableicons/discount.png" alt="">
+		                                <p td__desc>Оптовые скидки поставщикам</p>
+		                            </div>
+		                        </td>
+		                        <td>
+                                    <div class="table__content">
+		                                <img src="/img/tableicons/design.png" alt="">
+		                                <p td__desc>Пакет дизайна</p>
+		                            </div>
+		                        </td>
+		                    </tr>
+		                   
                                 <tr>
                                         <td>
                                             <div class="table__content">

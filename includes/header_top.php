@@ -1,3 +1,9 @@
+<div class="burger-box">
+	<div class="burger">
+		<img src="img/anz.png" alt="#" class="burger-img">
+	</div>
+</div>
+<div id="main"></div>
 <section class="section section_padding section_db-head-top">
 	<div class="container">
 
@@ -8,7 +14,7 @@
 
 		<div class="db-head-top-right">
 			<span class="db-phone">+375(29)3300000</span><br>
-			<a href="#" class="db-call">Заказать звонок</a>
+			<a href="#log-in" name="modal" class="db-call">Заказать звонок</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -18,7 +24,7 @@
 
 		<h2 class="db-bottom-h2">Откройте свою современую кофейню <br> 
 			вместе с CAFE WHITE </h2>
-			<a href="#" class="db-bottom-a">Получить бизнес-план</a>
+			<a href="#" id="started" class="db-bottom-a">Получить бизнес-план</a>
 			<div class="db-head-text">
 				<p>Окупаемость 6 -12 месяев</p>
 				<p class="db-middle">Высокомаржинальный бизнес <br>  
@@ -26,18 +32,35 @@
 					<p>Срок открытия от 14 дней</p>
 				</div>
 			</div>
-</section> 
-<section class="section section_db-head-menu section_padding">
+</section>
+
+<section class="db-section-box1">
 <div class="container">
-	<img src="img/db-logo-down.png" alt="img">
+<div class="section_db-head-menu">
+	<img src="img/db-logo-down.png" alt="img" class="db-img-head">
+	
+	<ul class="db-menu" id="js-nav">
+		<li><a href="#main">Главная</a></li>
+		<li><a href="#about">О нас</a></li>
+		<li><a href="#our">Наши кофейни</a></li>
+		<li><a href="#preimuwestvation">Преимущества</a></li>
+		<li><a href="#plan">План открытия</a></li>
+		<li><a href="#contacts">Контакты</a></li>
+	</ul>
+	</div>
+</div>
+</section>
+<section class="section_db-head-menu2">
+<div class="container">
+	<img src="img/db-logo-down.png" alt="img" class="db-img-head">
 	<div>
-	<ul class="db-menu">
-		<li><a href="#">Главная</a></li>
-		<li><a href="#">О нас</a></li>
-		<li><a href="#">Наши кофейни</a></li>
-		<li><a href="#">Преимущества</a></li>
-		<li><a href="#">План открытия</a></li>
-		<li><a href="#">Контакты</a></li>
+	<ul class="db-menu" id="js-nav">
+		<li><a href="#main">Главная</a></li>
+		<li><a href="#about">О нас</a></li>
+		<li><a href="#our">Наши кофейни</a></li>
+		<li><a href="#preimuwestvation">Преимущества</a></li>
+		<li><a href="#plan">План открытия</a></li>
+		<li><a href="#contacts">Контакты</a></li>
 	</ul>
 	</div>
 </div>
