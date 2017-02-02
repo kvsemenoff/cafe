@@ -1,6 +1,14 @@
 @import "reset.css";
 @import "fonts.css";
 
+.section-absolute{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
 html, body {
     height: 100%;
 }
