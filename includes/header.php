@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-<!--	<link type="text/css" href="/css/onepage-scroll.css" rel="stylesheet" media="all" />-->
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
@@ -31,6 +30,4 @@
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
-<!--    <script src="/js/jquery.onepage-scroll.js"></script>-->
 	<script src="js/common.js"></script>
-	<div class="main">

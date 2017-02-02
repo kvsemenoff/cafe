@@ -7,8 +7,8 @@
 .db-logo{
 	background:url("../img/db-logo.png")no-repeat;
 	display: block;
-	width:209px;
-	height:85px;
+	width: 116px;
+height: 48px;
 	margin: 0 auto;
 }
 .db-head-h2{
@@ -74,7 +74,7 @@ display: inline-block;
 .section_db-head-menu{
 	background: #333;
 	color:#fff;
-	font-size: 25px;
+	font-size: 14px;
 	padding-bottom: 35px !important;
 	display: none;
 	z-index:999;
@@ -154,15 +154,10 @@ left:20px;
 }
 
 @media only screen and (min-width : 992px) {
-
-	.db-menu{
-		li{
-			padding-left: 40px !important;
-
-		}
+	.section_db-head-top{
+	 padding: 9px 0 24px 0px !important;
 	}
-}
-@media only screen and (min-width : 1248px) {
+
 	.section_db-head-menu2{
 		display:none;
 	}
@@ -186,19 +181,20 @@ left:20px;
 }
 	.section_db-head-menu{
 		display: none;
-		    padding-bottom: 30px !important;
-    padding-top: 15px;
+		padding-bottom: 30px !important;
+    	padding-top: 15px;
 
 	}
 .db-img-head{
 	float: left;
 	display: inline-block;
+	padding-top: 10px;
 }
 .db-menu{
 	li{
 		display: inline-block;
 		padding-left: 64px;
-padding-top: 14px;
+		padding-top: 14px;
 		a{
 			color:#fff;
 			text-decoration: none;
@@ -207,23 +203,23 @@ padding-top: 14px;
 }
 
 .section_db-head-bottom{
-padding-top:350px !important;
+padding-top:180px !important;
 }
 	.db-bottom-h2{
-		font-size: 62px;
+		font-size: 34px;
 		margin-top: 0;
-		padding-bottom: 86px;
+		padding-bottom: 16px;
 	}
 	.db-bottom-a{
-		font-size: 42px;
-		padding: 0px 36px 6px 36px;
-		margin-bottom: 73px;
+		font-size: 23px;
+		padding: 0px 21px 6px 21px;
+		margin-bottom: 8px;
 	}
 	.db-head-text{
 
 		p{
 			display: inline-block;
-			font-size: 26px;
+			font-size: 14px;
 			vertical-align: middle;
 		}
 	}
@@ -234,23 +230,23 @@ padding-top:350px !important;
 	.db-logo{
 	background:url("../img/db-logo.png")no-repeat;
 	display: block;
-	width:209px;
-	height:85px;
+	width: 116px;
+	height: 48px;
 	margin: 0 auto;
 	float:left;
 }
 .db-head-h2{
-	font-size: 36px;
-padding-top: 17px;
-padding-left: 80px;
+	font-size: 19px;
+padding-top: 0px;
+padding-left: 0px;
 
 display: inline-block;
 }
 .db-call{
-	font-size: 25px;
+	font-size: 14px;
 	padding:0;
 	float:right;
-	padding: 0px 10px 3px 10px;
+	padding-left:10px;
 }
 .db-call:hover{
 	background: #fff;
@@ -259,8 +255,8 @@ display: inline-block;
 
 }
 .db-phone{
-	font-size: 35px;
-	padding-bottom: 10px;
+	font-size: 19px;
+	padding-bottom: 0px;
 display: inline-block;
 
 }
@@ -268,8 +264,19 @@ display: inline-block;
 .db-head-top-right{
 	float:right;
 	padding-right: 18px;
+	margin-top: -10px;
 }
 
+
+	.db-menu{
+		li{
+			padding-left: 48px !important;
+
+		}
+	}
+}
+@media only screen and (min-width : 1248px) {
+	
 }
 
 
