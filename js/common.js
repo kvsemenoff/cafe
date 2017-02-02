@@ -146,7 +146,7 @@ else{
         nav:true, 
         autoplay:false,
         smartSpeed:1000,
-        margin:150,
+        margin:65,
         center: true,     
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{

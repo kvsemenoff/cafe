@@ -170,11 +170,12 @@ body, html{
 				padding-left: 10px;
 				margin-bottom: 10px;
 				font-family: "Exo2-Regular";
+				font-size: 16px;
 			}
 		}
 		input[type="submit"]{
-			background: black;
-			color:#fff;
+			background: #fff;
+			color:black;
 			font-family: "Exo2-Regular";
 			outline: none;
 			border:1px solid black;
@@ -184,6 +185,10 @@ body, html{
 			cursor: pointer;
 			transition: 0.7s;
 		}
+			input[type="submit"]:hover{
+				color:orange;
+				border:1px solid orange;
+			}
 	}
 	.dd-close{
 		width: 30px;

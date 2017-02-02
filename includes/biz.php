@@ -1,4 +1,4 @@
-<div id="plan"></div>
+<div class="wrap">
 <section class="biz" id="plans">
 	<div class="container">
 		    <div class="biz__head">
@@ -57,52 +57,54 @@
 		                            </div>
 		                        </td>
 		                    </tr>
-		                    <tr>
-		                            <td>
-                                        <div class="table__content">
-		                                    <img src="/img/tableicons/law.png" alt="">
-		                                    <p>Бухгалтерская и юрид. поддержка</p>
-		                                </div>
-		                            </td>
-		                            <td>
-                                        <div class="table__content">
-		                                    <img src="/img/tableicons/personal.png" alt="">
-		                                    <p>Обучение персонала</p>
-		                                </div>
-		                            </td>
-		                            <td>
-                                        <div class="table__content">
-		                                    <img src="/img/tableicons/rukov.png" alt="">
-		                                    <p>Поддержка и обучение руководителя</p>
-		                                </div>
-		                            </td>
-		                            <td>
-                                        <div class="table__content">
-		                                    <img src="/img/tableicons/mark.png" alt="">
-		                                    <p>Маркетинговый план на год</p>
-		                                </div>
-		                            </td>
-		                            <td>
-                                        <div class="table__content">
-		                                    <img src="/img/tableicons/crm.png" alt="">
-		                                    <p>CRM-система с удаленным доступом</p>
-		                                </div>
-		                            </td>
-		                            <td>
-                                        <div class="table__content">
-		                                    <img src="/img/tableicons/start.png" alt="">
-		                                    <p>Быстрый старт</p>
-		                                </div>
-		                            </td>
-		                    </tr>
-		                </tbody>
-		            </table>
-		        </div>
-		    </div>
-		    <div class="row">
-		        <div class="col-md-12">
-		            <a href="#log-in" name="modal" class="button-1 button__white">Получить алгоритм открытия</a>
-		        </div>
-		    </div>
-	</div>
-</section>
+		                   
+                                <tr>
+                                        <td>
+                                            <div class="table__content">
+                                                <img src="/img/tableicons/law.png" alt="">
+                                                <p>Бухгалтерская и юрид. поддержка</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table__content">
+                                                <img src="/img/tableicons/personal.png" alt="">
+                                                <p>Обучение персонала</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table__content">
+                                                <img src="/img/tableicons/rukov.png" alt="">
+                                                <p>Поддержка и обучение руководителя</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table__content">
+                                                <img src="/img/tableicons/mark.png" alt="">
+                                                <p>Маркетинговый план на год</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table__content">
+                                                <img src="/img/tableicons/crm.png" alt="">
+                                                <p>CRM-система с удаленным доступом</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table__content">
+                                                <img src="/img/tableicons/start.png" alt="">
+                                                <p>Быстрый старт</p>
+                                            </div>
+                                        </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#log-in" name="modal" class="button-1 button__white">Получить алгоритм открытия</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+</div>
