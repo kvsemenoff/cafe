@@ -49,8 +49,8 @@
 					<img src="img/f4.png" alt="">
 				</div>
 				<div class="dd-fact-txt">
-					<span>Дней на открытие WHITE CoffeeSpot 
-					</span>
+					<span>Дней на открытие</span><br>
+					<span>WHITE CoffeeSpot</span>
 				</div>
 			</div>
 
@@ -59,7 +59,7 @@
 					<img src="img/f5.png" alt="">
 				</div>
 				<div class="dd-fact-txt">
-					<span>Дней -  выход на операционную прибыль
+					<span>Дней -  выход на опе-<br>рационную прибыль
 					</span>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 				</div>
 				<div class="dd-fact-txt">
 					<span>
-						Гостя в нашей кофейне ежедневно
+						Гостя в нашей кофейне<br> ежедневно
 					</span>
 				</div>
 			</div>
