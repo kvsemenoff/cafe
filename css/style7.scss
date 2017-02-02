@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .wrap {
   height: 100%; }
 
@@ -9,9 +9,8 @@
 
 section.biz {
   background: #fff;
-  padding-top: 40px;
+  padding-top: 40px; 
   padding-bottom: 20px; }
-=======
 $const: 10.8;
 .clearfix::after {
     content: "";
@@ -27,7 +26,7 @@ section.biz {
     padding-bottom: 20px;
    
 }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
+
 
 .biz__head {
   margin-left: 43px;
@@ -390,12 +389,10 @@ li.what__item {
   box-sizing: border-box; }
 
 section.gar {
-<<<<<<< HEAD
   background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
   background-size: cover;
-  padding-top: 20px; }
+  padding-top: 20px;
 
-=======
     background:url(/img/gar_bg.jpg) 68% 0 no-repeat;
     background-size: cover;
     padding-top: 20px;
@@ -403,7 +400,6 @@ section.gar {
     max-height: 1080px;
     height: 100%;
 }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
 h2.gar__title {
   color: #fff;
   font-size: 25px;
@@ -788,9 +784,7 @@ p.gar__paragraph {
     }
     table.biz__table {
         td {
-<<<<<<< HEAD
             width: 140px;
-=======
             width: 15%;
             &:nth-child(even), &:nth-child(odd)  {
                 float: none;
@@ -833,7 +827,7 @@ p.gar__paragraph {
             width: 24%;
             font-size: 20px;
             display: inline-block;
-            margin-bottom: 100px;
+            margin-bottom: 0;
             &:last-child {
                 margin-right: 0;
             }
@@ -878,11 +872,9 @@ p.gar__paragraph {
         }
         textarea {
             width: 90%;
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
             height: 100px;
         }
     }
-<<<<<<< HEAD
   /* Form */
   section.part {
     padding-bottom: 250px; }
@@ -903,9 +895,8 @@ p.gar__paragraph {
     line-height: 25px;
     padding: 22px 40px 18px 40px;
     max-width: 506px; }
-=======
     .write__phone, .write__address, .write__email {
-        margin-top: 50px;
+        margin-top: 25px;
     }
 
     .write__phone {
@@ -995,9 +986,7 @@ p.gar__paragraph {
 
 @media only screen and (min-width : 992px) {
     section.biz {
-        min-height: 640px;
-        max-height: 1080px;
-        height: 100%;
+         height: 600px;
         padding-top: 9.26vh;
         padding-bottom: 0;
         container{
@@ -1005,26 +994,28 @@ p.gar__paragraph {
         }
     }
     p.biz__desc {
-        font-size: 26px;
-        padding-right: 18%;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 14px;
         padding-top: 0;
         padding-bottom: 0;
+        
     }
     h2.biz__title {
-        font-size: 33px;
-        margin-bottom: 4.63vh;
+        font-size: 19px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+        line-height: 19px;
         &::after {
-            margin-top: 3.3vh;
-            width: 80px;
+            margin-top: 25px;
+            width: 40px;
         }
     }
     table.biz__table {
         width: 100%;
         margin-top: 4.5vh;
         td {
-            width: 16.66%;
-            height: 0;
+            width: 140px;
+            height: 70px;
             padding: 1vh 2vh 0 1vh;
         }
         margin-bottom: 42px;
@@ -1036,10 +1027,10 @@ p.gar__paragraph {
         margin-left: 85px;
     }
     .button__white {
-        font-size: 3.33vh;
-        line-height: 3.33vh;
-        padding: 1.2vh 5.92vh 1.5vh 5.92vh;
-        max-width: 654px;
+        font-size: 21px;
+        line-height: 21px;
+        padding: 10px 20px;
+        width: 358px;
     }
     .biz__table {
         
@@ -1049,10 +1040,10 @@ p.gar__paragraph {
             }
             .table__content {
                 p {
-                    font-size: 20px;
-                    line-height: 20px;
-                    padding-top: 2.7vh;
-                    padding-bottom: 2.34vh;
+                    font-size: 11px;
+                    line-height: 11px;
+                    padding-top: 14px;
+                    padding-bottom: 14px;
                 }
             }
         }
@@ -1061,28 +1052,31 @@ p.gar__paragraph {
     /* Form */
     
     section.part {
-        padding-bottom: 250px;
+        padding-top: 30px;
+        padding-bottom: 200px;
+        height: 600px;
     }
     .part__title {
-        font-size: 42px;
-        line-height: 42px;
+        font-size: 23px;
+        line-height: 23px;
         &::after {
-                margin-bottom: 33px;
+                margin-bottom: 20px;
         }
     }
     h3.form__title {
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 14px;
         padding-bottom: 185px;
         padding: 0 30%;
         font-weight: 500;
-        padding-bottom: 198px;
+        padding-bottom: 110px;
     }
     .button__yellow-form {
-        font-size: 25px;
-        line-height: 25px;
-        padding: 22px 40px 18px 40px;
-        max-width: 506px;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px;
+        max-width: 280px;
+        margin-top: 60px !important;
     }
     .part__form {
         padding-bottom: 100px;
@@ -1101,20 +1095,19 @@ p.gar__paragraph {
         .write__form-text:last-child {
             margin-right: 0;
         }
-        
     }
     
     /* Section Write */
     section.write {
-        padding: 100px 0 125px 0;
+        padding: 50px 0 70px 0;
         height: 1075px;
     }
     h2.write__title {
-        font-size: 42px;
-        line-height: 42px;
+        font-size: 23px;
+        line-height: 23px;
         width: 60%;
         &::after {
-            margin-top: 50px;
+            margin-top: 30px;
         }
     }
      .write__desc {
@@ -1129,7 +1122,7 @@ p.gar__paragraph {
             font-size: 21px;
             line-height: 21px;
             margin-bottom: 32px;
-            margin-bottom: 100px;
+            margin-bottom: 0;
         }
         .write__input-text:nth-child(3) {
             margin-bottom: 24px;
@@ -1143,9 +1136,10 @@ p.gar__paragraph {
             margin-bottom: 0;
         }
         .write__input-submit {
-            line-height: 25px;
-            padding: 20px 0 20px 0;
-            margin-top: 17px;
+            font-size: 14px;
+            line-height: 14px;
+            padding: 10px 0 15px 0;
+            margin-top: 10px;
         }
     }
     .write__left {
@@ -1158,8 +1152,9 @@ p.gar__paragraph {
     }
     .right__container {
         width: 60%;
-        padding-top: 145px;
-        padding-bottom: 100px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        height: 100%;
         .promo {
             font-size: 27px;
             margin-bottom: 50px;
@@ -1174,10 +1169,10 @@ p.gar__paragraph {
     }
     /* Section What */ 
      h2.what__title {
-        font-size: 33px;
-        line-height: 33px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        font-size: 23px;
+        line-height: 23px;
+        padding-top: 25px;
+        padding-bottom: 24px; 
         margin-left: 140px;
         text-align: left;
     }
@@ -1190,10 +1185,10 @@ p.gar__paragraph {
         height: 340px;        
     }
     .g1, .g2, .g5, .g6 {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
     .g3, .g4, .g7, .g8 {
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
     li.what__item:nth-child(9), li.what__item:nth-child(10) {
         margin-bottom: 0;
@@ -1204,9 +1199,7 @@ p.gar__paragraph {
         background:url(/img/gar_bg.jpg) 50% 0 no-repeat;
         background-size: cover;
         padding-top: 4.63;
-        min-height: 640px;
-        max-height: 1080px;
-        height: 100%;
+        height: 600px;
     }
     .gar__left, .gar__right {
         width: 50%;
@@ -1236,7 +1229,7 @@ p.gar__paragraph {
     p.gar__paragraph {
         font-size: 2vh;
         line-height: 2vh;
-        margin-bottom: 3.7vh;
+        margin-bottom: 8px;
     }
     .doc, .prof, .marketing, .monitor {
         position: absolute;
@@ -1281,7 +1274,7 @@ p.gar__paragraph {
         .write__input-text, .write__input-submit {
             max-width: 410px;
             width: 28%;
-            padding: 19px 20px 19px 25px;
+            padding: 15px 20px 10px 25px;
         }
         .write__input-text:nth-child(3) {
             margin-right: 0;
@@ -1289,9 +1282,8 @@ p.gar__paragraph {
     }
     /* Section Write */
     h2.write__title {
-        font-size: 42px;
-        line-height: 49px;
-        width: 280px;
+        font-size: 23px;
+        line-height: 23px;
         &::after {
             margin-top: 35px;
             height: 1px;
@@ -1328,7 +1320,6 @@ p.gar__paragraph {
         height: 2160px;
     }
 }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
 
   .part__form {
     padding-bottom: 100px;
@@ -1347,74 +1338,78 @@ p.gar__paragraph {
       margin-right: 0; }
   /* Section Write */
   section.write {
-    padding: 100px 0 125px 0;
-    height: 1075px; }
+    padding: 50px 0 70px 0;
+    height: 600px; }
   h2.write__title {
-    font-size: 42px;
-    line-height: 42px;
-    width: 60%; }
+    font-size: 23px;
+    line-height: 23px;
+    width: 60%; 
+      &::after {
+          width: 40px;
+      }}
     h2.write__title::after {
-      margin-top: 50px; }
+      margin-top: 25px; }
   .write__desc {
-    font-size: 26px;
-    line-height: 26px;
-    padding-bottom: 35px; }
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 25px; }
   .write__form {
     margin: 0; }
     .write__form .write__input-text {
-      width: 90%;
-      font-size: 21px;
-      line-height: 21px;
-      margin-bottom: 32px; }
+      width: 270px;
+      font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 18px; }
     .write__form .write__input-text:nth-child(3) {
       margin-bottom: 24px; }
     .write__form textarea {
-      width: 90%;
-      height: 150px;
-      font-size: 21px;
+      width: 270px;
+      height: 80px;
+      font-size: 14px;
       resize: none;
       padding: 15px 40px 0 20px;
       margin-bottom: 0; }
     .write__form .write__input-submit {
-      line-height: 25px;
-      padding: 20px 0 20px 0;
-      margin-top: 17px; }
+      line-height: 14px;
+        font-size: 14px;
+      padding: 10px 0 12px 0;
+      margin-top: 10px; }
   .write__left {
-    padding-left: 80px;
+    padding-left: 40px;
     padding-right: 40px;
-    padding-top: 70px; }
+    padding-top: 40px; }
   .write__left, .write__right {
-    height: 845px; }
+    height: 470px; }
   .right__container {
     width: 60%;
-    padding-top: 145px;
-    padding-bottom: 100px; }
+    padding-top: 70px;
+    padding-bottom: 50px; }
     .right__container .promo {
-      font-size: 27px;
-      margin-bottom: 50px; }
+      font-size: 15px;
+      margin-bottom: 25px; }
       .right__container .promo::after {
-        margin-top: 35px;
-        width: 80px; }
+        margin-top: 20px;
+        width: 50px; }
     .right__container p {
-      font-size: 27px; }
+      font-size: 14px; }
   /* Section What */
   h2.what__title {
-    font-size: 33px;
-    line-height: 33px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 140px;
+    font-size: 23px;
+    line-height: 23px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 80px;
     text-align: left; }
   p.what__paragraph {
-    font-size: 33px;
-    line-height: 33px; }
+    font-size: 18px;
+    line-height: 18px; }
   li.what__item {
-    padding: 80px 90px 80px 80px;
-    height: 340px; }
+    padding: 50px 50px 80px 40px;
+    height: 180px; }
   .g1, .g2, .g5, .g6 {
-    margin-bottom: 80px; }
+    margin-bottom: 50px; }
   .g3, .g4, .g7, .g8 {
-    margin-bottom: 70px; }
+    margin-bottom: 50px; }
   li.what__item:nth-child(9), li.what__item:nth-child(10) {
     margin-bottom: 0; }
   /* Section Guarantee*/
@@ -1444,7 +1439,7 @@ p.gar__paragraph {
   p.gar__paragraph {
     font-size: 14px;
     line-height: 14px;
-    margin-bottom: 25px; }
+    margin-bottom: 8px; }
   .doc, .prof, .marketing, .monitor {
     position: absolute;
     display: block;
@@ -1468,46 +1463,44 @@ p.gar__paragraph {
   .gar__left-mark {
     position: absolute;
     left: -60px;
-    width: 45px; } }
+    width: 45px; }
 
 @media only screen and (min-width: 1248px) {
-  section.part {
-    padding-bottom: 250px; }
   .part__form {
     padding-left: 0; }
     .part__form .write__input-text, .part__form .write__input-submit {
-      max-width: 410px;
-      width: 28%;
-      padding: 19px 20px 19px 25px; }
+      width: 225px;
+      padding: 10px 20px 8px 15px;  
+    font-size: 14px;}
     .part__form .write__input-text:nth-child(3) {
       margin-right: 0; }
   /* Section Write */
   h2.write__title {
-    font-size: 42px;
-    line-height: 49px;
+    font-size:23px;
+    line-height: 23px;
     width: 280px; }
     h2.write__title::after {
-      margin-top: 35px;
+      margin-top: 15px;
       height: 1px; }
   .write__desc {
-    font-size: 26px;
-    line-height: 26px;
-    padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 20px;
     padding-top: 0;
-    margin-top: 25px; }
+    margin-top: 10px; }
   .write__form .write__input-text {
-    font-size: 21px; 
-    max-width: 486px;
-    padding: 19px 50px 18px 25px;
-    margin-bottom: 34px; }
+    font-size: 14px; 
+    max-width: 270px;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 10px; }
   .write__form textarea {
-    max-width: 486px;
+    width: 270px;
     margin-bottom: 0; }
   .write__left, .write__right {
-    height: 900px; }
+    height: 470px; }
   .right__container {
     width: 52%;
-    padding-top: 140px;
-    padding-bottom: 110px; }
+    padding-top: 70px;
+    padding-bottom: 60px; }
   section.what {
-    height: 2160px; } }
+    height: 1200px; } }

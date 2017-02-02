@@ -6,6 +6,16 @@
   display: table;
   clear: both; }
 
+section.biz {
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 20px; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .wrap {
   height: 100%; }
 
@@ -404,6 +414,9 @@ section.gar {
   background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
   background-size: cover;
   padding-top: 20px;
+  background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
+  background-size: cover;
+  padding-top: 20px;
   min-height: 640px;
   max-height: 1080px;
   height: 100%; }
@@ -648,7 +661,6 @@ p.gar__paragraph {
     padding-bottom: 100px;
     width: 100%;
     padding-left: 7%; }
-<<<<<<< HEAD
   .part__form .write__input-text, .part__form .write__input-submit {
     width: 24%;
     font-size: 20px;
@@ -656,15 +668,6 @@ p.gar__paragraph {
     display: inline-block; }
   .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
     margin-right: 0; }
-=======
-    .part__form .write__input-text, .part__form .write__input-submit {
-      width: 24%;
-      font-size: 20px;
-      display: inline-block;
-      margin-bottom: 100px; }
-      .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
-        margin-right: 0; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   /* section write */
   .write__left, .write__right {
     float: left;
@@ -771,7 +774,6 @@ p.gar__paragraph {
 
 @media only screen and (min-width: 992px) {
   section.biz {
-<<<<<<< HEAD
     padding-top: 100px;
     padding-bottom: 80px; }
   p.biz__desc {
@@ -785,41 +787,11 @@ p.gar__paragraph {
   h2.biz__title::after {
     margin-top: 20px;
     width: 50px; }
-=======
-    min-height: 640px;
-    max-height: 1080px;
-    height: 100%;
-    padding-top: 9.26vh;
-    padding-bottom: 0; }
-    section.biz container {
-      height: 100%; }
-  p.biz__desc {
-    font-size: 26px;
-    padding-right: 18%;
-    line-height: 26px;
-    padding-top: 0;
-    padding-bottom: 0; }
-  h2.biz__title {
-    font-size: 33px;
-    margin-bottom: 4.63vh; }
-    h2.biz__title::after {
-      margin-top: 3.3vh;
-      width: 80px; }
-  table.biz__table {
-    width: 100%;
-    margin-top: 4.5vh;
-    margin-bottom: 42px; }
-    table.biz__table td {
-      width: 16.66%;
-      height: 0;
-      padding: 1vh 2vh 0 1vh; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   .biz__table img {
     margin-bottom: 20px;
     max-width: 60px;
     height: 60px; }
   .button__white {
-<<<<<<< HEAD
     font-size: 36px;
     line-height: 36px;
     max-width: 360px;
@@ -832,22 +804,75 @@ p.gar__paragraph {
     line-height: 11px; }
   .biz__head {
     margin-left: 75px; }
-  table.biz__table td {
-    width: 140px;
-    height: 100px; }
-=======
-    font-size: 3.33vh;
-    line-height: 3.33vh;
-    padding: 1.2vh 5.92vh 1.5vh 5.92vh;
-    max-width: 654px; }
-  .biz__table td img {
-    max-height: 8.33vh; }
-  .biz__table td .table__content p {
+  table.biz__table {
+    margin-bottom: 50px; }
+    table.biz__table td {
+      width: 140px;
+      width: 15%; }
+      table.biz__table td:nth-child(even), table.biz__table td:nth-child(odd) {
+        float: none; }
+  .button__white {
+    font-size: 25px;
+    max-width: 60%; }
+  /* Section Part */
+  section.part {
+    padding-bottom: 150px; }
+  .part__title {
     font-size: 20px;
-    line-height: 20px;
-    padding-top: 2.7vh;
-    padding-bottom: 2.34vh; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
+    line-height: 20px; }
+    .part__title::after {
+      margin-top: 35px; }
+  h3.form__title {
+    font-size: 26px;
+    line-height: 30px;
+    padding-bottom: 185px;
+    padding: 0 30%;
+    padding-bottom: 65px; }
+  .button__yellow-form {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 10px 8px 10px; }
+  .part__form {
+    padding-bottom: 100px;
+    width: 100%;
+    padding-left: 7%; }
+    .part__form .write__input-text, .part__form .write__input-submit {
+      width: 24%;
+      font-size: 20px;
+      display: inline-block;
+      margin-bottom: 0; }
+      .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
+        margin-right: 0; }
+  /* section write */
+  .write__left, .write__right {
+    float: left;
+    width: 50%;
+    height: 686px; }
+  h2.write__title {
+    font-size: 42px;
+    line-height: 42px;
+    width: 50%; }
+  .write__desc {
+    font-size: 20px;
+    padding: 20px 0 20px 0; }
+  .write__form {
+    width: 100%; }
+  .write__form {
+    text-align: left; }
+    .write__form .write__input-submit {
+      width: 60%;
+      font-size: 25px;
+      max-width: 335px;
+      margin-top: 30px; }
+    .write__form .write__input-text {
+      font-size: 20px;
+      width: 90%;
+      margin-bottom: 25px; }
+      .write__form .write__input-text::last-child {
+        margin-bottom: 20px; }
+    .write__form textarea {
+      width: 90%;
+      height: 100px; }
   /* Form */
   section.part {
     padding-bottom: 250px; }
@@ -868,63 +893,170 @@ p.gar__paragraph {
     line-height: 25px;
     padding: 22px 40px 18px 40px;
     max-width: 506px; }
+  .write__phone, .write__address, .write__email {
+    margin-top: 25px; }
+  .write__phone {
+    margin-top: 0; }
+  /* What Section */
+  h2.what__title {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 auto; }
+  p.what__paragraph {
+    font-size: 18px;
+    line-height: 18px; }
+  li.what__item {
+    padding: 50px 20px 15px 40px;
+    min-height: 180px; }
+  .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
+    margin-bottom: 40px; }
+  .gar__right {
+    padding-top: 35px;
+    padding-right: 30px;
+    padding-left: 80px; }
+    .gar__right .gar__head {
+      padding-bottom: 20px; }
+  h2.gar__title {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 50px; }
+    h2.gar__title::after {
+      margin-top: 30px; }
+  .gar__left {
+    padding-right: 40px; }
+  .gar__left-content {
+    margin-left: 80px; }
+  .map {
+    bottom: 0; }
+  .barista {
+    bottom: 25%; }
+  .doc, .prof, .marketing, .monitor {
+    left: -55px; }
+  .map, .barista {
+    left: -55px;
+    width: 40px; }
+  span.gar__head {
+    font-size: 25px;
+    line-height: 25px; }
+  p.gar__paragraph {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 30px; }
+  .mark, .prof, .monitor, .marketing {
+    width: 45px; }
+  .barista {
+    width: 50px; }
+  .doc {
+    width: 40px; }
+  .gar__left-mark {
+    position: absolute;
+    left: -60px;
+    width: 55px; } }
+
+@media only screen and (min-width: 992px) {
+  section.biz {
+    height: 600px;
+    padding-top: 9.26vh;
+    padding-bottom: 0; }
+    section.biz container {
+      height: 100%; }
+  p.biz__desc {
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 0;
+    padding-bottom: 0; }
+  h2.biz__title {
+    font-size: 19px;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    line-height: 19px; }
+    h2.biz__title::after {
+      margin-top: 25px;
+      width: 40px; }
+  table.biz__table {
+    width: 100%;
+    margin-top: 4.5vh;
+    margin-bottom: 42px; }
+    table.biz__table td {
+      width: 140px;
+      height: 70px;
+      padding: 1vh 2vh 0 1vh; }
+  .biz__table img {
+    margin-bottom: 20px; }
+  .biz__head {
+    margin-left: 85px; }
+  .button__white {
+    font-size: 21px;
+    line-height: 21px;
+    padding: 10px 20px;
+    width: 358px; }
+  .biz__table td img {
+    max-height: 8.33vh; }
+  .biz__table td .table__content p {
+    font-size: 11px;
+    line-height: 11px;
+    padding-top: 14px;
+    padding-bottom: 14px; }
+  /* Form */
+  section.part {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    height: 600px; }
+  .part__title {
+    font-size: 23px;
+    line-height: 23px; }
+    .part__title::after {
+      margin-bottom: 20px; }
+  h3.form__title {
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 185px;
+    padding: 0 30%;
+    font-weight: 500;
+    padding-bottom: 110px; }
+  .button__yellow-form {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 14px 20px;
+    max-width: 280px;
+    margin-top: 60px !important; }
   .part__form {
     padding-bottom: 100px;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     padding-right: 0; }
-  .part__form .write__form-text, .part__form .write__form-submit {
-    width: 24%;
-    max-width: 410px;
-    padding: 23px 20px 21px 25px;
-    font-size: 25px;
-    line-height: 25px;
-    margin-right: 125px; }
-  .part__form .write__form-text:last-child {
-    margin-right: 0; }
+    .part__form .write__form-text, .part__form .write__form-submit {
+      width: 24%;
+      max-width: 410px;
+      padding: 23px 20px 21px 25px;
+      font-size: 25px;
+      line-height: 25px;
+      margin-right: 125px; }
+    .part__form .write__form-text:last-child {
+      margin-right: 0; }
   /* Section Write */
   section.write {
-    padding: 100px 0 125px 0;
+    padding: 50px 0 70px 0;
     height: 1075px; }
   h2.write__title {
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 23px;
+    line-height: 23px;
     width: 60%; }
-  h2.write__title::after {
-    margin-top: 50px; }
+    h2.write__title::after {
+      margin-top: 30px; }
   .write__desc {
     font-size: 26px;
     line-height: 26px;
     padding-bottom: 35px; }
   .write__form {
     margin: 0; }
-<<<<<<< HEAD
-  .write__form .write__input-text {
-    width: 90%;
-    font-size: 21px;
-    line-height: 21px;
-    margin-bottom: 32px; }
-  .write__form .write__input-text:nth-child(3) {
-    margin-bottom: 24px; }
-  .write__form textarea {
-    width: 90%;
-    height: 150px;
-    font-size: 21px;
-    resize: none;
-    padding: 15px 40px 0 20px;
-    margin-bottom: 0; }
-  .write__form .write__input-submit {
-    line-height: 25px;
-    padding: 20px 0 20px 0;
-    margin-top: 17px; }
-=======
     .write__form .write__input-text {
       width: 90%;
       font-size: 21px;
       line-height: 21px;
       margin-bottom: 32px;
-      margin-bottom: 100px; }
+      margin-bottom: 0; }
     .write__form .write__input-text:nth-child(3) {
       margin-bottom: 24px; }
     .write__form textarea {
@@ -935,10 +1067,10 @@ p.gar__paragraph {
       padding: 15px 40px 0 20px;
       margin-bottom: 0; }
     .write__form .write__input-submit {
-      line-height: 25px;
-      padding: 20px 0 20px 0;
-      margin-top: 17px; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
+      font-size: 14px;
+      line-height: 14px;
+      padding: 10px 0 15px 0;
+      margin-top: 10px; }
   .write__left {
     padding-left: 80px;
     padding-right: 40px;
@@ -947,22 +1079,23 @@ p.gar__paragraph {
     height: 845px; }
   .right__container {
     width: 60%;
-    padding-top: 145px;
-    padding-bottom: 100px; }
-  .right__container .promo {
-    font-size: 27px;
-    margin-bottom: 50px; }
-  .right__container .promo::after {
-    margin-top: 35px;
-    width: 80px; }
-  .right__container p {
-    font-size: 27px; }
+    padding-top: 70px;
+    padding-bottom: 50px;
+    height: 100%; }
+    .right__container .promo {
+      font-size: 27px;
+      margin-bottom: 50px; }
+      .right__container .promo::after {
+        margin-top: 35px;
+        width: 80px; }
+    .right__container p {
+      font-size: 27px; }
   /* Section What */
   h2.what__title {
-    font-size: 33px;
-    line-height: 33px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 23px;
+    line-height: 23px;
+    padding-top: 25px;
+    padding-bottom: 24px;
     margin-left: 140px;
     text-align: left; }
   p.what__paragraph {
@@ -972,48 +1105,25 @@ p.gar__paragraph {
     padding: 80px 90px 80px 80px;
     height: 340px; }
   .g1, .g2, .g5, .g6 {
-    margin-bottom: 80px; }
+    margin-bottom: 50px; }
   .g3, .g4, .g7, .g8 {
-    margin-bottom: 70px; }
+    margin-bottom: 50px; }
   li.what__item:nth-child(9), li.what__item:nth-child(10) {
     margin-bottom: 0; }
   /* Section Guarantee*/
   section.gar {
     background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
     background-size: cover;
-<<<<<<< HEAD
-    padding-top: 20px; }
-=======
     padding-top: 4.63;
-    min-height: 640px;
-    max-height: 1080px;
-    height: 100%; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
+    height: 600px; }
   .gar__left, .gar__right {
     width: 50%;
     float: left; }
   .gar__right {
-    padding-left: 120px; }
+    padding-left: 210px; }
   .gar__left-content {
-    margin-left: 130px; }
+    margin-left: 185px; }
   h2.gar__title {
-<<<<<<< HEAD
-    margin-left: 80px;
-    font-size: 19px;
-    line-height: 19px;
-    margin-bottom: 45px; }
-  h2.gar__title::after {
-    position: absolute;
-    margin-top: 25px; }
-  span.gar__head {
-    font-size: 18px;
-    line-height: 18px;
-    padding-bottom: 30px; }
-  p.gar__paragraph {
-    font-size: 14px;
-    line-height: 14px;
-    margin-bottom: 25px; }
-=======
     margin-left: 7.4vh;
     font-size: 4vh;
     line-height: 4vh;
@@ -1027,28 +1137,16 @@ p.gar__paragraph {
   p.gar__paragraph {
     font-size: 2vh;
     line-height: 2vh;
-    margin-bottom: 3.7vh; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
+    margin-bottom: 8px; }
   .doc, .prof, .marketing, .monitor {
     position: absolute;
     display: block;
     top: 0;
-    left: -70px; }
+    left: -125px; }
   .map, .barista {
     position: absolute;
     display: block;
     bottom: -30%;
-<<<<<<< HEAD
-    left: -70px;
-    width: 40px; }
-  .mark, .prof, .monitor, .marketing {
-    width: 45px; }
-  .barista {
-    bottom: -25%;
-    width: 45px; }
-  .doc {
-    width: 40px; }
-=======
     left: -125px;
     width: 5vh; }
   .mark, .prof, .monitor, .marketing {
@@ -1058,38 +1156,31 @@ p.gar__paragraph {
     width: 6vh; }
   .doc {
     width: 5.8vh; }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   h2.gar__title {
     text-align: left; }
   .gar__left-mark {
     position: absolute;
-<<<<<<< HEAD
-    left: -60px;
-    width: 45px; } }
-=======
     left: -110px;
     width: 7vh; } }
->>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
 
 @media only screen and (min-width: 1248px) {
   section.part {
     padding-bottom: 250px; }
   .part__form {
     padding-left: 0; }
-  .part__form .write__input-text, .part__form .write__input-submit {
-    max-width: 410px;
-    width: 28%;
-    padding: 19px 20px 19px 25px; }
-  .part__form .write__input-text:nth-child(3) {
-    margin-right: 0; }
+    .part__form .write__input-text, .part__form .write__input-submit {
+      max-width: 410px;
+      width: 28%;
+      padding: 15px 20px 10px 25px; }
+    .part__form .write__input-text:nth-child(3) {
+      margin-right: 0; }
   /* Section Write */
   h2.write__title {
-    font-size: 42px;
-    line-height: 49px;
-    width: 280px; }
-  h2.write__title::after {
-    margin-top: 35px;
-    height: 1px; }
+    font-size: 23px;
+    line-height: 23px; }
+    h2.write__title::after {
+      margin-top: 35px;
+      height: 1px; }
   .write__desc {
     font-size: 26px;
     line-height: 26px;
@@ -1112,3 +1203,224 @@ p.gar__paragraph {
     padding-bottom: 110px; }
   section.what {
     height: 2160px; } }
+
+.part__form {
+  padding-bottom: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-right: 0; }
+
+.part__form .write__form-text, .part__form .write__form-submit {
+  width: 24%;
+  max-width: 410px;
+  padding: 23px 20px 21px 25px;
+  font-size: 25px;
+  line-height: 25px;
+  margin-right: 125px; }
+
+.part__form .write__form-text:last-child {
+  margin-right: 0; }
+
+/* Section Write */
+section.write {
+  padding: 50px 0 70px 0;
+  height: 600px; }
+
+h2.write__title {
+  font-size: 23px;
+  line-height: 23px;
+  width: 60%; }
+  h2.write__title::after {
+    width: 40px; }
+
+h2.write__title::after {
+  margin-top: 25px; }
+
+.write__desc {
+  font-size: 14px;
+  line-height: 14px;
+  padding-bottom: 25px; }
+
+.write__form {
+  margin: 0; }
+
+.write__form .write__input-text {
+  width: 270px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 18px; }
+
+.write__form .write__input-text:nth-child(3) {
+  margin-bottom: 24px; }
+
+.write__form textarea {
+  width: 270px;
+  height: 80px;
+  font-size: 14px;
+  resize: none;
+  padding: 15px 40px 0 20px;
+  margin-bottom: 0; }
+
+.write__form .write__input-submit {
+  line-height: 14px;
+  font-size: 14px;
+  padding: 10px 0 12px 0;
+  margin-top: 10px; }
+
+.write__left {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px; }
+
+.write__left, .write__right {
+  height: 470px; }
+
+.right__container {
+  width: 60%;
+  padding-top: 70px;
+  padding-bottom: 50px; }
+
+.right__container .promo {
+  font-size: 15px;
+  margin-bottom: 25px; }
+
+.right__container .promo::after {
+  margin-top: 20px;
+  width: 50px; }
+
+.right__container p {
+  font-size: 14px; }
+
+/* Section What */
+h2.what__title {
+  font-size: 23px;
+  line-height: 23px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 80px;
+  text-align: left; }
+
+p.what__paragraph {
+  font-size: 18px;
+  line-height: 18px; }
+
+li.what__item {
+  padding: 50px 50px 80px 40px;
+  height: 180px; }
+
+.g1, .g2, .g5, .g6 {
+  margin-bottom: 50px; }
+
+.g3, .g4, .g7, .g8 {
+  margin-bottom: 50px; }
+
+li.what__item:nth-child(9), li.what__item:nth-child(10) {
+  margin-bottom: 0; }
+
+/* Section Guarantee*/
+section.gar {
+  background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
+  background-size: cover;
+  padding-top: 20px; }
+
+.gar__left, .gar__right {
+  width: 50%;
+  float: left; }
+
+.gar__right {
+  padding-left: 120px; }
+
+.gar__left-content {
+  margin-left: 130px; }
+
+h2.gar__title {
+  margin-left: 80px;
+  font-size: 19px;
+  line-height: 19px;
+  margin-bottom: 45px; }
+
+h2.gar__title::after {
+  position: absolute;
+  margin-top: 25px; }
+
+span.gar__head {
+  font-size: 18px;
+  line-height: 18px;
+  padding-bottom: 30px; }
+
+p.gar__paragraph {
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 8px; }
+
+.doc, .prof, .marketing, .monitor {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -70px; }
+
+.map, .barista {
+  position: absolute;
+  display: block;
+  bottom: -30%;
+  left: -70px;
+  width: 40px; }
+
+.mark, .prof, .monitor, .marketing {
+  width: 45px; }
+
+.barista {
+  bottom: -25%;
+  width: 45px; }
+
+.doc {
+  width: 40px; }
+
+h2.gar__title {
+  text-align: left; }
+
+.gar__left-mark {
+  position: absolute;
+  left: -60px;
+  width: 45px; }
+
+@media only screen and (min-width: 1248px) {
+  .part__form {
+    padding-left: 0; }
+  .part__form .write__input-text, .part__form .write__input-submit {
+    width: 225px;
+    padding: 10px 20px 8px 15px;
+    font-size: 14px; }
+  .part__form .write__input-text:nth-child(3) {
+    margin-right: 0; }
+  /* Section Write */
+  h2.write__title {
+    font-size: 23px;
+    line-height: 23px;
+    width: 280px; }
+  h2.write__title::after {
+    margin-top: 15px;
+    height: 1px; }
+  .write__desc {
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 20px;
+    padding-top: 0;
+    margin-top: 10px; }
+  .write__form .write__input-text {
+    font-size: 14px;
+    max-width: 270px;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 10px; }
+  .write__form textarea {
+    width: 270px;
+    margin-bottom: 0; }
+  .write__left, .write__right {
+    height: 470px; }
+  .right__container {
+    width: 52%;
+    padding-top: 70px;
+    padding-bottom: 60px; }
+  section.what {
+    height: 1200px; } }
