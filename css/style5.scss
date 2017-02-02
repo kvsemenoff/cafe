@@ -5,11 +5,11 @@
 /*our*/
 
 .df-bg{
-	padding: 50px 0 90px 0;
+	padding: 25px 0 57px 0;
 	background-color: #f5f5f5;
 }
 .df-section{
-	max-width: 1920px;
+	max-width: 1055px;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -19,24 +19,25 @@
 	position: relative;
 }
 .df-cap-our{
-	padding-bottom: 45px;
-	max-width: 1500px;
+	padding-bottom: 20px;
+    max-width: 607px;
 	width: 100%;
 	margin: 0 auto;
 	text-align: left;
+	font-size: 19px !important;
 }
 .df-cap-our:after{
 	content: "";
     display: block;
     background: #cc9900;
     height: 1px;   
-    width: 75px;
-    margin-top: 34px;
+    width: 45px;
+    margin-top: 20px;
 }
 
 .df-slider-our__img{
-	max-width: 1125px;	
-	height: 815px;
+	max-width: 620px;	
+	height: 447px;
 	width: 100%;
 	position: relative !important;		
 	display: block;
@@ -71,23 +72,21 @@
 .df-slider-txt{
 	position: absolute;
 	display: none;
-	bottom: 55px;
+	bottom: 30px;
 	left:50%;
 	transform:translate(-50%, 0);
 	text-align: center;	
 }
 .df-img-h3, .df-img-adress{
 	font-family: 'Exo2-Regular';
-	font-size: 50px;
+	font-size: 27.5px;
 	text-transform: uppercase;
-	color:#fff;	
-	margin-bottom: 30px;
+	color:#fff;		
 }
 .df-img-adress{
 	font-family: 'Exo2-Regular';
-	font-size: 25px;
-	color:#fff;
-	margin-bottom: 0;
+	font-size: 13.7px;
+	color:#fff;	
 	text-transform: none;
 }
 
