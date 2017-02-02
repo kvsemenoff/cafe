@@ -6,6 +6,9 @@
   display: table;
   clear: both; }
 
+.wrap {
+  height: 100%; }
+
 section.biz {
   background: #fff;
   padding-top: 40px;
@@ -400,7 +403,10 @@ li.what__item:nth-child(even) {
 section.gar {
   background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
   background-size: cover;
-  padding-top: 20px; }
+  padding-top: 20px;
+  min-height: 640px;
+  max-height: 1080px;
+  height: 100%; }
 
 h2.gar__title {
   color: #fff;
@@ -642,6 +648,7 @@ p.gar__paragraph {
     padding-bottom: 100px;
     width: 100%;
     padding-left: 7%; }
+<<<<<<< HEAD
   .part__form .write__input-text, .part__form .write__input-submit {
     width: 24%;
     font-size: 20px;
@@ -649,6 +656,15 @@ p.gar__paragraph {
     display: inline-block; }
   .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
     margin-right: 0; }
+=======
+    .part__form .write__input-text, .part__form .write__input-submit {
+      width: 24%;
+      font-size: 20px;
+      display: inline-block;
+      margin-bottom: 100px; }
+      .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
+        margin-right: 0; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   /* section write */
   .write__left, .write__right {
     float: left;
@@ -755,6 +771,7 @@ p.gar__paragraph {
 
 @media only screen and (min-width: 992px) {
   section.biz {
+<<<<<<< HEAD
     padding-top: 100px;
     padding-bottom: 80px; }
   p.biz__desc {
@@ -768,11 +785,41 @@ p.gar__paragraph {
   h2.biz__title::after {
     margin-top: 20px;
     width: 50px; }
+=======
+    min-height: 640px;
+    max-height: 1080px;
+    height: 100%;
+    padding-top: 9.26vh;
+    padding-bottom: 0; }
+    section.biz container {
+      height: 100%; }
+  p.biz__desc {
+    font-size: 26px;
+    padding-right: 18%;
+    line-height: 26px;
+    padding-top: 0;
+    padding-bottom: 0; }
+  h2.biz__title {
+    font-size: 33px;
+    margin-bottom: 4.63vh; }
+    h2.biz__title::after {
+      margin-top: 3.3vh;
+      width: 80px; }
+  table.biz__table {
+    width: 100%;
+    margin-top: 4.5vh;
+    margin-bottom: 42px; }
+    table.biz__table td {
+      width: 16.66%;
+      height: 0;
+      padding: 1vh 2vh 0 1vh; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   .biz__table img {
     margin-bottom: 20px;
     max-width: 60px;
     height: 60px; }
   .button__white {
+<<<<<<< HEAD
     font-size: 36px;
     line-height: 36px;
     max-width: 360px;
@@ -788,6 +835,19 @@ p.gar__paragraph {
   table.biz__table td {
     width: 140px;
     height: 100px; }
+=======
+    font-size: 3.33vh;
+    line-height: 3.33vh;
+    padding: 1.2vh 5.92vh 1.5vh 5.92vh;
+    max-width: 654px; }
+  .biz__table td img {
+    max-height: 8.33vh; }
+  .biz__table td .table__content p {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 2.7vh;
+    padding-bottom: 2.34vh; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   /* Form */
   section.part {
     padding-bottom: 250px; }
@@ -839,6 +899,7 @@ p.gar__paragraph {
     padding-bottom: 35px; }
   .write__form {
     margin: 0; }
+<<<<<<< HEAD
   .write__form .write__input-text {
     width: 90%;
     font-size: 21px;
@@ -857,6 +918,27 @@ p.gar__paragraph {
     line-height: 25px;
     padding: 20px 0 20px 0;
     margin-top: 17px; }
+=======
+    .write__form .write__input-text {
+      width: 90%;
+      font-size: 21px;
+      line-height: 21px;
+      margin-bottom: 32px;
+      margin-bottom: 100px; }
+    .write__form .write__input-text:nth-child(3) {
+      margin-bottom: 24px; }
+    .write__form textarea {
+      width: 90%;
+      height: 150px;
+      font-size: 21px;
+      resize: none;
+      padding: 15px 40px 0 20px;
+      margin-bottom: 0; }
+    .write__form .write__input-submit {
+      line-height: 25px;
+      padding: 20px 0 20px 0;
+      margin-top: 17px; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   .write__left {
     padding-left: 80px;
     padding-right: 40px;
@@ -899,7 +981,14 @@ p.gar__paragraph {
   section.gar {
     background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     padding-top: 20px; }
+=======
+    padding-top: 4.63;
+    min-height: 640px;
+    max-height: 1080px;
+    height: 100%; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   .gar__left, .gar__right {
     width: 50%;
     float: left; }
@@ -908,6 +997,7 @@ p.gar__paragraph {
   .gar__left-content {
     margin-left: 130px; }
   h2.gar__title {
+<<<<<<< HEAD
     margin-left: 80px;
     font-size: 19px;
     line-height: 19px;
@@ -923,6 +1013,22 @@ p.gar__paragraph {
     font-size: 14px;
     line-height: 14px;
     margin-bottom: 25px; }
+=======
+    margin-left: 7.4vh;
+    font-size: 4vh;
+    line-height: 4vh;
+    margin-bottom: 6.94px; }
+    h2.gar__title::after {
+      margin-top: 3.703vh; }
+  span.gar__head {
+    font-size: 2.3vh;
+    line-height: 2.3vh;
+    padding-bottom: 5vh; }
+  p.gar__paragraph {
+    font-size: 2vh;
+    line-height: 2vh;
+    margin-bottom: 3.7vh; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   .doc, .prof, .marketing, .monitor {
     position: absolute;
     display: block;
@@ -932,6 +1038,7 @@ p.gar__paragraph {
     position: absolute;
     display: block;
     bottom: -30%;
+<<<<<<< HEAD
     left: -70px;
     width: 40px; }
   .mark, .prof, .monitor, .marketing {
@@ -941,12 +1048,28 @@ p.gar__paragraph {
     width: 45px; }
   .doc {
     width: 40px; }
+=======
+    left: -125px;
+    width: 5vh; }
+  .mark, .prof, .monitor, .marketing {
+    width: 6.6vh; }
+  .barista {
+    bottom: -25%;
+    width: 6vh; }
+  .doc {
+    width: 5.8vh; }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
   h2.gar__title {
     text-align: left; }
   .gar__left-mark {
     position: absolute;
+<<<<<<< HEAD
     left: -60px;
     width: 45px; } }
+=======
+    left: -110px;
+    width: 7vh; } }
+>>>>>>> d22ae088f495e71b30537711e196cf63e16da93b
 
 @media only screen and (min-width: 1248px) {
   section.part {
