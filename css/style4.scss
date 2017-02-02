@@ -1,6 +1,6 @@
 
 .container{
-	max-width:1498px;
+	max-width:827px;
 	// padding-left: 20px;
 	// padding-right: 20px;
 	margin: 0 auto;
@@ -262,6 +262,7 @@ body, html{
 	.dd-fact-txt{
 		text-align: left;
 		padding-left: 50px;
+		font-size: 20px;
 	}
 	.dd-meet-title2{
 		padding-left: 80px;
@@ -285,26 +286,15 @@ body, html{
 	.dd-facts-left{
 		float: left;
 		// width: 748px;
-		width: 630px;
+		width: 415px;
 	}
 	.dd-facts-right{
 		float: left;
 		// width: 748px;
 		padding-left: 0px;
 		padding-right: 0px;
-		width: 630px;
+		width: 415px;
 		padding-top: 195px;
 	}
 }
 
-@media only screen and (min-width : 1500px) {
-	.dd-facts-left{
-		float: left;
-		width: 748px;
-		
-	}
-	.dd-facts-right{
-		float: left;
-		width: 748px;
-	}
-}
