@@ -1,3 +1,6 @@
+.wrap {
+  height: 100%; }
+
 .clearfix::after {
   content: "";
   display: table;
@@ -15,14 +18,15 @@ section.biz {
 h2.biz__title {
   font-size: 34px;
   line-height: 34px; }
-  h2.biz__title::after {
-    content: "";
-    width: 15%;
-    background-color: #c39b0c;
-    height: 1px;
-    display: block;
-    margin-left: 5px;
-    margin-top: 10px; }
+
+h2.biz__title::after {
+  content: "";
+  width: 15%;
+  background-color: #c39b0c;
+  height: 1px;
+  display: block;
+  margin-left: 5px;
+  margin-top: 10px; }
 
 p.biz__desc {
   font-family: "Exo2-Regular";
@@ -50,25 +54,30 @@ table.biz__table {
   margin: 0 auto;
   margin-bottom: 15px;
   display: inline-block; }
-  .biz__table td:nth-child(odd) {
-    float: left; }
-  .biz__table td:nth-child(even) {
-    float: right; }
-  .biz__table td img {
-    display: block;
-    max-width: 100%;
-    max-height: 90px;
-    margin: 0 auto; }
-  .biz__table td .table__content {
-    text-align: center;
-    width: 100%; }
-    .biz__table td .table__content p {
-      font-family: "Exo2-Regular", sans-serif;
-      font-size: 14px;
-      color: #000;
-      font-weight: 400;
-      margin: 0;
-      padding-top: 10px; }
+
+.biz__table td:nth-child(odd) {
+  float: left; }
+
+.biz__table td:nth-child(even) {
+  float: right; }
+
+.biz__table td img {
+  display: block;
+  max-width: 80px;
+  max-height: 50px;
+  margin: 0 auto; }
+
+.biz__table td .table__content {
+  text-align: center;
+  width: 100%; }
+
+.biz__table td .table__content p {
+  font-family: "Exo2-Regular", sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 10px; }
 
 .button__white {
   font-size: 14px;
@@ -77,10 +86,12 @@ table.biz__table {
   padding: 1% 4%;
   color: #c39b0c;
   background: #fff;
-  text-decoration: none; }
-  .button__white:hover {
-    color: #fff;
-    background: #c39b0c; }
+  text-decoration: none;
+  cursor: pointer; }
+
+.button__white:hover {
+  color: #fff;
+  background: #c39b0c; }
 
 /* Section Part*/
 section.part {
@@ -112,15 +123,16 @@ section.part {
   padding-bottom: 3%;
   padding-left: 10px;
   padding-right: 10px; }
-  .part__title::after {
-    content: "";
-    display: block;
-    background: #cc9900;
-    height: 2px;
-    width: 8%;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 5%; }
+
+.part__title::after {
+  content: "";
+  display: block;
+  background: #cc9900;
+  height: 2px;
+  width: 8%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 5%; }
 
 h3.form__title {
   font-family: "Exo2-Regular";
@@ -139,15 +151,16 @@ h3.form__title {
   padding-bottom: 30px;
   display: block;
   margin: 0 auto; }
-  .part__form .write__input-text, .part__form .write__input-submit {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px 20px 10px 20px;
-    font-size: 14px;
-    margin-right: 7.3%; }
+
+.part__form .write__input-text, .part__form .write__input-submit {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  margin-right: 7.3%; }
 
 .write__input-text::-webkit-input-placeholder {
   color: #fff; }
@@ -174,14 +187,15 @@ h2.write__title {
   line-height: 34px;
   font-weight: 400;
   text-align: left; }
-  h2.write__title::after {
-    content: "";
-    display: block;
-    background: #cc9900;
-    height: 1px;
-    width: 8%;
-    margin-top: 15px;
-    margin-bottom: 5%; }
+
+h2.write__title::after {
+  content: "";
+  display: block;
+  background: #cc9900;
+  height: 1px;
+  width: 8%;
+  margin-top: 15px;
+  margin-bottom: 5%; }
 
 .write__left, .write__right {
   display: block; }
@@ -210,50 +224,61 @@ h2.write__title {
   margin: 0 auto;
   /* Firefox 19+ */
   /* Firefox 18- */ }
-  .write__form .write__input-submit {
-    cursor: pointer;
-    width: 100%;
-    font-size: 14px;
-    color: #003;
-    border: 2px solid #000;
-    padding: 10px 0 10px 0;
-    margin-top: 15px; }
-    .write__form .write__input-submit:hover {
-      color: #c39b0c;
-      border: 2px solid #c39b0c; }
-  .write__form .write__input-text, .write__form textarea {
-    color: #000;
-    font-size: 14px;
-    border: 1px solid #003;
-    outline: 0;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px 20px 10px 15px; }
-    .write__form .write__input-text:last-child, .write__form textarea:last-child {
-      margin-bottom: 10px; }
-    .write__form .write__input-text:focus, .write__form textarea:focus {
-      border: 1px solid #c39b0c;
-      color: #c39b0c;
-      background: url(/img/icons/success.png) 96% 50% no-repeat;
-      background-size: 7%; }
-  .write__form textarea {
-    height: 70px;
-    font-size: 14px;
-    line-height: 14px;
-    resize: none;
-    width: 100%;
-    font-family: "Exo2-Regular"; }
-    .write__form textarea:focus {
-      background: url(/img/icons/success.png) 96% 15% no-repeat;
-      background-size: 7%; }
-  .write__form ::-webkit-input-placeholder {
-    color: #010101; }
-  .write__form ::-moz-placeholder {
-    color: #010101; }
-  .write__form :-moz-placeholder {
-    color: #010101; }
-  .write__form s:-ms-input-placeholder {
-    color: #010101; }
+
+.write__form .write__input-submit {
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  color: #003;
+  border: 2px solid #000;
+  padding: 10px 0 10px 0;
+  margin-top: 15px; }
+
+.write__form .write__input-submit:hover {
+  color: #c39b0c;
+  border: 2px solid #c39b0c; }
+
+.write__form .write__input-text, .write__form textarea {
+  color: #000;
+  font-size: 14px;
+  border: 1px solid #003;
+  outline: 0;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 20px 10px 15px; }
+
+.write__form .write__input-text:last-child, .write__form textarea:last-child {
+  margin-bottom: 10px; }
+
+.write__form .write__input-text:focus, .write__form textarea:focus {
+  border: 1px solid #c39b0c;
+  color: #c39b0c;
+  background: url(/img/icons/success.png) 96% 50% no-repeat;
+  background-size: 7%; }
+
+.write__form textarea {
+  height: 70px;
+  font-size: 14px;
+  line-height: 14px;
+  resize: none;
+  width: 100%;
+  font-family: "Exo2-Regular"; }
+
+.write__form textarea:focus {
+  background: url(/img/icons/success.png) 96% 15% no-repeat;
+  background-size: 7%; }
+
+.write__form ::-webkit-input-placeholder {
+  color: #010101; }
+
+.write__form ::-moz-placeholder {
+  color: #010101; }
+
+.write__form :-moz-placeholder {
+  color: #010101; }
+
+.write__form s:-ms-input-placeholder {
+  color: #010101; }
 
 .right__container {
   width: 60%;
@@ -261,22 +286,26 @@ h2.write__title {
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center; }
-  .right__container p {
-    color: #fff;
-    font-size: 18px; }
-  .right__container .promo {
-    color: #fff;
-    font-size: 18px; }
-  .right__container .promo {
-    margin-bottom: 10px; }
-    .right__container .promo::after {
-      content: "";
-      display: block;
-      background: #cc9900;
-      height: 1px;
-      width: 15%;
-      margin: 0 auto;
-      margin-top: 10px; }
+
+.right__container p {
+  color: #fff;
+  font-size: 18px; }
+
+.right__container .promo {
+  color: #fff;
+  font-size: 18px; }
+
+.right__container .promo {
+  margin-bottom: 10px; }
+
+.right__container .promo::after {
+  content: "";
+  display: block;
+  background: #cc9900;
+  height: 1px;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 10px; }
 
 .write__phone, .write__address, .write__email {
   margin-top: 30px; }
@@ -353,11 +382,13 @@ li.what__item {
   width: 45%;
   padding: 20px 10px 5px 10px;
   min-height: 110px; }
-  li.what__item:nth-child(odd) {
-    float: left;
-    margin-right: 10px; }
-  li.what__item:nth-child(even) {
-    float: right; }
+
+li.what__item:nth-child(odd) {
+  float: left;
+  margin-right: 10px; }
+
+li.what__item:nth-child(even) {
+  float: right; }
 
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
   margin-bottom: 20px; }
@@ -377,14 +408,15 @@ h2.gar__title {
   line-height: 25px;
   text-align: center;
   margin-bottom: 35px; }
-  h2.gar__title::after {
-    content: "";
-    display: block;
-    width: 75px;
-    height: 1px;
-    background: #c39b0c;
-    margin: 0 auto;
-    margin-top: 20px; }
+
+h2.gar__title::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 1px;
+  background: #c39b0c;
+  margin: 0 auto;
+  margin-top: 20px; }
 
 span.gar__head {
   font-size: 22px;
@@ -421,8 +453,9 @@ p.gar__paragraph {
   padding-top: 25px;
   padding-right: 20px;
   padding-left: 60px; }
-  .gar__right .gar__head {
-    padding-bottom: 10px; }
+
+.gar__right .gar__head {
+  padding-bottom: 10px; }
 
 .doc, .prof, .marketing, .monitor {
   position: absolute;
@@ -467,10 +500,10 @@ p.gar__paragraph {
     width: 80%;
     padding-left: 20px;
     padding-right: 20px; }
-    .part__form .wrtite__input-text, .part__form .write__input-submit {
-      width: 200px;
-      font-size: 16px;
-      line-height: 16px; }
+  .part__form .wrtite__input-text, .part__form .write__input-submit {
+    width: 200px;
+    font-size: 16px;
+    line-height: 16px; }
   .button__yellow-form {
     font-size: 16px;
     line-height: 16px;
@@ -490,8 +523,8 @@ p.gar__paragraph {
     font-size: 38px;
     line-height: 38px;
     width: 28%; }
-    h2.write__title::after {
-      width: 40%; }
+  h2.write__title::after {
+    width: 40%; }
   .write__desc {
     font-size: 20px;
     line-height: 20px;
@@ -505,8 +538,8 @@ p.gar__paragraph {
     max-width: 450px;
     font-size: 18px;
     margin-bottom: 20px; }
-    .write__form .write__input-text:last-child {
-      margin-bottom: 15px; }
+  .write__form .write__input-text:last-child {
+    margin-bottom: 15px; }
   .write__form .write__input-submit {
     max-width: 300px;
     width: 80%;
@@ -521,12 +554,12 @@ p.gar__paragraph {
     padding: 10px 20px 0px 15px; }
   .right__container {
     width: 48%; }
-    .right__container .promo {
-      font-size: 20px; }
-      .right__container .promo::after {
-        margin-top: 15px; }
-    .right__container p {
-      font-size: 20px; }
+  .right__container .promo {
+    font-size: 20px; }
+  .right__container .promo::after {
+    margin-top: 15px; }
+  .right__container p {
+    font-size: 20px; }
   /* What Section */
   h2.what__title {
     font-size: 20px;
@@ -543,16 +576,16 @@ p.gar__paragraph {
     padding-top: 35px;
     padding-right: 30px;
     padding-left: 80px; }
-    .gar__right .gar__head {
-      padding-bottom: 20px; }
+  .gar__right .gar__head {
+    padding-bottom: 20px; }
   h2.gar__title {
     font-size: 28px;
     line-height: 28px;
     margin-bottom: 50px; }
-    h2.gar__title::after {
-      margin-top: 30px; }
+  h2.gar__title::after {
+    margin-top: 30px; }
   .gar__left {
-    padding-right: 40px; }
+    padding-right: 20px; }
   .gar__left-content {
     margin-left: 80px; }
   .map {
@@ -580,10 +613,10 @@ p.gar__paragraph {
     width: 95%;
     margin-top: 45px;
     margin-bottom: 50px; }
-    table.biz__table td {
-      width: 15%; }
-      table.biz__table td:nth-child(even), table.biz__table td:nth-child(odd) {
-        float: none; }
+  table.biz__table td {
+    width: 15%; }
+  table.biz__table td:nth-child(even), table.biz__table td:nth-child(odd) {
+    float: none; }
   .button__white {
     font-size: 25px;
     max-width: 60%; }
@@ -593,8 +626,8 @@ p.gar__paragraph {
   .part__title {
     font-size: 20px;
     line-height: 20px; }
-    .part__title::after {
-      margin-top: 35px; }
+  .part__title::after {
+    margin-top: 35px; }
   h3.form__title {
     font-size: 26px;
     line-height: 30px;
@@ -609,13 +642,13 @@ p.gar__paragraph {
     padding-bottom: 100px;
     width: 100%;
     padding-left: 7%; }
-    .part__form .write__input-text, .part__form .write__input-submit {
-      width: 24%;
-      font-size: 20px;
-      margin-bottom: 30px;
-      display: inline-block; }
-      .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
-        margin-right: 0; }
+  .part__form .write__input-text, .part__form .write__input-submit {
+    width: 24%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: inline-block; }
+  .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
+    margin-right: 0; }
   /* section write */
   .write__left, .write__right {
     float: left;
@@ -632,34 +665,34 @@ p.gar__paragraph {
     width: 100%; }
   .write__form {
     text-align: left; }
-    .write__form .write__input-submit {
-      width: 60%;
-      font-size: 25px;
-      max-width: 335px;
-      margin-top: 30px; }
-    .write__form .write__input-text {
-      font-size: 20px;
-      width: 90%;
-      margin-bottom: 25px; }
-      .write__form .write__input-text::last-child {
-        margin-bottom: 20px; }
-    .write__form textarea {
-      width: 90%;
-      height: 100px;
-      font-size: 20px;
-      resize: none;
-      padding: 10px 30px 0 15px; }
+  .write__form .write__input-submit {
+    width: 60%;
+    font-size: 25px;
+    max-width: 335px;
+    margin-top: 30px; }
+  .write__form .write__input-text {
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 25px; }
+  .write__form .write__input-text::last-child {
+    margin-bottom: 20px; }
+  .write__form textarea {
+    width: 90%;
+    height: 100px;
+    font-size: 20px;
+    resize: none;
+    padding: 10px 30px 0 15px; }
   .right__container {
     width: 70%;
     text-align: left;
     padding-top: 60px;
     height: 686px; }
-    .right__container .promo {
-      font-size: 27px;
-      line-height: 27px; }
-      .right__container .promo::after {
-        margin: 0;
-        margin-top: 20px; }
+  .right__container .promo {
+    font-size: 27px;
+    line-height: 27px; }
+  .right__container .promo::after {
+    margin: 0;
+    margin-top: 20px; }
   .write__phone, .write__address, .write__email {
     margin-top: 50px; }
   .write__phone {
@@ -681,14 +714,14 @@ p.gar__paragraph {
     padding-top: 35px;
     padding-right: 30px;
     padding-left: 80px; }
-    .gar__right .gar__head {
-      padding-bottom: 20px; }
+  .gar__right .gar__head {
+    padding-bottom: 20px; }
   h2.gar__title {
     font-size: 32px;
     line-height: 32px;
     margin-bottom: 50px; }
-    h2.gar__title::after {
-      margin-top: 30px; }
+  h2.gar__title::after {
+    margin-top: 30px; }
   .gar__left {
     padding-right: 40px; }
   .gar__left-content {
@@ -721,44 +754,48 @@ p.gar__paragraph {
     width: 55px; } }
 
 @media only screen and (min-width: 992px) {
+  section.biz {
+    padding-top: 100px;
+    padding-bottom: 80px; }
   p.biz__desc {
-    font-size: 26px;
-    padding-right: 18%;
-    line-height: 26px; }
+    font-size: 14px;
+    width: 350px;
+    line-height: 18px;
+    padding-top: 0; }
   h2.biz__title {
-    font-size: 36px;
-    padding-bottom: 38px; }
-    h2.biz__title::after {
-      margin-top: 35px;
-      width: 80px; }
-  table.biz__table {
-    width: 100%;
-    margin-top: 57.5px;
-    margin-bottom: 72px; }
-    table.biz__table td {
-      width: 16.66%; }
+    font-size: 19px;
+    padding-bottom: 30px; }
+  h2.biz__title::after {
+    margin-top: 20px;
+    width: 50px; }
   .biz__table img {
-    margin-bottom: 20px; }
-  .biz__head {
-    margin-left: 85px; }
+    margin-bottom: 20px;
+    max-width: 60px;
+    height: 60px; }
   .button__white {
     font-size: 36px;
     line-height: 36px;
-    padding: 13px 64px 15px 64px;
-    max-width: 654px; }
+    max-width: 360px;
+    font-size: 21px;
+    padding: 0;
+    line-height: 40px;
+    margin-top: 40px !important; }
   .biz__table td .table__content p {
-    font-size: 22px;
-    line-height: 22px;
-    padding-top: 30px;
-    padding-bottom: 25px; }
+    font-size: 11px;
+    line-height: 11px; }
+  .biz__head {
+    margin-left: 75px; }
+  table.biz__table td {
+    width: 140px;
+    height: 100px; }
   /* Form */
   section.part {
     padding-bottom: 250px; }
   .part__title {
     font-size: 42px;
     line-height: 42px; }
-    .part__title::after {
-      margin-bottom: 33px; }
+  .part__title::after {
+    margin-bottom: 33px; }
   h3.form__title {
     font-size: 26px;
     line-height: 30px;
@@ -777,15 +814,15 @@ p.gar__paragraph {
     padding-left: 20px;
     padding-right: 20px;
     padding-right: 0; }
-    .part__form .write__form-text, .part__form .write__form-submit {
-      width: 24%;
-      max-width: 410px;
-      padding: 23px 20px 21px 25px;
-      font-size: 25px;
-      line-height: 25px;
-      margin-right: 125px; }
-    .part__form .write__form-text:last-child {
-      margin-right: 0; }
+  .part__form .write__form-text, .part__form .write__form-submit {
+    width: 24%;
+    max-width: 410px;
+    padding: 23px 20px 21px 25px;
+    font-size: 25px;
+    line-height: 25px;
+    margin-right: 125px; }
+  .part__form .write__form-text:last-child {
+    margin-right: 0; }
   /* Section Write */
   section.write {
     padding: 100px 0 125px 0;
@@ -794,32 +831,32 @@ p.gar__paragraph {
     font-size: 42px;
     line-height: 42px;
     width: 60%; }
-    h2.write__title::after {
-      margin-top: 50px; }
+  h2.write__title::after {
+    margin-top: 50px; }
   .write__desc {
     font-size: 26px;
     line-height: 26px;
     padding-bottom: 35px; }
   .write__form {
     margin: 0; }
-    .write__form .write__input-text {
-      width: 90%;
-      font-size: 21px;
-      line-height: 21px;
-      margin-bottom: 32px; }
-    .write__form .write__input-text:nth-child(3) {
-      margin-bottom: 24px; }
-    .write__form textarea {
-      width: 90%;
-      height: 150px;
-      font-size: 21px;
-      resize: none;
-      padding: 15px 40px 0 20px;
-      margin-bottom: 0; }
-    .write__form .write__input-submit {
-      line-height: 25px;
-      padding: 20px 0 20px 0;
-      margin-top: 17px; }
+  .write__form .write__input-text {
+    width: 90%;
+    font-size: 21px;
+    line-height: 21px;
+    margin-bottom: 32px; }
+  .write__form .write__input-text:nth-child(3) {
+    margin-bottom: 24px; }
+  .write__form textarea {
+    width: 90%;
+    height: 150px;
+    font-size: 21px;
+    resize: none;
+    padding: 15px 40px 0 20px;
+    margin-bottom: 0; }
+  .write__form .write__input-submit {
+    line-height: 25px;
+    padding: 20px 0 20px 0;
+    margin-top: 17px; }
   .write__left {
     padding-left: 80px;
     padding-right: 40px;
@@ -830,14 +867,14 @@ p.gar__paragraph {
     width: 60%;
     padding-top: 145px;
     padding-bottom: 100px; }
-    .right__container .promo {
-      font-size: 27px;
-      margin-bottom: 50px; }
-      .right__container .promo::after {
-        margin-top: 35px;
-        width: 80px; }
-    .right__container p {
-      font-size: 27px; }
+  .right__container .promo {
+    font-size: 27px;
+    margin-bottom: 50px; }
+  .right__container .promo::after {
+    margin-top: 35px;
+    width: 80px; }
+  .right__container p {
+    font-size: 27px; }
   /* Section What */
   h2.what__title {
     font-size: 33px;
@@ -862,73 +899,74 @@ p.gar__paragraph {
   section.gar {
     background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
     background-size: cover;
-    padding-top: 50px; }
+    padding-top: 20px; }
   .gar__left, .gar__right {
     width: 50%;
     float: left; }
   .gar__right {
-    padding-left: 210px; }
+    padding-left: 120px; }
   .gar__left-content {
-    margin-left: 185px; }
+    margin-left: 130px; }
   h2.gar__title {
     margin-left: 80px;
-    font-size: 35px;
-    line-height: 35px;
-    margin-bottom: 75px; }
-    h2.gar__title::after {
-      margin-top: 40px; }
+    font-size: 19px;
+    line-height: 19px;
+    margin-bottom: 45px; }
+  h2.gar__title::after {
+    position: absolute;
+    margin-top: 25px; }
   span.gar__head {
-    font-size: 25px;
-    line-height: 25px;
-    padding-bottom: 55px; }
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 30px; }
   p.gar__paragraph {
-    font-size: 22px;
-    line-height: 22px;
-    margin-bottom: 40px; }
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 25px; }
   .doc, .prof, .marketing, .monitor {
     position: absolute;
     display: block;
     top: 0;
-    left: -125px; }
+    left: -70px; }
   .map, .barista {
     position: absolute;
     display: block;
     bottom: -30%;
-    left: -125px;
-    width: 54px; }
+    left: -70px;
+    width: 40px; }
   .mark, .prof, .monitor, .marketing {
-    width: 77px; }
+    width: 45px; }
   .barista {
     bottom: -25%;
-    width: 77px; }
+    width: 45px; }
   .doc {
-    width: 62px; }
+    width: 40px; }
   h2.gar__title {
     text-align: left; }
   .gar__left-mark {
     position: absolute;
-    left: -110px;
-    width: 78px; } }
+    left: -60px;
+    width: 45px; } }
 
 @media only screen and (min-width: 1248px) {
   section.part {
     padding-bottom: 250px; }
   .part__form {
     padding-left: 0; }
-    .part__form .write__input-text, .part__form .write__input-submit {
-      max-width: 410px;
-      width: 28%;
-      padding: 19px 20px 19px 25px; }
-    .part__form .write__input-text:nth-child(3) {
-      margin-right: 0; }
+  .part__form .write__input-text, .part__form .write__input-submit {
+    max-width: 410px;
+    width: 28%;
+    padding: 19px 20px 19px 25px; }
+  .part__form .write__input-text:nth-child(3) {
+    margin-right: 0; }
   /* Section Write */
   h2.write__title {
     font-size: 42px;
     line-height: 49px;
     width: 280px; }
-    h2.write__title::after {
-      margin-top: 35px;
-      height: 1px; }
+  h2.write__title::after {
+    margin-top: 35px;
+    height: 1px; }
   .write__desc {
     font-size: 26px;
     line-height: 26px;

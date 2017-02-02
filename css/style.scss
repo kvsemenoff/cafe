@@ -1,6 +1,10 @@
 @import "reset.css";
 @import "fonts.css";
 
+html, body {
+    height: 100%;
+}
+
 body{ 
 	font-family: 'Exo2-Regular';
 	font-size: 33.33px;
@@ -19,14 +23,16 @@ h2 {
     text-transform: uppercase;
     color: #010101;
     font-family: "Exo2-Regular", sans-serif;
-    font-size: 35px;
+    font-size: 19px;
     font-weight: 400;
 }
 .button-1 {
     display: block;
+    cursor: pointer;
     color: #c39b0c;
     border: 2px solid #c39b0c;
     margin: 0 auto;
+    margin-top: 100px;
     text-align: center;
 }
 .write__input-text {
