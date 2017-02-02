@@ -1,6 +1,6 @@
 
 .container{
-	max-width:827px;
+	max-width:830px;
 	// padding-left: 20px;
 	// padding-right: 20px;
 	margin: 0 auto;
@@ -78,19 +78,20 @@ body, html{
 		text-transform: uppercase;
 		font-family: 'Exo2-Regular';
 		// font-size:38px; 
-		font-size:33px;
+		font-size:25px;
 		position: relative;
 		padding-bottom: 36px;
-		margin-bottom: 48px;
+		// margin-bottom: 48px;
 	}
 	span:after{
 		content:"";
 		position:absolute;
 		background: url(../img/line.png) no-repeat;
 		height: 1px;
-		width: 73px;
-		bottom:0;
+		width: 40px;
+		bottom:27px;
 		left:0;
+		// outline: 1px solid red;
 	}
 }
 .dd-meet-txt{
@@ -243,7 +244,7 @@ body, html{
 	}
 	.dd-meet-title{
 		span{
-			font-size:38px; 
+			font-size:25px; 
 		}
 	}
 
@@ -261,15 +262,15 @@ body, html{
 	}
 	.dd-fact-txt{
 		text-align: left;
-		padding-left: 50px;
+		padding-left: 0px;
 		font-size: 20px;
 	}
 	.dd-meet-title2{
-		padding-left: 80px;
+		padding-left: 48px;
 	}
 	.dd-elements{
 		display: table;
-		width: 590px;
+		width: 393px;
 		margin: 0 auto;
 		.dd-fact-img{
 			display: table-cell;
@@ -281,7 +282,7 @@ body, html{
 		}
 	}
 	.dd-margin-bottom{
-		margin-bottom: 80px;
+		margin-bottom: 47px;
 	} 
 	.dd-facts-left{
 		float: left;
