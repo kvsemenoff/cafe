@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-<section class="biz" id="plans">
-<div id="preim"></div>
-        <div class="container">
-                <div class="biz__head">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="biz__title">Бизнес под ключ</h2>
-=======
 <div class="section">
     <section class="biz" id="plans">
             <div class="container">
@@ -22,7 +13,6 @@
                                     В рамках нашего франшизного предложения Вы получаете <strong>абсолютно все</strong>, что нужно для <strong>старта</strong>,  ведения и успешного <strong>развития</strong> вашего бизнеса
                                 </p>
                             </div>
->>>>>>> a35d117216aca59157b0402cdd4272a2185a6467
                         </div>
                     </div>
                     <div class="row">
