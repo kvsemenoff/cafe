@@ -1,5 +1,4 @@
-<div id="about"></div>
-<section class="section section-meet">
+<div class="section section-meet">
 	<div class="container2">
 		<div class="dd-meet">
 			<div class="dd-meet-title">
@@ -22,4 +21,4 @@
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</section>
+</div>
