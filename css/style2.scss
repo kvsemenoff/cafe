@@ -94,23 +94,34 @@ display: inline-block;
 		}
 	}
 }
-.section_db-head-menu2{
-	display:none;
+.header{
+	//display:block;
 	background: #333;
+	background:#333;
 	color:#fff;
 	font-size: 25px;
-	padding-bottom: 35px !important;
-	position: fixed;
-	top:40px;
-	width:100%;
-	z-index:999;
+	//padding-bottom: 35px !important;
+	//position: fixed;
+	//top:0px;
+	//height: 80px;
+	//width:100%;
+
+	//z-index:999;
 
 
 	
 }
-	.db-img-head{
+.db-section-box1{
+	position: fixed;
+	top:0px;
+	height: 80px;
+	width:100%;
+
+}
+.db-img-head{
 	display:none;
 }
+
 .db-menu{
 	text-align: center;
 	li{
@@ -123,27 +134,47 @@ display: inline-block;
 	}
 }
 
-
 .burger-box{
-position: fixed;
-top:0;
-width: 100%;
-margin-bottom: 10px;
-z-index: 1000;
+	position: fixed;
+	top:0;
+	width: 100%;
+	margin-bottom: 10px;
+	z-index: 1000;
 }
 .burger{
 	background: #000;
-
 	height:40px;
-
-
 }
 .burger-img{
-position: absolute;
-top: 10px;
-left:20px;
+	position: absolute;
+	top: 10px;
+	left:20px;
 	cursor:pointer;
-
+}
+.header{
+    -webkit-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220);  
+    -moz-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220);  
+      -o-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+         transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+    position:fixed;
+    top:100%;
+    margin-top: -100px;
+    left:0;
+    background:#000;
+    width:100%;
+    //height: 100px;
+    z-index:999;
+    display: none;
+    background:#333;
+	color:#fff;
+	font-size: 25px;
+}
+.header.fixed{
+    bottom:auto;
+    top:0;
+    margin-top: 0;
+    position:fixed;
+    display: block;
 }
 
 @media only screen and (min-width : 320px) {
@@ -160,9 +191,7 @@ left:20px;
 	 padding: 9px 0 24px 0px !important;
 	}
 
-	.section_db-head-menu2{
-		display:none;
-	}
+	
 
 
 	.burger-box{
@@ -171,16 +200,7 @@ left:20px;
 				
 
 
-		.db-section-box1{
-	background: #333;
-	display:block;
-	position: fixed;
-	top:0;
-	width:100%;
-	z-index:1000;
 
-
-}
 	.section_db-head-menu{
 		display: block;
 		padding-bottom: 30px !important;

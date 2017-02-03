@@ -18,21 +18,7 @@
 		</div>
 	</div>
 </div>
-<div class="section_db-head-menu2">
-	<div class="container">
-		<img src="img/db-logo-down.png" alt="img" class="db-img-head">
-		<div>
-			<ul class="db-menu" id="js-nav">
-				<li><a href="#main">Главная</a></li>
-				<li><a href="#about">О нас</a></li>
-				<li><a href="#our">Наши кофейни</a></li>
-				<li><a href="#preimuwestvation">Преимущества</a></li>
-				<li><a href="#plan">План открытия</a></li>
-				<li><a href="#contacts">Контакты</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
+
 <div class="section">
 	<div class="section_padding section_db-head-top">
 		<div class="container">
