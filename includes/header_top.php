@@ -4,7 +4,7 @@
 	</div>
 </div>
 <div id="main"></div>
-<section class="section-absolute">
+<section class="">
 <div class="section section_padding section_db-head-top">
 	<div class="container">
 

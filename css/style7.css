@@ -915,7 +915,7 @@ p.gar__paragraph {
     padding-right: 30px;
     padding-left: 80px; }
     .gar__right .gar__head {
-      padding-bottom: 20px; }
+      padding-bottom: 10px; }
   h2.gar__title {
     font-size: 32px;
     line-height: 32px;
@@ -1202,7 +1202,8 @@ p.gar__paragraph {
     padding-top: 140px;
     padding-bottom: 110px; }
   section.what {
-    height: 2160px; } }
+    height: 1200px;
+    padding-top: 100px; } }
 
 .part__form {
   padding-bottom: 100px;
@@ -1278,7 +1279,7 @@ h2.write__title::after {
 
 .right__container {
   width: 60%;
-  padding-top: 70px;
+  padding-top: 0px;
   padding-bottom: 50px; }
 
 .right__container .promo {
@@ -1420,7 +1421,7 @@ h2.gar__title {
     height: 470px; }
   .right__container {
     width: 52%;
-    padding-top: 70px;
     padding-bottom: 60px; }
   section.what {
-    height: 1200px; } }
+    height: 1200px;
+    padding-top: 100px; } }

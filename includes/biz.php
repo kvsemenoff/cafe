@@ -1,5 +1,4 @@
-<div class="wrap">
-<section class="biz" id="plans">
+<section class="biz scrolled" id="plans">
 	<div class="container">
 		    <div class="biz__head">
 		        <div class="row">
@@ -106,5 +105,4 @@
                     </div>
                 </div>
         </div>
-
     </section>
