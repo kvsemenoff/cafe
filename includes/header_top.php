@@ -4,7 +4,7 @@
 	</div>
 </div>
 <div id="main"></div>
-<section class="">
+
 <div class="section section_padding section_db-head-top">
 <section class="section">
 <div class="section_padding section_db-head-top">
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 </section>
-		<section class="db-section-box1">
+		<div class="db-section-box1">
 			<div class="container">
 				<div class="section_db-head-menu">
 					<img src="img/db-logo-down.png" alt="img" class="db-img-head">
@@ -53,8 +53,8 @@
 					</ul>
 				</div>
 			</div>
-		</section>
-		<section class="section_db-head-menu2">
+		</div>
+		<div class="section_db-head-menu2">
 			<div class="container">
 				<img src="img/db-logo-down.png" alt="img" class="db-img-head">
 				<div>
@@ -68,4 +68,4 @@
 					</ul>
 				</div>
 			</div>
-		</section>
+		</div>
