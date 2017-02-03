@@ -75,7 +75,7 @@ $(document).ready(function(){
       scrollTop: currentBlockoffset -50
      }, 500);
     });
-$('.header').hide();
+
 
  $(".burger-img").on("click", function(){
         $('.header').slideToggle(500);
