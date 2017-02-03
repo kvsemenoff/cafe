@@ -1,24 +1,10 @@
 <div class="burger-box">
-<<<<<<< HEAD
+
 	<div class="burger">
 		<img src="img/anz.png" alt="#" class="burger-img">
 	</div>
 </div>
-<div class="db-section-box1">
-	<div class="container">
-		<div class="section_db-head-menu">
-			<img src="img/db-logo-down.png" alt="img" class="db-img-head">
-			<ul class="db-menu" id="js-nav">
-				<li><a href="#main">Главная</a></li>
-				<li><a href="#about">О нас</a></li>
-				<li><a href="#our">Наши кофейни</a></li>
-				<li><a href="#preimuwestvation">Преимущества</a></li>
-				<li><a href="#plan">План открытия</a></li>
-				<li><a href="#contacts">Контакты</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
+
 
 <div class="section">
 	<div class="section_padding section_db-head-top">
@@ -50,7 +36,6 @@
 	</div>
 </div>
 
-=======
         <div class="burger">
             <img src="img/anz.png" alt="#" class="burger-img">
         </div>
@@ -104,19 +89,4 @@
                     </div>
                 </div>
             </div>
-            <div class="section_db-head-menu2">
-                <div class="container">
-                    <img src="img/db-logo-down.png" alt="img" class="db-img-head">
-                    <div>
-                        <ul class="db-menu" id="js-nav">
-                            <li><a href="#main">Главная</a></li>
-                            <li><a href="#about">О нас</a></li>
-                            <li><a href="#our">Наши кофейни</a></li>
-                            <li><a href="#preimuwestvation">Преимущества</a></li>
-                            <li><a href="#plan">План открытия</a></li>
-                            <li><a href="#contacts">Контакты</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
->>>>>>> 8ddc80522a8a3de95c57b3dbc01b9ad04704a27a
+            
