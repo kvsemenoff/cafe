@@ -1,4 +1,4 @@
-<div class="section facts-view fp-section fp-table"><section class="biz" id="plans">
+<section class="biz" id="plans">
         <div class="container">
                 <div class="biz__head">
                     <div class="row">
@@ -106,4 +106,3 @@
                     </div>
             </div>
         </section>
-    </div>

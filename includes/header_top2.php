@@ -1,4 +1,3 @@
-<div class="section">
     <div class="n-wrapper">
         <div class="n-header">
             <div class="section section_padding section_db-head-top">
@@ -32,4 +31,3 @@
         </div>
     
     </div>
-</div>

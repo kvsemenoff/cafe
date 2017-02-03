@@ -164,6 +164,7 @@ $(document).ready(function(){
 
       
  });
+<<<<<<< HEAD
 $(document).ready(function() {
    
 
@@ -187,3 +188,5 @@ $(document).ready(function() {
   });
 
 });
+=======
+>>>>>>> 8ddc80522a8a3de95c57b3dbc01b9ad04704a27a
