@@ -79,6 +79,7 @@ $(document).ready(function(){
 
  $(".burger-img").on("click", function(){
         $('.header').slideToggle(500);
+        
  });
 
              
