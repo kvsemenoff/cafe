@@ -1,4 +1,5 @@
-    <div class="section facts-view">
+<div class="section facts-view">
+<div id="about"></div>
         <div class="container">
             <div class="dd-facts-wrap">
                 <div class="dd-facts-left">

@@ -1,4 +1,5 @@
 <div class="df-section">
+<div id="our"></div>
     <h2 class="df-cap-our">НАШИ КОФЕЙНИ</h2>
     <div class="df-slider-our">
         <div id="df-demo">

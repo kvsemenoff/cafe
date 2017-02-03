@@ -72,7 +72,7 @@ $(document).ready(function(){
      var currentBlock = $(this).attr("href");
      currentBlockoffset = $(currentBlock).offset().top;
      $("html, body").animate({
-      scrollTop: currentBlockoffset -90
+      scrollTop: currentBlockoffset -50
      }, 500);
     });
 

@@ -8,7 +8,7 @@
 	background:url("../img/db-logo.png")no-repeat;
 	display: block;
 	width: 116px;
-height: 48px;
+	height: 48px;
 	margin: 0 auto;
 }
 .db-head-h2{
@@ -52,10 +52,10 @@ height: 48px;
 	font-size: 16px;
 	color:#fff;
 	background-color: #c39b0c;
-border: 0.5px solid #fafafa;
-text-decoration: none;
-padding:10px 20px;
-display: inline-block;
+	border: 0.5px solid #fafafa;
+	text-decoration: none;
+	padding:10px 20px;
+	display: inline-block;
 }
 .db-head-text{
 	margin-top: 40px;
@@ -80,14 +80,14 @@ display: inline-block;
 	z-index:999;
 	width: 100%;
 }
-	.db-img-head{
+.db-img-head{
 	display:none;
 }
 .db-menu{
 	text-align: center;
 	li{
 		display: block;
-        padding-top: 14px;
+		padding-top: 14px;
 		a{
 			color:#fff;
 			text-decoration: none;
@@ -107,9 +107,6 @@ display: inline-block;
 	//width:100%;
 
 	//z-index:999;
-
-
-	
 }
 .db-section-box1{
 	position: fixed;
@@ -126,7 +123,7 @@ display: inline-block;
 	text-align: center;
 	li{
 		display: block;
-        padding-top: 14px;
+		padding-top: 14px;
 		a{
 			color:#fff;
 			text-decoration: none;
@@ -152,29 +149,30 @@ display: inline-block;
 	cursor:pointer;
 }
 .header{
-    -webkit-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220);  
-    -moz-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220);  
-      -o-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220); 
-         transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220); 
-    position:fixed;
-    top:100%;
-    margin-top: -100px;
-    left:0;
-    background:#000;
-    width:100%;
+	-webkit-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220);  
+	-moz-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220);  
+	-o-transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+	transition: all 0.3s cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+	position:fixed;
+	top:100%;
+	margin-top: -100px;
+	left:0;
+	background:#000;
+	width:100%;
     //height: 100px;
     z-index:999;
     display: none;
     background:#333;
-	color:#fff;
-	font-size: 25px;
+    color:#fff;
+    font-size: 25px;
 }
 .header.fixed{
-    bottom:auto;
-    top:0;
-    margin-top: 0;
-    position:fixed;
-    display: block;
+	bottom:auto;
+	top:0;
+	margin-top: 0;
+	position:fixed;
+	display: block;
+	padding-bottom: 10px;
 }
 
 @media only screen and (min-width : 320px) {
@@ -188,7 +186,7 @@ display: inline-block;
 
 @media only screen and (min-width : 992px) {
 	.section_db-head-top{
-	 padding: 9px 0 24px 0px !important;
+		padding: 9px 0 24px 0px !important;
 	}
 
 	
@@ -197,38 +195,38 @@ display: inline-block;
 	.burger-box{
 		display: none;
 	}
-				
+
 
 
 
 	.section_db-head-menu{
 		display: block;
 		padding-bottom: 30px !important;
-    	padding-top: 15px;
-    	position: fixed;
-    	left:0;
-    	top: 0;
+		padding-top: 15px;
+		position: fixed;
+		left:0;
+		top: 0;
 	}
-.db-img-head{
-	float: left;
-	display: inline-block;
-	padding-top: 10px;
-}
-.db-menu{
-	li{
+	.db-img-head{
+		float: left;
 		display: inline-block;
-		padding-left: 64px;
-		padding-top: 14px;
-		a{
-			color:#fff;
-			text-decoration: none;
+		padding-top: 10px;
+	}
+	.db-menu{
+		li{
+			display: inline-block;
+			padding-left: 64px;
+			padding-top: 14px;
+			a{	font-size:14px;
+				color:#fff;
+				text-decoration: none;
+			}
 		}
 	}
-}
 
-.section_db-head-bottom{
-padding-top:180px !important;
-}
+	.section_db-head-bottom{
+		padding-top:180px !important;
+	}
 	.db-bottom-h2{
 		font-size: 34px;
 		margin-top: 0;
@@ -248,53 +246,54 @@ padding-top:180px !important;
 		}
 	}
 	.db-middle
-{
-	padding:0 105px !important;
-}
+	{
+		padding:0 105px !important;
+	}
 	.db-logo{
-	background:url("../img/db-logo.png")no-repeat;
-	display: block;
-	width: 116px;
-	height: 48px;
-	margin: 0 auto;
-	float:left;
-}
-.db-head-h2{
-	font-size: 19px;
-padding-top: 0px;
-padding-left: 0px;
+		background:url("../img/db-logo.png")no-repeat;
+		display: block;
+		width: 116px;
+		height: 48px;
+		margin: 0 auto;
+		float:left;
+	}
+	.db-head-h2{
+		font-size: 19px;
+		padding-top: 0px;
+		padding-left: 0px;
 
-display: inline-block;
-}
-.db-call{
-	font-size: 14px;
-	padding:0;
-	float:right;
-	padding-left:10px;
-}
-.db-call:hover{
-	background: #fff;
-	color:#333;
-	transition:0.7s;
+		display: inline-block;
+	}
+	.db-call{
+		font-size: 14px;
+		padding:0;
+		float:right;
+		padding-left:10px;
+	}
+	.db-call:hover{
+		background: #fff;
+		color:#333;
+		transition:0.7s;
 
-}
-.db-phone{
-	font-size: 19px;
-	padding-bottom: 0px;
-display: inline-block;
+	}
+	.db-phone{
+		font-size: 19px;
+		padding-bottom: 0px;
+		display: inline-block;
 
-}
+	}
 
-.db-head-top-right{
-	float:right;
-	padding-right: 18px;
-	margin-top: -10px;
-}
+	.db-head-top-right{
+		float:right;
+		padding-right: 18px;
+		margin-top: -10px;
+	}
 
 
 	.db-menu{
 		li{
-			padding-left: 48px !important;
+			padding-top: 5px !important;
+			padding-left: 40px !important;
 
 		}
 	}

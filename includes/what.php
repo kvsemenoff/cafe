@@ -1,5 +1,5 @@
-<div id="preimuwestvation"></div>
 <section class="what first__what">
+<div id="plan"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
