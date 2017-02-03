@@ -1,11 +1,11 @@
-<div class="section"><div class="burger-box">
+<div class="burger-box">
         <div class="burger">
             <img src="img/anz.png" alt="#" class="burger-img">
         </div>
     </div>
     <div id="main"></div>
     <section>
-    <div class="section_padding section_db-head-top">
+    <ul id="menu" class="section_padding section_db-head-top">
         <div class="container">
     
             <span class="db-logo"></span>
@@ -19,7 +19,7 @@
             </div>
     
         </div>
-    </div>
+    </ul>
     <div class="section section_padding section_db-head-bottom">
         <div class="container">
     
@@ -67,4 +67,3 @@
                     </div>
                 </div>
             </div>
-    </div>

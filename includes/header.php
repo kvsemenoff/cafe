@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
-	<link rel="stylesheet" href="/css/jquery.fullPage.css">
+<!--	<link rel="stylesheet" href="/css/jquery.fullPage.css">-->
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
 	<link rel="shortcut icon" href="favicon.ico" />
@@ -20,7 +20,7 @@
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="/js/jquery.fullPage.js"></script>
+<!--	<script src="/js/jquery.fullPage.js"></script>-->
 	
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
@@ -34,4 +34,3 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-	<div id="fullpage">
