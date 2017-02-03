@@ -37,7 +37,7 @@
 	<div class="section_padding section_db-head-top">
 		<div class="container">
 
-			<span class="db-logo"></span>
+			<a href="/"><span class="db-logo"></span></a>
 
 
 			<h2 class="db-head-h2">Франшиза итальянской кофейни</h2>

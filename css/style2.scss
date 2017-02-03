@@ -104,6 +104,8 @@ display: inline-block;
 	top:40px;
 	width:100%;
 	z-index:999;
+
+
 	
 }
 	.db-img-head{
@@ -180,10 +182,12 @@ left:20px;
 
 }
 	.section_db-head-menu{
-		display: none;
+		display: block;
 		padding-bottom: 30px !important;
     	padding-top: 15px;
-
+    	position: fixed;
+    	left:0;
+    	top: 0;
 	}
 .db-img-head{
 	float: left;
