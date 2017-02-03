@@ -15,9 +15,9 @@
 !function($){
   
   var defaults = {
-    sectionContainer: "section.scrolled",
+    sectionContainer: "section",
     easing: "ease",
-    animationTime: 1000,
+    animationTime: 500,
     pagination: true,
     updateURL: false
 	};

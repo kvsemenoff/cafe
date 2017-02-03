@@ -16,16 +16,7 @@
 				    </li>
 				    <li class="what__item g4">
 				        <p class="what__paragraph">АССОРТИМЕНТ И ОБОРУДОВАНИЕ</p>
-				    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="what">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">                
+				    </li>             
 				    <li class="what__item g5">
 				        <p class="what__paragraph">РЕГИСТРАЦИЯ И ЛЕГАЛИЗАЦИЯ</p>
 				    </li>
