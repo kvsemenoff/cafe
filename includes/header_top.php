@@ -5,7 +5,7 @@
 </div>
 <div id="main"></div>
 <section class="section">
-<div class="section section_padding section_db-head-top">
+<div class="section_padding section_db-head-top">
 	<div class="container">
 
 		<span class="db-logo"></span>
