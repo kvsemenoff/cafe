@@ -75,10 +75,10 @@ $(document).ready(function(){
       scrollTop: currentBlockoffset -50
      }, 500);
     });
-
+$('.header').hide();
 
  $(".burger-img").on("click", function(){
-        $('.section_db-head-menu2').slideToggle(500);
+        $('.header').slideToggle(500);
  });
 
              
