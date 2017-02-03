@@ -162,31 +162,9 @@ else{
           }
       }
   });
+
       
  });
 $(document).ready(function() {
-//    var sections = $("section"),
-//        counter = 0;
-//    sections = sections.slice(3);
-//    $(window).on("mousewheel", function() {
-//        $(sections[counter]).toggleClass("section-absolute").siblings().removeClass("section-absolute");
-//        counter++;
-//        if(counter > sections.length-1) {
-//            counter = 0;
-//        }
-//    })
-    
-//    $(window).resize(function() {
-//        if ($(window).width() >= 992){
-//
-          $(".main").onepage_scroll({
-                sectionContainer: "section", // контейнер, к которому будет применяться скролл
-                easing: "ease", // Тип анимации "ease", "linear", "ease-in", "ease-out", "ease-in-out"
-                animationTime: 500, // время анимации
-                pagination: false, // скрыть или отобразить пагинатор
-                updateURL: false // обновлять URL или нет
-          });
-//        }
-//      })
+    $('#fullpage').fullpage();
 });
-

@@ -44,6 +44,7 @@ h2.biz__title::after {
 p.biz__desc {
   font-family: "Exo2-Regular";
   font-size: 16px;
+  color: #000;
   line-height: 16px;
   font-weight: 400;
   padding-bottom: 20px;
@@ -413,13 +414,7 @@ li.what__item:nth-child(even) {
 section.gar {
   background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
   background-size: cover;
-  padding-top: 20px;
-  background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
-  background-size: cover;
-  padding-top: 20px;
-  min-height: 640px;
-  max-height: 1080px;
-  height: 100%; }
+  padding-top: 20px; }
 
 h2.gar__title {
   color: #fff;
@@ -772,397 +767,6 @@ p.gar__paragraph {
     left: -60px;
     width: 55px; } }
 
-@media only screen and (min-width: 992px) {
-  section.biz {
-    padding-top: 100px;
-    padding-bottom: 80px; }
-  p.biz__desc {
-    font-size: 14px;
-    width: 350px;
-    line-height: 18px;
-    padding-top: 0; }
-  h2.biz__title {
-    font-size: 19px;
-    padding-bottom: 30px; }
-  h2.biz__title::after {
-    margin-top: 20px;
-    width: 50px; }
-  .biz__table img {
-    margin-bottom: 20px;
-    max-width: 60px;
-    height: 60px; }
-  .button__white {
-    font-size: 36px;
-    line-height: 36px;
-    max-width: 360px;
-    font-size: 21px;
-    padding: 0;
-    line-height: 40px;
-    margin-top: 40px !important; }
-  .biz__table td .table__content p {
-    font-size: 11px;
-    line-height: 11px; }
-  .biz__head {
-    margin-left: 75px; }
-  table.biz__table {
-    margin-bottom: 50px; }
-    table.biz__table td {
-      width: 140px;
-      width: 15%; }
-      table.biz__table td:nth-child(even), table.biz__table td:nth-child(odd) {
-        float: none; }
-  .button__white {
-    font-size: 25px;
-    max-width: 60%; }
-  /* Section Part */
-  section.part {
-    padding-bottom: 150px; }
-  .part__title {
-    font-size: 20px;
-    line-height: 20px; }
-    .part__title::after {
-      margin-top: 35px; }
-  h3.form__title {
-    font-size: 26px;
-    line-height: 30px;
-    padding-bottom: 185px;
-    padding: 0 30%;
-    padding-bottom: 65px; }
-  .button__yellow-form {
-    font-size: 16px;
-    line-height: 16px;
-    padding: 8px 10px 8px 10px; }
-  .part__form {
-    padding-bottom: 100px;
-    width: 100%;
-    padding-left: 7%; }
-    .part__form .write__input-text, .part__form .write__input-submit {
-      width: 24%;
-      font-size: 20px;
-      display: inline-block;
-      margin-bottom: 0; }
-      .part__form .write__input-text:last-child, .part__form .write__input-submit:last-child {
-        margin-right: 0; }
-  /* section write */
-  .write__left, .write__right {
-    float: left;
-    width: 50%;
-    height: 686px; }
-  h2.write__title {
-    font-size: 42px;
-    line-height: 42px;
-    width: 50%; }
-  .write__desc {
-    font-size: 20px;
-    padding: 20px 0 20px 0; }
-  .write__form {
-    width: 100%; }
-  .write__form {
-    text-align: left; }
-    .write__form .write__input-submit {
-      width: 60%;
-      font-size: 25px;
-      max-width: 335px;
-      margin-top: 30px; }
-    .write__form .write__input-text {
-      font-size: 20px;
-      width: 90%;
-      margin-bottom: 25px; }
-      .write__form .write__input-text::last-child {
-        margin-bottom: 20px; }
-    .write__form textarea {
-      width: 90%;
-      height: 100px; }
-  /* Form */
-  section.part {
-    padding-bottom: 250px; }
-  .part__title {
-    font-size: 42px;
-    line-height: 42px; }
-  .part__title::after {
-    margin-bottom: 33px; }
-  h3.form__title {
-    font-size: 26px;
-    line-height: 30px;
-    padding-bottom: 185px;
-    padding: 0 30%;
-    font-weight: 500;
-    padding-bottom: 198px; }
-  .button__yellow-form {
-    font-size: 25px;
-    line-height: 25px;
-    padding: 22px 40px 18px 40px;
-    max-width: 506px; }
-  .write__phone, .write__address, .write__email {
-    margin-top: 25px; }
-  .write__phone {
-    margin-top: 0; }
-  /* What Section */
-  h2.what__title {
-    font-size: 30px;
-    line-height: 30px;
-    margin: 0 auto; }
-  p.what__paragraph {
-    font-size: 18px;
-    line-height: 18px; }
-  li.what__item {
-    padding: 50px 20px 15px 40px;
-    min-height: 180px; }
-  .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
-    margin-bottom: 40px; }
-  .gar__right {
-    padding-top: 35px;
-    padding-right: 30px;
-    padding-left: 80px; }
-    .gar__right .gar__head {
-      padding-bottom: 10px; }
-  h2.gar__title {
-    font-size: 32px;
-    line-height: 32px;
-    margin-bottom: 50px; }
-    h2.gar__title::after {
-      margin-top: 30px; }
-  .gar__left {
-    padding-right: 40px; }
-  .gar__left-content {
-    margin-left: 80px; }
-  .map {
-    bottom: 0; }
-  .barista {
-    bottom: 25%; }
-  .doc, .prof, .marketing, .monitor {
-    left: -55px; }
-  .map, .barista {
-    left: -55px;
-    width: 40px; }
-  span.gar__head {
-    font-size: 25px;
-    line-height: 25px; }
-  p.gar__paragraph {
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 30px; }
-  .mark, .prof, .monitor, .marketing {
-    width: 45px; }
-  .barista {
-    width: 50px; }
-  .doc {
-    width: 40px; }
-  .gar__left-mark {
-    position: absolute;
-    left: -60px;
-    width: 55px; } }
-
-@media only screen and (min-width: 992px) {
-  section.biz {
-    height: 600px;
-    padding-top: 9.26vh;
-    padding-bottom: 0; }
-    section.biz container {
-      height: 100%; }
-  p.biz__desc {
-    font-size: 14px;
-    line-height: 14px;
-    padding-top: 0;
-    padding-bottom: 0; }
-  h2.biz__title {
-    font-size: 19px;
-    margin-bottom: 30px;
-    padding-bottom: 0;
-    line-height: 19px; }
-    h2.biz__title::after {
-      margin-top: 25px;
-      width: 40px; }
-  table.biz__table {
-    width: 100%;
-    margin-top: 4.5vh;
-    margin-bottom: 42px; }
-    table.biz__table td {
-      width: 140px;
-      height: 70px;
-      padding: 1vh 2vh 0 1vh; }
-  .biz__table img {
-    margin-bottom: 20px; }
-  .biz__head {
-    margin-left: 85px; }
-  .button__white {
-    font-size: 21px;
-    line-height: 21px;
-    padding: 10px 20px;
-    width: 358px; }
-  .biz__table td img {
-    max-height: 8.33vh; }
-  .biz__table td .table__content p {
-    font-size: 11px;
-    line-height: 11px;
-    padding-top: 14px;
-    padding-bottom: 14px; }
-  /* Form */
-  section.part {
-    padding-top: 30px;
-    padding-bottom: 200px;
-    height: 600px; }
-  .part__title {
-    font-size: 23px;
-    line-height: 23px; }
-    .part__title::after {
-      margin-bottom: 20px; }
-  h3.form__title {
-    font-size: 14px;
-    line-height: 14px;
-    padding-bottom: 185px;
-    padding: 0 30%;
-    font-weight: 500;
-    padding-bottom: 110px; }
-  .button__yellow-form {
-    font-size: 14px;
-    line-height: 14px;
-    padding: 14px 20px;
-    max-width: 280px;
-    margin-top: 60px !important; }
-  .part__form {
-    padding-bottom: 100px;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-right: 0; }
-    .part__form .write__form-text, .part__form .write__form-submit {
-      width: 24%;
-      max-width: 410px;
-      padding: 23px 20px 21px 25px;
-      font-size: 25px;
-      line-height: 25px;
-      margin-right: 125px; }
-    .part__form .write__form-text:last-child {
-      margin-right: 0; }
-  /* Section Write */
-  section.write {
-    padding: 50px 0 70px 0;
-    height: 1075px; }
-  h2.write__title {
-    font-size: 23px;
-    line-height: 23px;
-    width: 60%; }
-    h2.write__title::after {
-      margin-top: 30px; }
-  .write__desc {
-    font-size: 26px;
-    line-height: 26px;
-    padding-bottom: 35px; }
-  .write__form {
-    margin: 0; }
-    .write__form .write__input-text {
-      width: 90%;
-      font-size: 21px;
-      line-height: 21px;
-      margin-bottom: 32px;
-      margin-bottom: 0; }
-    .write__form .write__input-text:nth-child(3) {
-      margin-bottom: 24px; }
-    .write__form textarea {
-      width: 90%;
-      height: 150px;
-      font-size: 21px;
-      resize: none;
-      padding: 15px 40px 0 20px;
-      margin-bottom: 0; }
-    .write__form .write__input-submit {
-      font-size: 14px;
-      line-height: 14px;
-      padding: 10px 0 15px 0;
-      margin-top: 10px; }
-  .write__left {
-    padding-left: 80px;
-    padding-right: 40px;
-    padding-top: 70px; }
-  .write__left, .write__right {
-    height: 845px; }
-  .right__container {
-    width: 60%;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    height: 100%; }
-    .right__container .promo {
-      font-size: 27px;
-      margin-bottom: 50px; }
-      .right__container .promo::after {
-        margin-top: 35px;
-        width: 80px; }
-    .right__container p {
-      font-size: 27px; }
-  /* Section What */
-  h2.what__title {
-    font-size: 23px;
-    line-height: 23px;
-    padding-top: 25px;
-    padding-bottom: 24px;
-    margin-left: 140px;
-    text-align: left; }
-  p.what__paragraph {
-    font-size: 33px;
-    line-height: 33px; }
-  li.what__item {
-    padding: 80px 90px 80px 80px;
-    height: 340px; }
-  .g1, .g2, .g5, .g6 {
-    margin-bottom: 50px; }
-  .g3, .g4, .g7, .g8 {
-    margin-bottom: 50px; }
-  li.what__item:nth-child(9), li.what__item:nth-child(10) {
-    margin-bottom: 0; }
-  /* Section Guarantee*/
-  section.gar {
-    background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
-    background-size: cover;
-    padding-top: 4.63;
-    height: 600px; }
-  .gar__left, .gar__right {
-    width: 50%;
-    float: left; }
-  .gar__right {
-    padding-left: 210px; }
-  .gar__left-content {
-    margin-left: 185px; }
-  h2.gar__title {
-    margin-left: 7.4vh;
-    font-size: 4vh;
-    line-height: 4vh;
-    margin-bottom: 6.94px; }
-    h2.gar__title::after {
-      margin-top: 3.703vh; }
-  span.gar__head {
-    font-size: 2.3vh;
-    line-height: 2.3vh;
-    padding-bottom: 5vh; }
-  p.gar__paragraph {
-    font-size: 2vh;
-    line-height: 2vh;
-    margin-bottom: 8px; }
-  .doc, .prof, .marketing, .monitor {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: -125px; }
-  .map, .barista {
-    position: absolute;
-    display: block;
-    bottom: -30%;
-    left: -125px;
-    width: 5vh; }
-  .mark, .prof, .monitor, .marketing {
-    width: 6.6vh; }
-  .barista {
-    bottom: -25%;
-    width: 6vh; }
-  .doc {
-    width: 5.8vh; }
-  h2.gar__title {
-    text-align: left; }
-  .gar__left-mark {
-    position: absolute;
-    left: -110px;
-    width: 7vh; } }
-
 @media only screen and (min-width: 1248px) {
   section.part {
     padding-bottom: 250px; }
@@ -1202,7 +806,6 @@ p.gar__paragraph {
     padding-top: 140px;
     padding-bottom: 110px; }
   section.what {
-    height: 1200px;
     padding-top: 100px; } }
 
 .part__form {
@@ -1226,7 +829,7 @@ p.gar__paragraph {
 /* Section Write */
 section.write {
   padding: 50px 0 70px 0;
-  height: 600px; }
+  height: 750px; }
 
 h2.write__title {
   font-size: 23px;
@@ -1330,7 +933,8 @@ section.gar {
   float: left; }
 
 .gar__right {
-  padding-left: 120px; }
+  padding-left: 120px;
+  padding-bottom: 20px; }
 
 .gar__left-content {
   margin-left: 130px; }
@@ -1423,5 +1027,4 @@ h2.gar__title {
     width: 52%;
     padding-bottom: 60px; }
   section.what {
-    height: 1200px;
     padding-top: 100px; } }
