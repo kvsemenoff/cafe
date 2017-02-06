@@ -264,10 +264,7 @@ h2.write__title::after {
   margin-bottom: 10px; }
 
 .write__form .write__input-text:focus, .write__form textarea:focus {
-  border: 1px solid #c39b0c;
-  color: #c39b0c;
-  background: url(/img/icons/success.png) 96% 50% no-repeat;
-  background-size: 7%; }
+  color: #c39b0c; }
 
 .write__form textarea {
   height: 70px;
@@ -276,10 +273,6 @@ h2.write__title::after {
   resize: none;
   width: 100%;
   font-family: "Exo2-Regular"; }
-
-.write__form textarea:focus {
-  background: url(/img/icons/success.png) 96% 15% no-repeat;
-  background-size: 7%; }
 
 .write__form ::-webkit-input-placeholder {
   color: #010101; }
