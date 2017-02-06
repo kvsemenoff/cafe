@@ -416,7 +416,8 @@ section.gar {
   padding-top: 20px;
   background: url(/img/gar_bg.jpg) 68% 0 no-repeat;
   background-size: cover;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 h2.gar__title {
   color: #fff;
@@ -637,9 +638,10 @@ p.gar__paragraph {
     width: 15%; }
   table.biz__table td:nth-child(even), table.biz__table td:nth-child(odd) {
     float: none; }
-  .button__white {
+  .button-1.button__white {
     font-size: 25px;
-    max-width: 60%; }
+    max-width: 60%; 
+    margin-top: 0;}
   /* Section Part */
   section.part {
     padding-bottom: 150px; }
@@ -691,7 +693,8 @@ p.gar__paragraph {
     max-width: 335px;
     margin-top: 30px; }
   .write__form .write__input-text {
-    font-size: 20px;
+    font-size: 14px;
+    line-height: 14px;
     width: 90%;
     margin-bottom: 25px; }
   .write__form .write__input-text::last-child {
@@ -743,7 +746,8 @@ p.gar__paragraph {
   h2.gar__title::after {
     margin-top: 30px; }
   .gar__left {
-    padding-right: 40px; }
+    padding-right: 40px; 
+    padding-top: 50px;}
   .gar__left-content {
     margin-left: 80px; }
   .map {
@@ -772,271 +776,31 @@ p.gar__paragraph {
     position: absolute;
     left: -60px;
     width: 55px; } }
-
-@media only screen and (min-width: 992px) {
-  section.biz {
-    height: 600px;
-    padding-top: 9.26vh;
-    padding-bottom: 0; }
-    section.biz container {
-      height: 100%; }
-  p.biz__desc {
-    font-size: 14px;
-    line-height: 14px;
-    padding-top: 0;
-    padding-bottom: 0; }
-  h2.biz__title {
-    font-size: 19px;
-    margin-bottom: 30px;
-    padding-bottom: 0;
-    line-height: 19px; }
-    h2.biz__title::after {
-      margin-top: 25px;
-      width: 40px; }
-  table.biz__table {
-    width: 100%;
-    margin-top: 4.5vh;
-    margin-bottom: 42px; }
-    table.biz__table td {
-      width: 140px;
-      height: 70px;
-      padding: 1vh 2vh 0 1vh; }
-  .biz__table img {
-    margin-bottom: 20px; }
-  .biz__head {
-    margin-left: 85px; }
-  .button__white {
-    font-size: 21px;
-    line-height: 21px;
-    padding: 10px 20px;
-    width: 358px; }
-  .biz__table td img {
-    max-height: 8.33vh; }
-  .biz__table td .table__content p {
-    font-size: 11px;
-    line-height: 11px;
-    padding-top: 14px;
-    padding-bottom: 14px; }
-  /* Form */
-  section.part {
-    padding-top: 30px;
-    padding-bottom: 200px;
-    height: 600px; }
-  .part__title {
-    font-size: 23px;
-    line-height: 23px; }
-    .part__title::after {
-      margin-bottom: 20px; }
-  h3.form__title {
-    font-size: 14px;
-    line-height: 14px;
-    padding-bottom: 185px;
-    padding: 0 30%;
-    font-weight: 500;
-    padding-bottom: 110px; }
-  .button__yellow-form {
-    font-size: 14px;
-    line-height: 14px;
-    padding: 14px 20px;
-    max-width: 280px;
-    margin-top: 60px !important; }
-  .part__form {
-    padding-bottom: 100px;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-right: 0; }
-    .part__form .write__form-text, .part__form .write__form-submit {
-      width: 24%;
-      max-width: 410px;
-      padding: 23px 20px 21px 25px;
-      font-size: 25px;
-      line-height: 25px;
-      margin-right: 125px; }
-    .part__form .write__form-text:last-child {
-      margin-right: 0; }
-  /* Section Write */
-  section.write {
-    padding: 50px 0 70px 0;
-    height: 1075px; }
-  h2.write__title {
-    font-size: 23px;
-    line-height: 23px;
-    width: 60%; }
-    h2.write__title::after {
-      margin-top: 30px; }
-  .write__desc {
-    font-size: 26px;
-    line-height: 26px;
-    padding-bottom: 35px; }
-  .write__form {
-    margin: 0; }
-    .write__form .write__input-text {
-      width: 90%;
-      font-size: 21px;
-      line-height: 21px;
-      margin-bottom: 32px;
-      margin-bottom: 0; }
-    .write__form .write__input-text:nth-child(3) {
-      margin-bottom: 24px; }
-    .write__form textarea {
-      width: 90%;
-      height: 150px;
-      font-size: 21px;
-      resize: none;
-      padding: 15px 40px 0 20px;
-      margin-bottom: 0; }
-    .write__form .write__input-submit {
-      font-size: 14px;
-      line-height: 14px;
-      padding: 10px 0 15px 0;
-      margin-top: 10px; }
-  .write__left {
-    padding-left: 80px;
-    padding-right: 40px;
-    padding-top: 70px; }
-  .write__left, .write__right {
-    height: 845px; }
-  .right__container {
-    width: 60%;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    height: 100%; }
-    .right__container .promo {
-      font-size: 27px;
-      margin-bottom: 50px; }
-      .right__container .promo::after {
-        margin-top: 35px;
-        width: 80px; }
-    .right__container p {
-      font-size: 27px; }
-  /* Section What */
-  h2.what__title {
-    font-size: 23px;
-    line-height: 23px;
-    padding-top: 25px;
-    padding-bottom: 24px;
-    margin-left: 140px;
-    text-align: left; }
-  p.what__paragraph {
-    font-size: 33px;
-    line-height: 33px; }
-  li.what__item {
-    padding: 80px 90px 80px 80px;
-    height: 340px; }
-  .g1, .g2, .g5, .g6 {
-    margin-bottom: 50px; }
-  .g3, .g4, .g7, .g8 {
-    margin-bottom: 50px; }
-  li.what__item:nth-child(9), li.what__item:nth-child(10) {
-    margin-bottom: 0; }
-  /* Section Guarantee*/
-  section.gar {
-    background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
-    background-size: cover;}
-  .gar__left, .gar__right {
-    width: 50%;
-    float: left; }
-  .gar__right {
-    padding-left: 210px; }
-  .gar__left-content {
-    margin-left: 185px; }
-  h2.gar__title {
-    margin-left: 7.4vh;
-    font-size: 4vh;
-    line-height: 4vh;
-    margin-bottom: 6.94px; }
-    h2.gar__title::after {
-      margin-top: 3.703vh; }
-  span.gar__head {
-    font-size: 2.3vh;
-    line-height: 2.3vh;
-    padding-bottom: 5vh; }
-  p.gar__paragraph {
-    font-size: 2vh;
-    line-height: 2vh;
-    margin-bottom: 8px; }
-  .doc, .prof, .marketing, .monitor {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: -125px; }
-  .map, .barista {
-    position: absolute;
-    display: block;
-    bottom: -30%;
-    left: -125px;
-    width: 5vh; }
-//  .mark, .prof, .monitor, .marketing {
-//    width: 6.6vh; }
-//  .barista {
-//    bottom: -25%;
-//    width: 6vh; }
-//  .doc {
-//    width: 5.8vh; }
-//  h2.gar__title {
-//    text-align: left; }
-//  .gar__left-mark {
-//    position: absolute;
-//    left: -110px;
-//    width: 7vh; } }
-
-//@media only screen and (min-width : 1248px) {
-//     section.part {
-//        padding-bottom: 250px;
-//    }
-//    .part__form {
-//        padding-left: 0;
-//        .write__input-text, .write__input-submit {
-//            max-width: 410px;
-//            width: 28%;
-//            padding: 15px 20px 10px 25px;
-//        }
-//        .write__input-text:nth-child(3) {
-//            margin-right: 0;
-//        }
-//    }
-//    /* Section Write */
-//    h2.write__title {
-//        font-size: 23px;
-//        line-height: 23px;
-//        &::after {
-//            margin-top: 35px;
-//            height: 1px;
-//        }
-//    }
-//    .write__desc {
-//        font-size: 26px;
-//        line-height: 26px;
-//        padding-bottom: 40px;
-//        padding-top: 0;
-//        margin-top: 25px;
-//    }
-//    .write__form {
-//        .write__input-text {
-//            font-size: 21px;
-//            max-width: 486px;
-//            padding: 19px 50px 18px 25px;
-//            margin-bottom: 34px;
-//        }
-//        textarea {
-//            max-width: 486px;
-//            margin-bottom: 0;
-//        }
-//    }
-//    .write__left, .write__right {
-//        height: 900px;
-//    }
-//    .right__container {
-//        width: 52%;
-//        padding-top: 140px;
-//        padding-bottom: 110px;
-//    }
     section.what {
         padding-top: 100px;
     }
-}
-@media only screen and (min-width: 1248px) {
+
+@media only screen and (min-width: 992px) {
+        section.second__what {
+        padding-top: 80px;
+    }
+    h2.biz__title {
+        font-size: 20px;
+    }
+    .biz__table td {
+        height: 140px;
+    }
+    .biz__head {
+        margin-left: 70px;
+        padding-right: 400px;
+    }
+    p.biz__desc {
+        font-size: 14px;
+    }
+    .button-1.button__white {
+        font-size: 21px;
+        line-height: 21px;
+    }
   .part__form {
     padding-bottom: 100px;
     width: 100%;
@@ -1071,10 +835,10 @@ p.gar__paragraph {
     padding-bottom: 25px; }
   .write__form {
     margin: 0; }
-    .write__form .write__input-text {
+  .write__form .write__input-text {
       width: 270px;
-      font-size: 14px;
-      line-height: 14px;
+      font-size: 14px !important;
+      line-height: 14px !important;
       margin-bottom: 18px; }
     .write__form .write__input-text:nth-child(3) {
       margin-bottom: 24px; }
@@ -1132,10 +896,11 @@ p.gar__paragraph {
   section.gar {
     background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
     background-size: cover;
-    padding-top: 20px; }
-//  .gar__left, .gar__right {
-//    width: 50%;
-//    float: left; }
+    padding-top: 20px; 
+    height: 100vh;}
+  .gar__left, .gar__right {
+    width: 50%;
+    float: left; }
   .gar__right {
     padding-left: 120px; 
 padding-bottom: 20px;}

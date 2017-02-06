@@ -18,18 +18,6 @@
                         <li class="what__item g4">
                             <p class="what__paragraph">АССОРТИМЕНТ И ОБОРУДОВАНИЕ</p>
                         </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>             
-<div class="section">
-    <section class="what first__what">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="what__list clearfix">
                         <li class="what__item g5">
                             <p class="what__paragraph">РЕГИСТРАЦИЯ И ЛЕГАЛИЗАЦИЯ</p>
                         </li>
