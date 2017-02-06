@@ -1,4 +1,5 @@
 <div class="section">
+<div id="preim"></div>
     <section class="biz" id="plans">
             <div class="container">
                     <div class="biz__head">

@@ -78,7 +78,8 @@ $(document).ready(function(){
 
 
  $(".burger-img").on("click", function(){
-        $('.section_db-head-menu2').slideToggle(500);
+        $('.header').slideToggle(500);
+        
  });
 
              

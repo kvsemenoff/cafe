@@ -1,5 +1,5 @@
 <div class="section">
-    <div id="preimuwestvation"></div>
+    <div id="plan"></div>
     <section class="what first__what">
         <div class="container">
             <div class="row">
