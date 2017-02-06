@@ -13,7 +13,8 @@
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	box-sizing:none;	
+	// box-sizing:none;
+	padding-top: 25px;	
 }
 .df-slider-our{
 	position: relative;
@@ -24,7 +25,7 @@
 .df-cap-our{
 	padding-bottom: 20px;
     max-width: 607px;
-	width: 100%;
+	width: 100%;	
 	margin: 0 auto;
 	text-align: left;
 	font-size: 19px !important;
@@ -53,7 +54,7 @@
 }
 .df-right, .df-left{
 	position: absolute;
-	right:28%; 
+	right:25%; 
 	top:50%;
 	transform:translate(0, -50%);		
 	background-image: url("../img/df-right.png");
@@ -146,5 +147,10 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	.df-slider-our__img{		
+		width: 530px;
+		max-width: unset;
+
+	}
 }
 

@@ -5,8 +5,6 @@
 	});
 </script>
 
-<!-- <a href="#log-in" name="modal">55555555555</a> -->
-
 <div id="mask"></div>
 <div id="log-in" class="window">
 	<div class="df-form-wrap">
@@ -32,6 +30,18 @@
 		</form>
 	</div>
 </div>
+
+
+<div id="thanks" class="window">
+	<div class="df-form-wrap">
+	<div id="df-close" class="dd-close">Х</div>
+	 	<h2 class="df-cap-our dfpbottom">Спасибо за обращение!</h2>
+	 	<span class="df-poptxt2">Наш менеджер свяжется с вами в ближайшее время!</span>		
+	</div>
+</div>
+<a href="#thanks" name="modal"></a>
+
+
 </body>
 </html>
 
