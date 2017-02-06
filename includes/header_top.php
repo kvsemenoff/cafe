@@ -1,5 +1,3 @@
-
-
 <div class="section">
 	<div class="section_padding section_db-head-top">
 		<div class="container">
@@ -25,9 +23,45 @@
 					<p class="db-middle">Высокомаржинальный бизнес <br>  
 						от 300%</p>
 						<p>Срок открытия от 14 дней</p>
+					</div>
 				</div>
+			</div>
 		</div>
-	</div>
-</div>
 
-        
+		<div class="burger-box">
+			<div class="burger">
+				<img src="img/anz.png" alt="#" class="burger-img">
+			</div>
+		</div>
+		<section class="db-section-box1">
+			<div class="section_db-head-menu">
+				<div class="container">
+
+					<img src="img/db-logo-down.png" alt="img" class="db-img-head">
+
+					<ul class="db-menu" id="js-nav">
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#our">Наши кофейни</a></li>
+						<li><a href="#preim">Преимущества</a></li>
+						<li><a href="#plan">План открытия</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="db-section-box2">
+			<div class="section_db-head-menu2">
+				<div class="container">
+					<ul class="db-menu" id="js-nav">
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#about">О нас</a></li>
+						<li><a href="#our">Наши кофейни</a></li>
+						<li><a href="#preim">Преимущества</a></li>
+						<li><a href="#plan">План открытия</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
