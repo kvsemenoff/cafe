@@ -2,6 +2,7 @@
 	background:#333;
 	color:#fff;
 	text-align: center;
+	padding-top: 60px !important;
 
 }
 .db-logo{
@@ -36,7 +37,7 @@
 
 .section_db-head-bottom{
 	background: url("../img/db-fon-head.jpg") no-repeat top -130px center;
-
+	background-size: cover;
 	color:#fff;
 	text-align: center;
 }
@@ -45,8 +46,8 @@
 	font-size: 20px;
 	margin-top: 100px;
 	text-transform: unset;
-
 }
+
 .db-bottom-a{
 	margin-top:70px;
 	font-size: 16px;
