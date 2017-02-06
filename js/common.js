@@ -72,32 +72,30 @@ $(document).ready(function(){
      var currentBlock = $(this).attr("href");
      currentBlockoffset = $(currentBlock).offset().top;
      $("html, body").animate({
-      scrollTop: currentBlockoffset -50
+      scrollTop: currentBlockoffset -80
      }, 500);
     });
 
 
  $(".burger-img").on("click", function(){
-        $('.header').slideToggle(500);
+        $('.section_db-head-menu2').slideToggle(500);
         
  });
 
              
 
-// $(document).on("scroll", function(){
-// var scroll = $(document).scrollTop();
+$(document).on("scroll", function(){
+var scroll = $(document).scrollTop();
 
 
 
-// if(scroll > 500){
-//          $('.section_db-head-menu').css("display","block");   
-                
-//          $('.section_db-head-menu2').css("display","none");
-// }
-// else{
-//     $('.section_db-head-menu').css("display","none");
-// }
-//    });
+if(scroll > 500){
+         $('.section_db-head-menu').css("display","block");   
+}
+else{
+    $('.section_db-head-menu').css("display","none");
+}
+   });
 
 
 

@@ -24,26 +24,7 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<div class="burger-box">
-		<div class="burger">
-			<img src="img/anz.png" alt="#" class="burger-img">
-		</div>
-	</div>
 <div id="main"></div>
-	<div class="header">
-		<div class="container">
-			<img src="img/db-logo-down.png" alt="img" class="db-img-head">
-			<div>
-				<ul class="db-menu" id="js-nav">
-					<li><a href="#main">Главная</a></li>
-					<li><a href="#about">О нас</a></li>
-					<li><a href="#our">Наши кофейни</a></li>
-					<li><a href="#preim">Преимущества</a></li>
-					<li><a href="#plan">План открытия</a></li>
-					<li><a href="#contacts">Контакты</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+
 	
 
