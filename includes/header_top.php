@@ -17,7 +17,7 @@
 		<div class="container">
 			<h2 class="db-bottom-h2">Откройте свою современую кофейню <br> 
 				вместе с CAFE WHITE </h2>
-				<a href="#" id="started" class="db-bottom-a">Получить бизнес-план</a>
+				<a href="#log-in7" name="modal" class="db-bottom-a">Получить бизнес-план</a>
 				<div class="db-head-text">
 					<p>Окупаемость 6 -12 месяев</p>
 					<p class="db-middle">Высокомаржинальный бизнес <br>  
