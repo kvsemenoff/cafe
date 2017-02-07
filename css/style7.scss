@@ -264,10 +264,8 @@ h2.write__title::after {
   margin-bottom: 10px; }
 
 .write__form .write__input-text:focus, .write__form textarea:focus {
-  border: 1px solid #c39b0c;
-  color: #c39b0c;
-  background: url(/img/icons/success.png) 96% 50% no-repeat;
-  background-size: 7%; }
+  color: #c39b0c; 
+}
 
 .write__form textarea {
   height: 70px;
@@ -277,9 +275,9 @@ h2.write__title::after {
   width: 100%;
   font-family: "Exo2-Regular"; }
 
-.write__form textarea:focus {
-  background: url(/img/icons/success.png) 96% 15% no-repeat;
-  background-size: 7%; }
+//.write__form textarea:focus {
+//  background: url(/img/icons/success.png) 96% 15% no-repeat;
+//  background-size: 7%; }
 
 .write__form ::-webkit-input-placeholder {
   color: #010101; }
@@ -594,7 +592,7 @@ p.gar__paragraph {
   .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
     margin-bottom: 30px; }
   .gar__right {
-    padding-top: 35px;
+    padding-top: 80px !important;
     padding-right: 30px;
     padding-left: 80px; }
   .gar__right .gar__head {
@@ -747,7 +745,7 @@ p.gar__paragraph {
     margin-top: 30px; }
   .gar__left {
     padding-right: 40px; 
-    padding-top: 50px;}
+    padding-top: 0;}
   .gar__left-content {
     margin-left: 80px; }
   .map {
@@ -776,13 +774,13 @@ p.gar__paragraph {
     position: absolute;
     left: -60px;
     width: 55px; } }
-    section.what {
-        padding-top: 100px;
-    }
 
 @media only screen and (min-width: 992px) {
         section.second__what {
         padding-top: 80px;
+    }
+    .right__container {
+        padding-top: 80px !important;
     }
     h2.biz__title {
         font-size: 20px;
@@ -896,8 +894,8 @@ p.gar__paragraph {
   section.gar {
     background: url(/img/gar_bg.jpg) 50% 0 no-repeat;
     background-size: cover;
-    padding-top: 20px; 
-    height: 100vh;}
+    padding-top: 20px;
+  }
   .gar__left, .gar__right {
     width: 50%;
     float: left; }
@@ -905,9 +903,9 @@ p.gar__paragraph {
     padding-left: 120px; 
 padding-bottom: 20px;}
   .gar__left-content {
-    margin-left: 130px; }
+    margin-left: 60px; }
   h2.gar__title {
-    margin-left: 80px;
+    margin-left: 0;
     font-size: 19px;
     line-height: 19px;
     margin-bottom: 45px; }

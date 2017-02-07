@@ -13,15 +13,19 @@
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	box-sizing:none;	
+	// box-sizing:none;
+	padding-top: 25px;	
 }
 .df-slider-our{
 	position: relative;
+	.owl-item{
+		// width: 607px !important;
+	}
 }
 .df-cap-our{
 	padding-bottom: 20px;
     max-width: 607px;
-	width: 100%;
+	width: 100%;	
 	margin: 0 auto;
 	text-align: left;
 	font-size: 19px !important;
@@ -50,7 +54,7 @@
 }
 .df-right, .df-left{
 	position: absolute;
-	right:28%; 
+	right:25%; 
 	top:50%;
 	transform:translate(0, -50%);		
 	background-image: url("../img/df-right.png");
@@ -101,11 +105,13 @@
 	padding: 15px 15px 20px 15px;	
 	position: relative;
 	.write__input-submit{
-		display: block;
+		display: inline-block;
+		float: none;
+		
 	}
 }
 .dfpbottom{
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 }
 #df-close{
 	position: absolute;
@@ -123,7 +129,7 @@
 	color: #1d1d1d;
 	line-height: 17px;
 	display: inline-block;
-	padding:10px 0 30px 0;
+	padding:0px 0 30px 0;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -141,5 +147,10 @@
 }
 
 @media only screen and (min-width : 1248px) {
+	.df-slider-our__img{		
+		width: 530px;
+		max-width: unset;
+
+	}
 }
 

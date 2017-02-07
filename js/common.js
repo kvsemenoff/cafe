@@ -53,8 +53,8 @@ $(document).ready(function(){
       $('input[type="text"]').removeClass("error-input");
       $("input[type=text], textarea").val("");
       $('.window').hide();
-      // $('a[href=#thanks]').trigger('click');
-      location = "spasibo.php";
+      $('a[href=#thanks]').trigger('click');
+      // location = "spasibo.php";
     };
   });
   $(function() {
@@ -136,7 +136,18 @@ else{
         $(this).toggleClass('az-select-focus');
     });
 
-
+      $(".write__form .write__input-text").on("change", function(){
+          $(this).css("border","1px solid #c39b0c");
+          $(this).css("background","url(/img/icons/success.png) 96% 50% no-repeat");
+          $(this).css("background-size","7%");
+          $(this).css("color","#c39b0c");
+      })
+      $(".write__form textarea").on("change", function(){
+          $(this).css("border","1px solid #c39b0c");
+          $(this).css("background","url(/img/icons/success.png) 96% 15% no-repeat");
+          $(this).css("background-size","7%");
+          $(this).css("color","#c39b0c");
+      })
 
     var owl2 = $("#df-demo");
     owl2.owlCarousel({
@@ -159,5 +170,6 @@ else{
               items:2
           }
       }
-  });  
+  });
+
  });
