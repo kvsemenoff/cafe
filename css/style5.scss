@@ -46,11 +46,21 @@
 	position: relative !important;		
 	display: block;
 	margin: 0 auto;
-	overflow: hidden;
+	overflow: hidden;	
 	img{
 		width: 100%;
 		height: 100%;
 	}
+}
+.df-slider-our__img:after{
+	z-index: 1;
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.25);
 }
 .df-right, .df-left{
 	position: absolute;
@@ -75,6 +85,7 @@
 }
 .df-slider-txt{
 	position: absolute;
+	z-index: 10;
 	display: none;
 	bottom: 30px;
 	left:50%;
