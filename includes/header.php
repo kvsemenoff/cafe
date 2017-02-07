@@ -10,8 +10,8 @@
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
-	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-	<link rel="stylesheet" href="css/jquery.fancybox.css" />
+	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />	
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
 

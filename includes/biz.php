@@ -103,7 +103,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="#log-in" name="modal" class="button-1 button__white">Получить алгоритм открытия</a>
+                                <a href="#log-in7" name="modal" class="button-1 button__white">Получить алгоритм открытия</a>
                             </div>
                         </div>
                 </div>
