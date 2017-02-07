@@ -58,6 +58,11 @@
 	padding:10px 20px;
 	display: inline-block;
 }
+.db-bottom-a:hover{
+	color:#c39b0c;
+	border: 0.5px solid #c39b0c;
+	background: none;
+}
 .db-head-text{
 	margin-top: 40px;
 	padding-bottom: 20px;
@@ -240,6 +245,7 @@
 		padding:0;
 		float:right;
 		padding-left:10px;
+		padding-right: 3px;
 	}
 	.db-call:hover{
 		background: #fff;
